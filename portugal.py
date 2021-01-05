@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 def app():
     st.write('## Portugal')
-    st.write('2020 is over lets compare numbers')
+    st.write('Viver é muito perigoso...(Guimarães Rosa)')
 
     st.sidebar.write('https://www.macrotrends.net/countries/PRT/portugal/population')
     st.sidebar.write('https://evm.min-saude.pt/')

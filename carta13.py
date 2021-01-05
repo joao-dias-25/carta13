@@ -11,11 +11,10 @@ import germany
 page_bg_img = '''
 <style>
 .css-1aumxhk {
-padding: 25px;
 background-image: url("https://www.lavanguardia.com/r/GODO/LV/p3/Portada/2016/12/12/Recortada/img_aaguilarm_20161212-192817_imagenes_lv_otras_fuentes_tarot_de_marseille_major13_death-kXHE--656x1271@LaVanguardia-Web.jpg");
 color: white;
 background-size: cover;
-background-size: 300px 600px
+background-size: 350px 700px
 }
 </style>
 '''
@@ -27,7 +26,7 @@ st.sidebar.markdown('---')
 
 PAGES = {
     "Portugal": portugal,
-    "Deutschland": germany }
+    "Germany": germany }
 
 country = st.sidebar.radio("Country", list(PAGES.keys()))
 
