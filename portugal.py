@@ -11,7 +11,7 @@ def app():
     st.sidebar.write('https://evm.min-saude.pt/')
 
     df_pop = pd.read_csv("data/Portugal/pordata_pop.csv", skiprows=7, nrows=61, usecols=range(0, 5))
-    df_pop.Total = df_pop.Total.str.replace(',', '.')
+    df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)
 
     df_dr = pd.read_csv("data/Portugal/pordata.csv", skiprows=7, nrows=61, usecols=range(0, 17))
     if st.checkbox('Show dataframe'):
