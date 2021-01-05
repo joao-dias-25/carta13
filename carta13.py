@@ -3,40 +3,34 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.write('2020 is over lets compare numbers')
 
-country = st.sidebar.radio("Country", ['Portugal','Deutschland','Espana'])
 
-st.sidebar.write('https://www.macrotrends.net/countries/PRT/portugal/population')
-st.sidebar.write('https://evm.min-saude.pt/')
+import portugal
+import germany
 
-df_pop=pd.read_csv("data/Portugal/pordata_pop.csv", skiprows=7, nrows=61, usecols=range(0,5))
-df_pop.Total = df_pop.Total.str.replace(',', '.')
+page_bg_img = '''
+<style>
+.css-1aumxhk {
+padding: 25px;
+background-image: url("https://www.lavanguardia.com/r/GODO/LV/p3/Portada/2016/12/12/Recortada/img_aaguilarm_20161212-192817_imagenes_lv_otras_fuentes_tarot_de_marseille_major13_death-kXHE--656x1271@LaVanguardia-Web.jpg");
+color: white;
+background-size: cover;
+background-size: 300px 600px
+}
+</style>
+'''
 
-df_dr=pd.read_csv("data/Portugal/pordata.csv", skiprows=7, nrows=61, usecols=range(0,17))
-if st.checkbox('Show dataframe'):
-    st.markdown('### Raw data')
-    st.write(df_dr)
-'''dfs = {"populacao" : df_pop, "obitos": df_dr}
-fig = go.Figure()
-for i in dfs:
-    fig = fig.add_trace(go.Scatter(x = dfs[i]["Unnamed: 0"],
-                                   y = dfs[i]['Total'],
-                                   name = i))
-st.plotly_chart(fig)'''
+st.sidebar.markdown(page_bg_img, unsafe_allow_html=True)
 
-fig1 = px.line(df_pop, x="Unnamed: 0", y="Total")
-fig1.update_yaxes(title_text='Total da População (em Milhares)')
+st.sidebar.title('Carta 13')
+st.sidebar.markdown('---')
 
-st.plotly_chart(fig1)
+PAGES = {
+    "Portugal": portugal,
+    "Deutschland": germany }
 
-fig2 = px.line(df_dr, x="Unnamed: 0", y=['Total', 'Menos de 01',
-       '01-04', '05-09', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69',
-       '70-79', '80-89', '90-99', '100 ou mais'])
+country = st.sidebar.radio("Country", list(PAGES.keys()))
 
-fig2.update_yaxes(title_text='Óbitos')
+page = PAGES[country]
 
-fig2.update_layout(legend_title_text='Grupo Etário',
-                  legend=dict(y=1))
-
-st.plotly_chart(fig2)
+page.app()
