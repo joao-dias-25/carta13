@@ -7,8 +7,7 @@ import plotly.graph_objects as go
 def app():
     st.write('## Deutschland')
     st.write('Leben ist immer lebensgefährlich (Erich Kästner)')
-    st.sidebar.write('https://www.destatis.de/DE/Themen/Querschnitt/Corona/_Grafik/_Interaktiv/woechentliche-sterbefallzahlen-jahre.html?nn=209016')
-    st.sidebar.write('https://www-genesis.destatis.de/genesis/online?operation=ergebnistabelleUmfang&levelindex=3&levelid=1609865429347&downloadname=12613-0005#abreadcrumb')
+    st.sidebar.write('https://www-genesis.destatis.de/')
 
 
     df_mon = pd.read_csv("data/Deutschland/sterbefallzahlen_monatlich.csv", delimiter=';', skiprows=6, nrows=369,

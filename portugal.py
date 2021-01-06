@@ -7,7 +7,6 @@ def app():
     st.write('## Portugal')
     st.write('Viver é muito perigoso...(Guimarães Rosa)')
 
-    st.sidebar.write('https://www.macrotrends.net/countries/PRT/portugal/population')
     st.sidebar.write('https://evm.min-saude.pt/')
 
     df_pop = pd.read_csv("data/Portugal/pordata_pop.csv", skiprows=7, nrows=61, usecols=range(0, 5))
