@@ -2,7 +2,6 @@ import streamlit as st
 
 import portugal
 import germany
-import locale
 
 page_bg_img = '''
 <style>
@@ -24,8 +23,7 @@ background-size: 130px 260px;
 
 </style>
 '''
-st.write(locale.getlocale())
-locale.setlocale(locale.LC_ALL,None)
+
 
 st.sidebar.markdown(page_bg_img, unsafe_allow_html=True)
 

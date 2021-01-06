@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import locale
 
 def app():
     st.write('## Deutschland')
@@ -9,7 +10,8 @@ def app():
     st.sidebar.write('https://www.destatis.de/DE/Themen/Querschnitt/Corona/_Grafik/_Interaktiv/woechentliche-sterbefallzahlen-jahre.html?nn=209016')
     st.sidebar.write('https://www-genesis.destatis.de/genesis/online?operation=ergebnistabelleUmfang&levelindex=3&levelid=1609865429347&downloadname=12613-0005#abreadcrumb')
 
-
+    #st.write(locale.getlocale())
+    locale.setlocale(locale.LC_ALL, 'de_DE')
 
     df_mon = pd.read_csv("data/Deutschland/sterbefallzahlen_monatlich.csv", delimiter=';', skiprows=6, nrows=369,
                      encoding='ISO-8859-1')
