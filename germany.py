@@ -32,6 +32,15 @@ def app():
     fig.update_yaxes(title_text='Sterbefallzahlen wöchentlich')
     st.plotly_chart(fig)
 
+    df_A = pd.read_csv("data/Deutschland/sterbefallzahlen_Altersjahre.csv", skiprows=329, encoding='utf-8', index_col=1)
+    fig3 = px.line(df_A.T, x=df_A.T.index, y=['Insgesamt', 'unter 1 Jahr', '1-9-Jährige', '10-19-Jährige', '20-29-Jährige',
+                                          '30-39-Jährige', '40-49-Jährige', '50-59-Jährige', '60-69-Jährige',
+                                          '70-79-Jährige', '80-89-Jährige', '90-99-Jährige',
+                                          '100 Jahre und mehr'])
+    fig3.update_yaxes(title_text='Sterbefallzahlen Jahrlich')
+    fig3.update_layout(legend_title_text='Altersgruppe',
+                       legend=dict(y=1))
+    st.plotly_chart(fig3)
 
 
 
