@@ -24,7 +24,7 @@ background-size: 130px 260px;
 
 </style>
 '''
-locale.setlocale(locale.LC_ALL, 'German')
+locale.setlocale(category=locale.LC_ALL, locale="German" )
 
 st.sidebar.markdown(page_bg_img, unsafe_allow_html=True)
 
