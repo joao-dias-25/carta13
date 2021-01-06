@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import locale
+
 
 def app():
     st.write('## Deutschland')
@@ -10,13 +10,15 @@ def app():
     st.sidebar.write('https://www.destatis.de/DE/Themen/Querschnitt/Corona/_Grafik/_Interaktiv/woechentliche-sterbefallzahlen-jahre.html?nn=209016')
     st.sidebar.write('https://www-genesis.destatis.de/genesis/online?operation=ergebnistabelleUmfang&levelindex=3&levelid=1609865429347&downloadname=12613-0005#abreadcrumb')
 
-    #st.write(locale.getlocale())
-    locale.setlocale(locale.LC_ALL, 'de_DE')
 
     df_mon = pd.read_csv("data/Deutschland/sterbefallzahlen_monatlich.csv", delimiter=';', skiprows=6, nrows=369,
                      encoding='ISO-8859-1')
+    md = {'Januar': 1, 'Februar': 2, 'März': 3, 'April': 4, 'Mai': 5, 'Juni': 6, 'Juli': 7, 'August': 8, 'September': 9,
+          'Oktober': 10, 'November': 11, 'Dezember': 12}
+    # month
+    df_mon["Unnamed: 1"] = df_mon["Unnamed: 1"].map(md).astype(int)
     df_mon['date'] = df_mon["Unnamed: 1"].astype(str) + '-' + df_mon["Unnamed: 0"].astype(str)
-    df_mon.date = pd.to_datetime(df_mon.date, format='%B-%Y')
+    df_mon.date = pd.to_datetime(df_mon.date, format='%m-%Y')
 
 
     fig2 = px.line(df_mon, x=df_mon.date, y="Anzahl", title="Mortalität in Deutschland seit 1990 (Offizielle Daten)")
