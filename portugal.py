@@ -14,9 +14,7 @@ def app():
     df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)
 
     df_dr = pd.read_csv("data/Portugal/pordata.csv", skiprows=7, nrows=61, usecols=range(0, 17))
-    if st.checkbox('Show dataframe'):
-        st.markdown('### Raw data')
-        st.write(df_dr)
+
     '''dfs = {"populacao" : df_pop, "obitos": df_dr}
     fig = go.Figure()
     for i in dfs:
@@ -24,11 +22,6 @@ def app():
                                        y = dfs[i]['Total'],
                                        name = i))
     st.plotly_chart(fig)'''
-
-    fig1 = px.line(df_pop, x="Unnamed: 0", y="Total")
-    fig1.update_yaxes(title_text='Total da População (em Milhares)')
-
-    st.plotly_chart(fig1)
 
     fig2 = px.line(df_dr, x="Unnamed: 0", y=['Total', 'Menos de 01',
                                              '01-04', '05-09', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69',
@@ -40,3 +33,12 @@ def app():
                        legend=dict(y=1))
 
     st.plotly_chart(fig2)
+
+    fig1 = px.line(df_pop, x="Unnamed: 0", y="Total")
+    fig1.update_yaxes(title_text='Total da População (em Milhares)')
+
+    st.plotly_chart(fig1)
+
+    if st.checkbox('Show dataframe'):
+        st.markdown('### Raw data')
+        st.write(df_dr)
