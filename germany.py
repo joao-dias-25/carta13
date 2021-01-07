@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-
+import time_series
 
 def app():
     st.write('## Deutschland')
@@ -18,18 +18,29 @@ def app():
     df_mon["Unnamed: 1"] = df_mon["Unnamed: 1"].map(md).astype(int)
     df_mon['date'] = df_mon["Unnamed: 1"].astype(str) + '-' + df_mon["Unnamed: 0"].astype(str)
     df_mon.date = pd.to_datetime(df_mon.date, format='%m-%Y')
+    df_mon = df_mon.set_index('date')
+    df_mon.value = df_mon.Anzahl
 
-
-    fig2 = px.line(df_mon, x=df_mon.date, y="Anzahl", title="Mortalität in Deutschland seit 1990 (Offizielle Daten)")
+    fig2 = px.line(df_mon, x=df_mon.index, y="Anzahl", title="Mortalität in Deutschland seit 1990 (Offizielle Daten)")
     fig2.update_yaxes(title_text='Sterbefallzahlen monatlich')
     st.plotly_chart(fig2)
+
+    if st.checkbox('Trend, Saisonalität, Rest'):
+        st.markdown('Time series analysis')
+        time_series.timeseries(df_mon,12)
 
     df = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
     df2=pd.melt(df,id_vars=["Kalenderwoche"])
     df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
-    fig = px.line(df2, x=df2.date, y="value")
+    df2 = df2.set_index('date')
+    df2 = df2.dropna()
+    fig = px.line(df2, x=df2.index, y="value")
     fig.update_yaxes(title_text='Sterbefallzahlen wöchentlich')
     st.plotly_chart(fig)
+
+    if st.checkbox('Trend, Saisonalität, Rest (woche)'):
+        st.markdown('Time series analysis')
+        time_series.timeseries(df2,52)
 
     df_A = pd.read_csv("data/Deutschland/sterbefallzahlen_Altersjahre.csv", skiprows=329, encoding='utf-8', index_col=1)
     fig3 = px.line(df_A.T, x=df_A.T.index, y=['Insgesamt', 'unter 1 Jahr', '1-9-Jährige', '10-19-Jährige', '20-29-Jährige',

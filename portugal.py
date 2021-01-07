@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-
+import time_series
 
 def app():
     st.write('## Portugal')
@@ -22,9 +22,16 @@ def app():
                                        'Jul': '7', 'Ago': '8', 'Set': '9', 'Out': '10', 'Nov': '11', 'Dez': '12'})
     dfd['date'] = dfd["Data"] + '-' + dfd["variable"].astype(str)
     dfd.date = pd.to_datetime(dfd.date, format="%m-%d-%Y")
-    figo = px.line(dfd, x=dfd.date, y="value",title="Mortalidade diária em Portugal (números oficiais)")
+    dfd = dfd.set_index('date')
+    figo = px.line(dfd, x=dfd.index, y="value",title="Mortalidade diária em Portugal (números oficiais)")
     figo.update_yaxes(title_text='Óbitos')
     st.plotly_chart(figo)
+
+    if st.checkbox('tendência, sazonalidade, ruído'):
+        st.markdown('Time series analysis')
+        time_series.timeseries(dfd,365)
+
+    st.markdown('---')
 
     fig2 = px.line(df_dr, x="Unnamed: 0", y=['Total', 'Menos de 01',
                                              '01-04', '05-09', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69',
