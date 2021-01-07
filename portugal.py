@@ -45,11 +45,7 @@ def app():
 
     st.plotly_chart(fig2)
 
-    fig1 = px.line(df_pop, x="Unnamed: 0", y="Total")
+    '''fig1 = px.line(df_pop, x="Unnamed: 0", y="Total")
     fig1.update_yaxes(title_text='Total da População (em Milhares)')
 
-    st.plotly_chart(fig1)
-
-    if st.checkbox('Show dataframe'):
-        st.markdown('### Raw data')
-        st.write(df_dr)
+    st.plotly_chart(fig1)'''
