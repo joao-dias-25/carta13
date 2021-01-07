@@ -17,7 +17,7 @@ background-color: #cccccc;
 background-repeat: repeat-x;
 background-attachment: fixed;
 background-position: 50px 0px;
-background-size: 130px 260px;
+background-size: 110px 220px;
 }
 
 
