@@ -38,4 +38,6 @@ country = st.sidebar.radio("Country", list(PAGES.keys()))
 
 page = PAGES[country]
 
-page.app()
+modelo=st.sidebar.selectbox("Decomposition model",['additive','multiplicative'])
+
+page.app(modelo)

@@ -4,9 +4,11 @@ import plotly.express as px
 
 import time_series
 
-def app():
+def app(modelo):
     st.write('## Deutschland')
     st.write('Leben ist immer lebensgefährlich (Erich Kästner)')
+
+    st.sidebar.write('Source')
     st.sidebar.write('https://www-genesis.destatis.de/')
 
 
@@ -25,9 +27,9 @@ def app():
     fig2.update_yaxes(title_text='Sterbefallzahlen monatlich')
     st.plotly_chart(fig2)
 
-    if st.checkbox('Trend, Saisonalität, Rest'):
-        st.markdown('Time series analysis')
-        time_series.timeseries(df_mon,12)
+    if st.checkbox('Extracting Seasonality and Trend from Data (Monat)'):
+        st.markdown('Trend, Saisonalität, Rest')
+        time_series.timeseries(df_mon,12, modelo)
 
     df = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
     df2=pd.melt(df,id_vars=["Kalenderwoche"])
@@ -38,9 +40,9 @@ def app():
     fig.update_yaxes(title_text='Sterbefallzahlen wöchentlich')
     st.plotly_chart(fig)
 
-    if st.checkbox('Trend, Saisonalität, Rest (woche)'):
-        st.markdown('Time series analysis')
-        time_series.timeseries(df2,52)
+    if st.checkbox('Extracting Seasonality and Trend from Data (woche)'):
+        st.markdown('Trend, Saisonalität, Rest_')
+        time_series.timeseries(df2,52, modelo)
 
     df_A = pd.read_csv("data/Deutschland/sterbefallzahlen_Altersjahre.csv", skiprows=329, encoding='utf-8', index_col=1)
     fig3 = px.line(df_A.T, x=df_A.T.index, y=['Insgesamt', 'unter 1 Jahr', '1-9-Jährige', '10-19-Jährige', '20-29-Jährige',

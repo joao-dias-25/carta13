@@ -4,10 +4,11 @@ import plotly.express as px
 
 import time_series
 
-def app():
+def app(modelo):
     st.write('## Portugal')
     st.write('Viver é muito perigoso...(Guimarães Rosa)')
 
+    st.sidebar.write('Source')
     st.sidebar.write('https://evm.min-saude.pt/')
 
     df_pop = pd.read_csv("data/Portugal/pordata_pop.csv", skiprows=7, nrows=61, usecols=range(0, 5))
@@ -27,9 +28,9 @@ def app():
     figo.update_yaxes(title_text='Óbitos')
     st.plotly_chart(figo)
 
-    if st.checkbox('tendência, sazonalidade, ruído'):
-        st.markdown('Time series analysis')
-        time_series.timeseries(dfd,365)
+    if st.checkbox('Extracting Seasonality and Trend from Data'):
+        st.markdown('tendência, sazonalidade, ruído')
+        time_series.timeseries(dfd,365,modelo)
 
     st.markdown('---')
 
