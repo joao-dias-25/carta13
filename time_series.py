@@ -24,4 +24,4 @@ def timeseries(df, periodo):
                               name='Noise'))
 
     st.plotly_chart(fig)
-    st.plotly_chart(fig2)
+    #st.plotly_chart(fig2)
