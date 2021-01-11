@@ -4,7 +4,7 @@ import plotly.express as px
 
 import time_series
 
-def app(modelo):
+def app():
     st.write('## Deutschland')
     st.write('Leben ist immer lebensgefährlich (Erich Kästner)')
 
@@ -29,7 +29,7 @@ def app(modelo):
 
     if st.checkbox('Extracting Seasonality and Trend from Data (Monat)'):
         st.markdown('Trend, Saisonalität, Rest')
-        time_series.timeseries(df_mon,12, modelo)
+        time_series.timeseries(df_mon,12, 'additive')
 
     df = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
     df2=pd.melt(df,id_vars=["Kalenderwoche"])
@@ -42,18 +42,7 @@ def app(modelo):
 
     if st.checkbox('Extracting Seasonality and Trend from Data (woche)'):
         st.markdown('Trend, Saisonalität, Rest_')
-        time_series.timeseries(df2,52, modelo)
-
-    df_A = pd.read_csv("data/Deutschland/sterbefallzahlen_Altersjahre.csv", skiprows=329, encoding='utf-8', index_col=1)
-    fig3 = px.line(df_A.T, x=df_A.T.index, y=['Insgesamt', 'unter 1 Jahr', '1-9-Jährige', '10-19-Jährige', '20-29-Jährige',
-                                          '30-39-Jährige', '40-49-Jährige', '50-59-Jährige', '60-69-Jährige',
-                                          '70-79-Jährige', '80-89-Jährige', '90-99-Jährige',
-                                          '100 Jahre und mehr'])
-    fig3.update_yaxes(title_text='Sterbefallzahlen Jahrlich')
-    fig3.update_layout(legend_title_text='Altersgruppe',
-                       legend=dict(y=1))
-    st.plotly_chart(fig3)
-
+        time_series.timeseries(df2,52, 'additive')
 
 
     #dfpop = pd.read_csv("data/Deutschland/Bevölkerung.csv", delimiter=';', skiprows=5, nrows=70, encoding='ISO-8859-1')

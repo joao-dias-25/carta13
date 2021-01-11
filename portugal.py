@@ -4,7 +4,7 @@ import plotly.express as px
 
 import time_series
 
-def app(modelo):
+def app():
     st.write('## Portugal')
     st.write('Viver é muito perigoso...(Guimarães Rosa)')
 
@@ -14,7 +14,6 @@ def app(modelo):
     df_pop = pd.read_csv("data/Portugal/pordata_pop.csv", skiprows=7, nrows=61, usecols=range(0, 5))
     df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)
 
-    df_dr = pd.read_csv("data/Portugal/pordata.csv", skiprows=7, nrows=61, usecols=range(0, 17))
 
     dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-01-06.csv")
     dfd = pd.melt(dfd, id_vars=["Data"])
@@ -30,21 +29,8 @@ def app(modelo):
 
     if st.checkbox('Extracting Seasonality and Trend from Data'):
         st.markdown('tendência, sazonalidade, ruído')
-        time_series.timeseries(dfd,365,modelo)
+        time_series.timeseries(dfd,365,'additive')
 
-    st.markdown('---')
-
-    fig2 = px.line(df_dr, x="Unnamed: 0", y=['Total', 'Menos de 01',
-                                             '01-04', '05-09', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69',
-                                             '70-79', '80-89', '90-99', '100 ou mais'],
-                   title="Mortalidade em Portugal desde 1960 (números oficiais)")
-
-    fig2.update_yaxes(title_text='Óbitos')
-
-    fig2.update_layout(legend_title_text='Grupo Etário',
-                       legend=dict(y=1))
-
-    st.plotly_chart(fig2)
 
     '''fig1 = px.line(df_pop, x="Unnamed: 0", y="Total")
     fig1.update_yaxes(title_text='Total da População (em Milhares)')

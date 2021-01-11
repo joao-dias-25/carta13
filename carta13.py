@@ -2,6 +2,9 @@ import streamlit as st
 
 import portugal
 import germany
+import compare
+
+st.set_page_config(layout="wide")
 
 page_bg_img = '''
 <style>
@@ -32,12 +35,12 @@ st.sidebar.markdown('---')
 
 PAGES = {
     "Portugal": portugal,
-    "Germany": germany }
+    "Germany": germany,
+    "[compare age groups]": compare}
 
 country = st.sidebar.radio("Country", list(PAGES.keys()))
 
 page = PAGES[country]
 
-modelo=st.sidebar.selectbox("Decomposition model",['additive','multiplicative'])
 
-page.app(modelo)
+page.app()
