@@ -52,7 +52,7 @@ def app():
                                      '40-44-Jährige', '45-49-Jährige', '50-54-Jährige', '55-59-Jährige',
                                      '60-64-Jährige', '65-69-Jährige', '70-74-Jährige', '75-79-Jährige',
                                      '80-84-Jährige', '85 Jahre und mehr'],
-                   title= 'Bevölkerungsstand: Deutschland, Altersgruppe')
+                   title= 'Deutschland Bevölkerungsstand: Altersgruppe')
     st.markdown('---')
     st.plotly_chart(figb)
     figbt = px.line(dfp, x=dfp.index, y=['Insgesamt'])

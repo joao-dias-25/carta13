@@ -15,7 +15,7 @@ def app():
     fig2.update_yaxes(title_text='Óbitos')
     fig2.update_xaxes(
         tickangle=90,
-        title_text="Death counts Portugal",
+        title_text="Death counts per age group: Portugal",
         title_font={"size": 20},
         title_standoff=25)
     fig2.update_layout(legend_title_text='Grupo Etário',
@@ -40,7 +40,7 @@ def app():
     fig3.update_yaxes(title_text='Sterbefallzahlen Jahrlich')
     fig3.update_xaxes(
         tickangle=90,
-        title_text="Death counts Germany",
+        title_text="Death counts per age group: Germany",
         title_font={"size": 20},
         title_standoff=25)
     fig3.update_layout(legend_title_text='Altersgruppe',
@@ -55,7 +55,7 @@ def app():
         xanchor="left",
         x=0.01))
 
-
+    st.markdown('---')
     st.write('Germany')
     st.plotly_chart(fig3)
 
