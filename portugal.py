@@ -10,6 +10,7 @@ def app():
 
     st.sidebar.write('Source')
     st.sidebar.write('https://evm.min-saude.pt/')
+    st.sidebar.write('https://www.pordata.pt/')
 
     df_pop = pd.read_csv("data/Portugal/pordata_pop.csv", skiprows=7, nrows=61, usecols=range(0, 5))
     df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)

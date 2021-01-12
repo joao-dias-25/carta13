@@ -44,8 +44,16 @@ def app():
         st.markdown('Trend, Saisonalität, Rest_')
         time_series.timeseries(df2,52, 'additive', 'value')
 
-
-    #dfpop = pd.read_csv("data/Deutschland/Bevölkerung.csv", delimiter=';', skiprows=5, nrows=70, encoding='ISO-8859-1')
-    #dfpop['Unnamed: 0'] = pd.to_datetime(dfpop['Unnamed: 0'])
-    #fig3 = px.line(dfpop, x='Unnamed: 0', y="Anzahl")
-    #st.plotly_chart(fig3)
+    dfp = pd.read_csv("data/Deutschland/Bevölkerung_AG.csv", skiprows=102, nrows=20, encoding='utf-8', index_col=0)
+    dfp = dfp.T
+    dfp.index = pd.to_datetime(dfp.index, format='%d.%m.%Y')
+    figb = px.line(dfp, x=dfp.index, y=['0-4-Jährige', '5-9-Jährige', '10-14-Jährige', '15-19-Jährige',
+                                     '20-24-Jährige', '25-29-Jährige', '30-34-Jährige', '35-39-Jährige',
+                                     '40-44-Jährige', '45-49-Jährige', '50-54-Jährige', '55-59-Jährige',
+                                     '60-64-Jährige', '65-69-Jährige', '70-74-Jährige', '75-79-Jährige',
+                                     '80-84-Jährige', '85 Jahre und mehr'],
+                   title= 'Bevölkerungsstand: Deutschland, Altersgruppe')
+    st.markdown('---')
+    st.plotly_chart(figb)
+    figbt = px.line(dfp, x=dfp.index, y=['Insgesamt'])
+    st.plotly_chart(figbt)
