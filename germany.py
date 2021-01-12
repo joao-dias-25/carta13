@@ -29,7 +29,7 @@ def app():
 
     if st.checkbox('Extracting Seasonality and Trend from Data (Monat)'):
         st.markdown('Trend, Saisonalität, Rest')
-        time_series.timeseries(df_mon,12, 'additive')
+        time_series.timeseries(df_mon,12, 'additive', 'Anzahl')
 
     df = pd.read_csv("data/Deutschland/sterbefallzahlen_w.csv", delimiter=';',usecols=range(6))
     df2=pd.melt(df,id_vars=["Kalenderwoche"])
@@ -42,7 +42,7 @@ def app():
 
     if st.checkbox('Extracting Seasonality and Trend from Data (woche)'):
         st.markdown('Trend, Saisonalität, Rest_')
-        time_series.timeseries(df2,52, 'additive')
+        time_series.timeseries(df2,52, 'additive', 'value')
 
 
     #dfpop = pd.read_csv("data/Deutschland/Bevölkerung.csv", delimiter=';', skiprows=5, nrows=70, encoding='ISO-8859-1')

@@ -29,7 +29,7 @@ def app():
 
     if st.checkbox('Extracting Seasonality and Trend from Data'):
         st.markdown('tendência, sazonalidade, ruído')
-        time_series.timeseries(dfd,365,'additive')
+        time_series.timeseries(dfd,365,'additive','value')
 
 
     dates=['2014','2015','2016', '2017' , '2018' ,'2019' ,'2020', '2021']
@@ -60,3 +60,9 @@ def app():
                    ,title="Mortalidade diária em Portugal (faixa etária)")
     figg.update_yaxes(title_text='Óbitos')
     st.plotly_chart(figg)
+
+    if st.checkbox('Extracting Seasonality and Trend from Data(grupo etário)'):
+        st.markdown('tendência, sazonalidade')
+        valor=st.selectbox('Grupo etário',['< 1 ano', '1-4 anos', '5-14 anos', '15-24 anos', '25-34 anos', '35-44 anos', '45-54 anos', '55-64 anos', '65-74 anos', '75-84 anos', '≥ 85 anos'],
+                           index=8)
+        time_series.timeseries(dfg,365,'additive',valor)

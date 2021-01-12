@@ -2,15 +2,15 @@ import streamlit as st
 import statsmodels.api as sm
 import plotly.graph_objects as go
 
-def timeseries(df, periodo, modelo):
+def timeseries(df, periodo, modelo,column):
 
-    res = sm.tsa.seasonal_decompose(df.value, model=modelo, period=periodo, extrapolate_trend='freq')
+    res = sm.tsa.seasonal_decompose(df[column], model=modelo, period=periodo, extrapolate_trend='freq')
 
     fig = go.Figure()
     fig2 = go.Figure()
 
     # Add traces
-    fig.add_trace(go.Scatter(x=df.index, y=df.value,
+    fig.add_trace(go.Scatter(x=df.index, y=df[column],
                              mode='markers',
                              name='Deaths_count'))
     fig.add_trace(go.Scatter(x=res.trend.index, y=res.trend,
