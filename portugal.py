@@ -15,7 +15,7 @@ def app():
     df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)
 
 
-    dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-01-06.csv")
+    dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-01-12.csv")
     dfd = pd.melt(dfd, id_vars=["Data"])
     dfd = dfd.dropna()
     dfd.Data = dfd.Data.replace(regex={'Jan': '1', 'Fev': '2', 'Mar': '3', 'Abr': '4', 'Mai': '5', 'Jun': '6',
@@ -32,7 +32,31 @@ def app():
         time_series.timeseries(dfd,365,'additive')
 
 
-    '''fig1 = px.line(df_pop, x="Unnamed: 0", y="Total")
-    fig1.update_yaxes(title_text='Total da População (em Milhares)')
+    dates=['2014','2015','2016', '2017' , '2018' ,'2019' ,'2020', '2021']
 
-    st.plotly_chart(fig1)'''
+    def merging_dates(list_dates):
+        df = pd.read_csv(f'data/Portugal/Dados_SICO_2021-01-12_{list_dates[0]}.csv').copy()
+        df['Data (mm-dd)'] = df['Data (mm-dd)'].replace(
+            regex={'Jan': '1', 'Fev': '2', 'Mar': '3', 'Abr': '4', 'Mai': '5', 'Jun': '6',
+                   'Jul': '7', 'Ago': '8', 'Set': '9', 'Out': '10', 'Nov': '11', 'Dez': '12'})
+        df = df.assign(date=pd.to_datetime(df['Data (mm-dd)'] + '-' + list_dates[0], format='%m-%d-%Y'))
+        for date in list_dates[1:]:
+            df2 = pd.read_csv(f'data/Portugal/Dados_SICO_2021-01-12_{date}.csv').copy()
+            df2 = df2.dropna()
+            df2['Data (mm-dd)'] = df2['Data (mm-dd)'].replace(
+                regex={'Jan': '1', 'Fev': '2', 'Mar': '3', 'Abr': '4', 'Mai': '5', 'Jun': '6',
+                       'Jul': '7', 'Ago': '8', 'Set': '9', 'Out': '10', 'Nov': '11', 'Dez': '12'})
+            df2 = df2.assign(date=pd.to_datetime(df2['Data (mm-dd)'] + '-' + date, format='%m-%d-%Y'))
+            df = pd.concat([df, df2])
+
+        # df=df.sort_values(by='date').reset_index(drop=True)
+        df = df.set_index('date')
+
+        return df
+
+    dfg= merging_dates(dates)
+
+    figg = px.line(dfg, x=dfg.index, y=['< 1 ano', '1-4 anos', '5-14 anos', '15-24 anos', '25-34 anos', '35-44 anos', '45-54 anos', '55-64 anos', '65-74 anos', '75-84 anos', '≥ 85 anos']
+                   ,title="Mortalidade diária em Portugal (faixa etária)")
+    figg.update_yaxes(title_text='Óbitos')
+    st.plotly_chart(figg)

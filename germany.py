@@ -31,7 +31,7 @@ def app():
         st.markdown('Trend, Saisonalität, Rest')
         time_series.timeseries(df_mon,12, 'additive')
 
-    df = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
+    df = pd.read_csv("data/Deutschland/sterbefallzahlen_w.csv", delimiter=';',usecols=range(6))
     df2=pd.melt(df,id_vars=["Kalenderwoche"])
     df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
     df2 = df2.set_index('date')
