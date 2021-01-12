@@ -49,7 +49,6 @@ def app():
             df2 = df2.assign(date=pd.to_datetime(df2['Data (mm-dd)'] + '-' + date, format='%m-%d-%Y'))
             df = pd.concat([df, df2])
 
-        # df=df.sort_values(by='date').reset_index(drop=True)
         df = df.set_index('date')
 
         return df
@@ -66,3 +65,14 @@ def app():
         valor=st.selectbox('Grupo etário',['< 1 ano', '1-4 anos', '5-14 anos', '15-24 anos', '25-34 anos', '35-44 anos', '45-54 anos', '55-64 anos', '65-74 anos', '75-84 anos', '≥ 85 anos'],
                            index=8)
         time_series.timeseries(dfg,365,'additive',valor)
+
+    dfp = pd.read_csv("data/Portugal/pordata_pop_ge.csv", skiprows=7, nrows=49, usecols=range(20), index_col=0)
+    figp = px.line(dfp, x=dfp.index, y=['0-04', '05-09', '10-14', '15-19', '20-24', '25-29', '30-34',
+                                     '35-39', '40-44', '45-49', '50-54', '55-59', '60-64', '65-69', '70-74',
+                                     '75-79', '80-84', '85 ou mais'],
+                   title = 'População Portuguesa por faixa etária')
+    #figp.update_yaxes(title_text='População')
+    st.markdown('---')
+    st.plotly_chart(figp)
+    figpt = px.line(dfp, x=dfp.index, y=['Total'], title = 'População total portuguesa')
+    st.plotly_chart(figpt)
