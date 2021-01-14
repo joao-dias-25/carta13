@@ -15,16 +15,15 @@ def app():
         return df
 
     df=load_data()
-    key=st.selectbox('columns',['fields.desc_capitulo','fields.faixa_etaria'])
+    dfg=df.groupby(['fields.periodo','fields.desc_capitulo'], as_index=False).agg({'fields.obitos':'sum'})
 
-    dfg=df.groupby(['fields.periodo',key], as_index=False).agg({'fields.obitos':'sum'})
-
-    fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color=key)
+    fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color='fields.desc_capitulo')
     fig.update_yaxes(title_text='Mortes em unidades hospitalares')
     fig.update_layout(showlegend=True, height=800, width=1200,
                       title_text="Evolução mensal de óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS.",
                       legend=dict(
                           x=1, y=0, traceorder="normal", font=dict(size=10), bgcolor="WhiteSmoke"))
+
     st.plotly_chart(fig)
 
 
