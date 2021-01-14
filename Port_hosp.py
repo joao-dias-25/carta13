@@ -21,20 +21,20 @@ def app():
 
     fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color=key)
     fig.update_yaxes(title_text='Mortes em unidades hospitalares')
-    fig.update_layout(showlegend=True, height=1000, width=1200,
+    fig.update_layout(showlegend=True, height=800, width=1200,
                       title_text="Evolução mensal de óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS.",
                       legend=dict(
-                          x=1, y=-2, traceorder="normal", font=dict(size=14), bgcolor="WhiteSmoke"))
+                          x=1, y=0, traceorder="normal", font=dict(size=10), bgcolor="WhiteSmoke"))
     st.plotly_chart(fig)
 
 
     st.write()
     st.markdown("""
 
-    <iframe src="https://transparencia.sns.gov.pt/explore/embed/dataset/morbilidade-e-mortalidade-hospitalar/analyze/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IlNVTSIsInlBeGlzIjoib2JpdG9zIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiIzhkYTBjYiJ9XSwieEF4aXMiOiJwZXJpb2RvIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoibW9udGgiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb3JiaWxpZGFkZS1lLW1vcnRhbGlkYWRlLWhvc3BpdGFsYXIiLCJvcHRpb25zIjp7fX19XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwidGltZXNjYWxlIjoiIn0%3D&static=false&datasetcard=false" width="1200" height="600" frameborder="0"></iframe>
+    <iframe src="https://transparencia.sns.gov.pt/explore/embed/dataset/morbilidade-e-mortalidade-hospitalar/analyze/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IlNVTSIsInlBeGlzIjoib2JpdG9zIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiIzhkYTBjYiJ9XSwieEF4aXMiOiJwZXJpb2RvIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoibW9udGgiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb3JiaWxpZGFkZS1lLW1vcnRhbGlkYWRlLWhvc3BpdGFsYXIiLCJvcHRpb25zIjp7fX19XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwidGltZXNjYWxlIjoiIn0%3D&static=false&datasetcard=false" width="800" height="500" frameborder="0"></iframe>
     """, unsafe_allow_html=True)
     st.markdown("""
 
-    <iframe src="https://transparencia.sns.gov.pt/explore/embed/dataset/morbilidade-e-mortalidade-hospitalar/analyze/?sort=periodo&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IlNVTSIsInlBeGlzIjoiZGlhc19pbnRlcm5hbWVudG8iLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjNjZjMmE1In0seyJ0eXBlIjoibGluZSIsImZ1bmMiOiJTVU0iLCJ5QXhpcyI6ImFtYnVsYXRvcmlvIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiI2ZjOGQ2MiJ9XSwieEF4aXMiOiJwZXJpb2RvIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoibW9udGgiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb3JiaWxpZGFkZS1lLW1vcnRhbGlkYWRlLWhvc3BpdGFsYXIiLCJvcHRpb25zIjp7InNvcnQiOiJwZXJpb2RvIn19fV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWUsInRpbWVzY2FsZSI6IiJ9&static=false&datasetcard=false" width="1200" height="600" frameborder="0"></iframe>
+    <iframe src="https://transparencia.sns.gov.pt/explore/embed/dataset/morbilidade-e-mortalidade-hospitalar/analyze/?sort=periodo&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IlNVTSIsInlBeGlzIjoiZGlhc19pbnRlcm5hbWVudG8iLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjNjZjMmE1In0seyJ0eXBlIjoibGluZSIsImZ1bmMiOiJTVU0iLCJ5QXhpcyI6ImFtYnVsYXRvcmlvIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiI2ZjOGQ2MiJ9XSwieEF4aXMiOiJwZXJpb2RvIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoibW9udGgiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb3JiaWxpZGFkZS1lLW1vcnRhbGlkYWRlLWhvc3BpdGFsYXIiLCJvcHRpb25zIjp7InNvcnQiOiJwZXJpb2RvIn19fV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWUsInRpbWVzY2FsZSI6IiJ9&static=false&datasetcard=false" width="800" height="500" frameborder="0"></iframe>
 
     """, unsafe_allow_html=True)
