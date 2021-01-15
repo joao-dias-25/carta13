@@ -15,12 +15,15 @@ def app():
         return df
 
     df=load_data()
+    df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.lower()
+    df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.replace("códigos para fins especiais",
+                                                                        "códigos para fins especiais (COVID??")
     dfg=df.groupby(['fields.periodo','fields.desc_capitulo'], as_index=False).agg({'fields.obitos':'sum'})
 
     fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color='fields.desc_capitulo')
     fig.update_yaxes(title_text='Mortes em unidades hospitalares')
     fig.update_layout(showlegend=True, height=800, width=1200,
-                      title_text="Evolução mensal de óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS.",
+                      title_text="Total de episódios de internamento, ambulatório e óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS",
                       legend=dict(
                           x=1, y=0, traceorder="normal", font=dict(size=10), bgcolor="WhiteSmoke"))
 

@@ -1,0 +1,1956 @@
+GENESIS-Tabelle: 23131-0001
+Krankenhauspatienten: Deutschland, Jahre,;;;;;;;;;;;
+Hauptdiagnose ICD-10 (1-3-Steller Hierarchie);;;;;;;;;;;
+Diagnosen der Krankenhauspatienten;;;;;;;;;;;
+Deutschland;;;;;;;;;;;
+Gestorbene Patienten (Anzahl);;;;;;;;;;;
+;;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018
+ICD10-A00-B99;Bestimmte infektiöse und parasitäre Krankheiten;21968;23668;24022;25587;28265;27419;30388;29857;30339;32243
+ICD10-A00-A09;  Infektiöse Darmkrankheiten;3261;3764;4152;4277;4726;4176;4488;4099;4008;3789
+ICD10-A00;    Cholera;-;-;-;-;-;-;-;-;-;-
+ICD10-A01;    Typhus abdominalis und Paratyphus;2;-;6;1;3;4;1;-;-;1
+ICD10-A02;    Sonstige Salmonelleninfektionen;97;68;84;72;72;55;46;44;54;40
+ICD10-A03;    Shigellose (Bakterielle Ruhr);-;-;-;-;-;-;-;1;-;-
+ICD10-A04;    Sonstige bakterielle Darminfektionen;1601;1649;2010;2158;2541;2283;2499;2169;1985;1745
+ICD10-A05;    Sonstige bakteriell bed. Lebensmittelvergiftungen;5;2;4;4;6;4;6;2;1;4
+ICD10-A06;    Amöbiasis;2;1;2;1;1;1;-;1;-;-
+ICD10-A07;    Sonstige Darmkrankheiten durch Protozoen;2;1;1;3;3;2;1;6;2;-
+ICD10-A08;    Virusbed. u.sonst. näher bezeichn. Darminfektionen;312;424;309;290;254;192;281;208;244;200
+ICD10-A09;    Sonst. Gastroenteritis u.Kolitis infekt. Ursprungs;1240;1619;1736;1748;1846;1635;1654;1668;1722;1799
+ICD10-A15-A19;  Tuberkulose;219;210;214;207;223;188;186;163;177;180
+ICD10-A15;    Tuberkulose der Atmungsorgane, gesichert;146;127;133;131;155;114;131;102;110;116
+ICD10-A16;    Tuberkulose der Atmungsorgane, nicht gesichert;27;42;31;34;29;28;21;17;23;23
+ICD10-A17;    Tuberkulose des Nervensystems;9;8;18;9;9;14;12;10;13;10
+ICD10-A18;    Tuberkulose sonstiger Organe;10;14;14;9;6;8;8;11;15;6
+ICD10-A19;    Miliartuberkulose;27;19;18;24;24;24;14;23;16;25
+ICD10-A20-A28;  Bestimmte bakterielle Zoonosen;4;5;3;5;3;5;11;5;7;5
+ICD10-A20;    Pest;-;-;-;1;-;-;-;-;-;-
+ICD10-A21;    Tularämie;-;-;-;-;-;-;-;1;-;-
+ICD10-A22;    Anthrax (Milzbrand);-;-;-;1;-;-;-;-;-;-
+ICD10-A23;    Brucellose;1;-;-;-;-;-;-;-;-;-
+ICD10-A24;    Rotz (Malleus) und Melioidose (Pseudorotz);-;1;-;-;-;-;2;-;-;-
+ICD10-A25;    Rattenbisskrankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-A26;    Erysipeloid;3;4;3;1;1;3;4;1;2;2
+ICD10-A27;    Leptospirose;-;-;-;-;2;2;2;2;2;1
+ICD10-A28;    Sonstige bakterielle Zoonosen, ao.nicht klass.;-;-;-;2;-;-;3;1;3;2
+ICD10-A30-A49;  Sonstige bakterielle Krankheiten;16237;17270;17128;18444;20465;20259;22603;22559;23050;25208
+ICD10-A30;    Lepra (Aussatz);-;-;-;-;-;-;-;-;-;-
+ICD10-A31;    Infektion durch sonstige Mykobakterien;18;17;17;15;19;15;25;23;22;26
+ICD10-A32;    Listeriose;45;40;44;51;58;74;70;88;78;64
+ICD10-A33;    Tetanus neonatorum;-;-;-;-;-;-;-;-;-;-
+ICD10-A34;    Tetanus während Schwangerschaft,Geburt, Wochenbett;-;-;-;-;-;-;-;-;-;-
+ICD10-A35;    Sonstiger Tetanus;4;1;-;4;-;-;-;2;-;-
+ICD10-A36;    Diphtherie;-;-;-;-;-;-;-;-;-;-
+ICD10-A37;    Keuchhusten;1;3;4;2;2;2;2;2;1;1
+ICD10-A38;    Scharlach;-;-;-;-;-;-;-;-;-;1
+ICD10-A39;    Meningokokkeninfektion;35;40;32;37;34;35;28;25;32;28
+ICD10-A40;    Streptokokkensepsis;906;1099;1076;1188;1414;1244;1601;1634;1759;1901
+ICD10-A41;    Sonstige Sepsis;14193;14930;14762;15786;17392;17341;19024;18800;19037;20809
+ICD10-A42;    Aktinomykose;8;6;2;1;10;7;3;4;8;8
+ICD10-A43;    Nokardiose;2;-;2;1;-;2;3;3;3;6
+ICD10-A44;    Bartonellose;-;-;-;-;-;-;-;-;-;-
+ICD10-A46;    Erysipel (Wundrose);606;656;685;711;795;772;879;952;1016;1089
+ICD10-A48;    Sonstige bakterielle Krankheiten, ao.nicht klass.;96;101;67;77;92;88;90;80;90;120
+ICD10-A49;    Bakterielle Infektion nicht näher bez.Lokalisation;323;377;437;571;649;679;878;946;1004;1155
+ICD10-A50-A64;  Infektionen, vorw.d. Geschlechtsverkehr übertragen;1;1;4;4;3;5;1;-;2;1
+ICD10-A50;    Syphilis connata;-;-;-;-;-;-;-;-;-;-
+ICD10-A51;    Frühsyphilis;-;-;-;-;-;-;-;-;-;-
+ICD10-A52;    Spätsyphilis;1;-;2;1;-;2;1;-;2;1
+ICD10-A53;    Sonstige und nicht näher bezeichnete Syphilis;-;-;-;-;-;-;-;-;-;-
+ICD10-A54;    Gonokokkeninfektion;-;-;-;-;-;-;-;-;-;-
+ICD10-A55;    Lymphogranuloma inguinale (venereum) d. Chlamydien;-;-;-;-;-;-;-;-;-;-
+ICD10-A56;    Sonst. d. Geschlechtsverkehr übertr. Chlamydienkh.;-;-;-;-;1;-;-;-;-;-
+ICD10-A57;    Ulcus molle (venereum);-;-;1;2;-;-;-;-;-;-
+ICD10-A58;    Granuloma venereum (inguinale);-;-;-;-;-;-;-;-;-;-
+ICD10-A59;    Trichomoniasis;-;-;-;-;-;-;-;-;-;-
+ICD10-A60;    Infektionen d.Anogenitalbereichs durch Herpesviren;-;1;1;1;2;3;-;-;-;-
+ICD10-A63;    Sonst. vorwiegend d.Geschlechtsverk.übertr.Krankh.;-;-;-;-;-;-;-;-;-;-
+ICD10-A64;    Durch Geschlechtsverkehr übertragene Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-A65-A69;  Sonstige Spirochätenkrankheiten;4;3;1;1;3;1;5;6;3;4
+ICD10-A65;    Nichtvenerische Syphilis;-;-;-;-;-;-;-;-;-;-
+ICD10-A66;    Frambösie;-;-;-;-;-;-;-;-;-;-
+ICD10-A67;    Pinta (Carate);-;-;-;-;-;-;-;-;-;-
+ICD10-A68;    Rückfallfieber;-;-;-;-;-;-;-;-;-;-
+ICD10-A69;    Sonstige Spirochäteninfektionen;4;3;1;1;3;1;5;6;3;4
+ICD10-A70-A74;  Sonstige Krankheiten durch Chlamydien;-;1;1;1;-;2;-;-;1;-
+ICD10-A70;    Infektionen durch Chlamydia psittaci;-;-;-;-;-;2;-;-;-;-
+ICD10-A71;    Trachom;-;-;-;-;-;-;-;-;-;-
+ICD10-A74;    Sonstige Krankheiten durch Chlamydien;-;1;1;1;-;-;-;-;1;-
+ICD10-A75-A79;  Rickettsiosen;2;-;1;-;-;-;-;1;-;1
+ICD10-A75;    Fleckfieber;-;-;-;-;-;-;-;-;-;-
+ICD10-A77;    Zeckenbissfieber (Rickettsiosen, d.Zecken übertr.);-;-;-;-;-;-;-;-;-;-
+ICD10-A78;    Q-Fieber;2;-;1;-;-;-;-;1;-;1
+ICD10-A79;    Sonstige Rickettsiosen;-;-;-;-;-;-;-;-;-;-
+ICD10-A80-A89;  Virusinfektionen des Zentralnervensystems;94;96;100;102;121;92;98;133;112;144
+ICD10-A80;    Akute Poliomyelitis (Spinale Kinderlähmung);1;-;-;-;-;-;-;-;-;-
+ICD10-A81;    Atypische Virus-Infektionen d.Zentralnervensystems;56;74;74;71;84;66;66;100;80;107
+ICD10-A82;    Tollwut (Rabies);-;-;-;-;-;-;-;-;-;-
+ICD10-A83;    Virusenzephalitis, durch Moskitos übertragen;-;-;-;-;-;-;-;-;-;1
+ICD10-A84;    Virusenzephalitis, durch Zecken übertragen;-;4;2;2;4;3;-;3;3;7
+ICD10-A85;    Sonstige Virusenzephalitis, ao.nicht klass.;5;2;1;3;4;6;8;6;6;6
+ICD10-A86;    Virusenzephalitis, nicht näher bezeichnet;20;12;17;14;20;13;18;17;17;13
+ICD10-A87;    Virusmeningitis;11;4;6;12;9;4;6;7;6;10
+ICD10-A88;    Sonstige Virusinfektionen des Zentralnervensystems;-;-;-;-;-;-;-;-;-;-
+ICD10-A89;    Virusinfektion des Zentralnervensystems, n.n.bez.;1;-;-;-;-;-;-;-;-;-
+ICD10-A90-A99;  Athropoden-Virus-Kh. u. virales hämorrhag.Fieber;-;1;-;2;-;1;-;1;1;1
+ICD10-A90;    Dengue-Fieber (Klassische Dengue);-;-;-;1;-;-;-;-;-;-
+ICD10-A91;    Hämorrhagisches Dengue-Fieber;-;-;-;-;-;-;-;-;-;-
+ICD10-A92;    Sonstige durch Moskitos übertragene Viruskrankh.;-;-;-;-;-;-;-;-;-;-
+ICD10-A93;    Sonst. durch Arthropoden übertragene Viruskrankh.;-;-;-;-;-;-;-;-;-;-
+ICD10-A94;    Durch Arthropoden übertrag. Viruskrankh., n.n.bez.;-;-;-;-;-;-;-;-;-;-
+ICD10-A95;    Gelbfieber;-;-;-;-;-;-;-;-;-;-
+ICD10-A96;    Hämorrhagisches Fieber durch Arenaviren;-;-;-;-;-;-;-;-;-;-
+ICD10-A97;    Dengue;-;-;-;-;-;-;-;-;-;-
+ICD10-A98;    Sonst. hämorrhagische Viruskrankh.,ao.nicht klass.;-;1;-;1;-;1;-;1;1;1
+ICD10-A99;    Nicht näher bez. hämorrhagische Viruskrankheit;-;-;-;-;-;-;-;-;-;-
+ICD10-B00-B09;  Virusinfektionen,gekennz.d.Haut-/Schleimhautläsion;222;241;252;240;229;265;273;305;306;308
+ICD10-B00;    Infektionen durch Herpesviren (Herpes simplex);57;71;73;71;48;81;78;94;80;95
+ICD10-B01;    Varizellen (Windpocken);10;5;10;5;5;10;12;13;12;14
+ICD10-B02;    Zoster (Herpes zoster);155;165;168;163;176;174;182;196;212;197
+ICD10-B03;    Pocken;-;-;-;-;-;-;-;-;-;-
+ICD10-B04;    Affenpocken;-;-;-;-;-;-;-;-;-;-
+ICD10-B05;    Masern;-;-;1;-;-;-;1;1;1;-
+ICD10-B06;    Röteln (Rubeola, Rubella);-;-;-;1;-;-;-;-;-;2
+ICD10-B07;    Viruswarzen;-;-;-;-;-;-;-;-;-;-
+ICD10-B08;    Sonst. Virusinfektionen Haut-/Schleimhautläsionen;-;-;-;-;-;-;-;1;1;-
+ICD10-B09;    N.n.bez. Virusinfektion Haut-/Schleimhautläsionen;-;-;-;-;-;-;-;-;-;-
+ICD10-B15-B19;  Virushepatitis;42;32;45;26;46;30;32;30;23;27
+ICD10-B15;    Akute Virushepatitis A;3;3;3;-;7;1;2;1;3;3
+ICD10-B16;    Akute Virushepatitis B;16;9;15;12;18;12;14;16;4;7
+ICD10-B17;    Sonstige akute Virushepatitis;2;3;4;2;2;8;7;8;10;13
+ICD10-B18;    Chronische Virushepatitis;21;17;23;12;19;9;9;5;6;4
+ICD10-B19;    Nicht näher bezeichnete Virushepatitis;-;-;-;-;-;-;-;-;-;-
+ICD10-B20-B24;  HIV-Krankheit;73;59;57;46;50;41;41;47;42;36
+ICD10-B20;    Infektiöse u.parasitäre Krankh.infolge HIV-Krankh.;33;16;18;19;18;16;18;26;17;22
+ICD10-B21;    Bösartige Neubildungen infolge HIV-Krankheit;11;9;6;3;4;6;4;3;4;2
+ICD10-B22;    Sonst. näher bezeichn. Krankheiten infolge HIV-Kh.;10;14;13;9;15;7;8;8;9;5
+ICD10-B23;    Sonstige Krankheitszustände infolge HIV-Krankheit;12;14;9;8;6;6;5;6;5;4
+ICD10-B24;    Nicht näher bezeichnete HIV-Krankheit;7;6;11;7;7;6;6;4;7;3
+ICD10-B25-B34;  Sonstige Viruskrankheiten;67;76;89;76;83;81;105;72;91;96
+ICD10-B25;    Zytomegalie;52;62;77;62;72;71;88;60;71;60
+ICD10-B26;    Mumps;-;-;-;-;-;-;-;-;-;-
+ICD10-B27;    Infektiöse Mononukleose;4;4;3;4;4;5;8;5;12;10
+ICD10-B30;    Viruskonjunktivitis;-;-;-;-;-;-;-;-;-;-
+ICD10-B33;    Sonstige Viruskrankheiten, ao. nicht klassifiziert;2;1;1;5;-;3;2;1;-;1
+ICD10-B34;    Viruskrankheit nicht näher bezeichn. Lokalisation;9;9;8;5;7;2;7;6;8;25
+ICD10-B35-B49;  Mykosen;747;728;790;727;759;707;747;650;604;603
+ICD10-B35;    Dermatophytose (Tinea);2;-;1;-;-;3;1;-;-;1
+ICD10-B36;    Sonstige oberflächliche Mykosen;-;1;-;-;-;-;-;-;1;-
+ICD10-B37;    Kandidose;562;585;621;573;573;545;562;486;456;404
+ICD10-B38;    Kokzidioidomykose;-;-;-;-;-;-;-;-;-;-
+ICD10-B39;    Histoplasmose;-;-;-;-;-;1;-;-;-;-
+ICD10-B40;    Blastomykose;-;-;-;-;-;-;-;-;-;-
+ICD10-B41;    Parakokzidioidomykose;-;-;-;-;-;-;-;-;-;-
+ICD10-B42;    Sporotrichose;-;-;-;-;-;-;-;-;-;-
+ICD10-B43;    Chromomykose und chromomykotischer Abszess;-;1;-;-;-;1;1;-;-;1
+ICD10-B44;    Aspergillose;169;126;149;143;169;142;160;150;140;183
+ICD10-B45;    Kryptokokkose;9;6;6;3;7;7;10;5;3;6
+ICD10-B46;    Zygomykose;-;5;6;4;4;2;11;5;1;5
+ICD10-B47;    Myzetom;-;-;-;-;-;-;-;-;1;-
+ICD10-B48;    Sonstige Mykosen, anderenorts nicht klassifiziert;2;-;2;3;3;-;2;1;-;-
+ICD10-B49;    Nicht näher bezeichnete Mykose;3;4;5;1;3;6;-;3;2;3
+ICD10-B50-B64;  Protozoenkrankheiten;196;212;240;229;247;238;254;243;249;208
+ICD10-B50;    Malaria tropica durch Plasmodium falciparum;3;4;6;2;2;6;3;4;6;7
+ICD10-B51;    Malaria tertiana durch Plasmodium vivax;1;-;-;-;-;-;-;-;-;-
+ICD10-B52;    Malaria quartana durch Plasmodium malariae;-;-;-;-;-;-;-;-;-;-
+ICD10-B53;    Sonstige parasitologisch bestätigte Malaria;-;-;-;-;-;-;-;-;-;1
+ICD10-B54;    Malaria, nicht näher bezeichnet;-;-;-;-;-;-;-;-;-;-
+ICD10-B55;    Leishmaniose;-;1;-;-;1;-;-;1;2;1
+ICD10-B56;    Afrikanische Trypanosomiasis;-;-;-;-;-;-;-;-;-;-
+ICD10-B57;    Chagas-Krankheit;-;-;-;-;1;-;-;-;-;-
+ICD10-B58;    Toxoplasmose;20;8;15;14;14;9;12;14;11;9
+ICD10-B59;    Pneumozystose;172;199;219;213;229;223;239;224;230;190
+ICD10-B60;    Sonst.Protozoenkrankh., ao. nicht klassifizert;-;-;-;-;-;-;-;-;-;-
+ICD10-B64;    Nicht näher bezeichnete Protozoenkrankheit;-;-;-;-;-;-;-;-;-;-
+ICD10-B65-B83;  Helminthosen;2;5;3;3;3;5;-;2;6;7
+ICD10-B65;    Schistosomiasis (Bilharziose);-;-;-;-;-;-;-;-;-;-
+ICD10-B66;    Befall durch sonstige Trematoden (Egel);-;-;-;-;-;-;-;-;-;-
+ICD10-B67;    Echinokokkose;1;4;3;2;2;5;-;2;5;6
+ICD10-B68;    Taeniasis;-;-;-;-;-;-;-;-;-;-
+ICD10-B69;    Zystizerkose;-;-;-;-;-;-;-;-;-;-
+ICD10-B70;    Diphyllobothriose und Sparganose;-;-;-;-;-;-;-;-;-;-
+ICD10-B71;    Befall durch sonstige Zestoden;-;-;-;-;-;-;-;-;-;-
+ICD10-B72;    Drakunkulose;-;-;-;-;-;-;-;-;-;-
+ICD10-B73;    Onchozerkose;-;-;-;-;-;-;-;-;-;-
+ICD10-B74;    Filariose;-;-;-;-;-;-;-;-;-;-
+ICD10-B75;    Trichinellose;-;-;-;-;-;-;-;-;-;-
+ICD10-B76;    Hakenwurm-Krankheit;-;-;-;-;-;-;-;-;-;-
+ICD10-B77;    Askaridose;-;-;-;-;1;-;-;-;-;-
+ICD10-B78;    Strongyloidiasis;-;-;-;-;-;-;-;-;1;1
+ICD10-B79;    Trichuriasis;-;-;-;-;-;-;-;-;-;-
+ICD10-B80;    Enterobiasis;-;1;-;1;-;-;-;-;-;-
+ICD10-B81;    Sonstige Intestinale Helminthosen, ao.nicht klass.;-;-;-;-;-;-;-;-;-;-
+ICD10-B82;    Nicht näher bezeichneter intestinaler Parasitismus;-;-;-;-;-;-;-;-;-;-
+ICD10-B83;    Sonstige Helminthosen;1;-;-;-;-;-;-;-;-;-
+ICD10-B85-B89;  Pedikulose/Akarinose/sonst.Parasitenbefall d. Haut;4;5;1;2;3;2;6;5;6;6
+ICD10-B85;    Pedikulose/Phthiriasis (Läuse-/Filzläusebefall);1;-;-;-;-;-;-;-;-;-
+ICD10-B86;    Skabies;2;3;1;2;2;2;5;4;4;5
+ICD10-B87;    Myiasis;-;2;-;-;-;-;1;-;2;1
+ICD10-B88;    Sonstiger Parasitenbefall der Haut;1;-;-;-;-;-;-;-;-;-
+ICD10-B89;    Nicht näher bezeichnete parasitäre Krankheit;-;-;-;-;1;-;-;1;-;-
+ICD10-B90-B94;  Folgezustände von infektiösen und parasitären Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-B90;    Folgezustände der Tuberkulose;-;-;-;-;-;-;-;-;-;-
+ICD10-B91;    Folgezustände der Poliomyelitis;-;-;-;-;-;-;-;-;-;-
+ICD10-B92;    Folgezustände der Lepra;-;-;-;-;-;-;-;-;-;-
+ICD10-B94;    Folgezustände n.n.bez. infektiöser.u.parasit. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-B95-B98;  Bakterien, Viren, sonst.Erreger, klass.in and.Kap.;-;-;-;-;-;-;-;-;-;-
+ICD10-B95;    Streptokokken und Staphylokokken als Ursache v.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-B96;    Sonstige Bakterien als Ursache von Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-B97;    Viren als Ursache von anderen Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-B98;    Sonstige Erreger als Ursache von Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-B99-B99;  Sonstige Infektionskrankheiten;793;959;941;1195;1301;1321;1538;1536;1651;1619
+ICD10-B99;    Sonstige u. nicht näher bezeichnete Infektionskh.;793;959;941;1195;1301;1321;1538;1536;1651;1619
+ICD10-C00-C97;Bösartige Neubildungen;82902;82916;82878;80426;79236;80210;79653;81302;82496;84073
+ICD10-C00-C14;  Bösartige Neubildung, Lippe, Mundhöhle, Pharynx;1879;1941;2005;1953;1861;1904;1887;1906;1934;2101
+ICD10-C00;    Bösartige Neubildung der Lippe;13;23;22;15;28;15;16;9;19;22
+ICD10-C01;    Bösartige Neubildung des Zungengrundes;163;178;165;198;175;171;178;167;160;186
+ICD10-C02;    Bösartige Neubildung der Zunge;125;153;147;164;140;146;170;178;170;214
+ICD10-C03;    Bösartige Neubildung des Zahnfleisches;31;34;41;43;50;50;39;38;65;58
+ICD10-C04;    Bösartige Neubildung des Mundbodens;308;336;318;295;264;299;254;273;277;272
+ICD10-C05;    Bösartige Neubildung des Gaumens;50;28;41;42;49;42;44;39;27;51
+ICD10-C06;    Bösartige Neubildung des Mundes;46;45;42;47;43;37;48;75;66;71
+ICD10-C07;    Bösartige Neubildung der Parotis;65;74;85;61;65;87;84;78;89;95
+ICD10-C08;    Bösartige Neubildung der Speicheldrüsen;22;23;19;16;21;22;23;17;28;28
+ICD10-C09;    Bösartige Neubildung der Tonsille;116;143;128;124;102;137;137;114;136;124
+ICD10-C10;    Bösartige Neubildung des Oropharynx;399;388;423;375;425;430;430;443;430;465
+ICD10-C11;    Bösartige Neubildung des Nasopharynx;81;54;69;70;69;76;56;50;76;62
+ICD10-C12;    Bösartige Neubildung des Recessus piriformis;13;9;15;16;10;13;12;17;18;19
+ICD10-C13;    Bösartige Neubildung des Hypopharynx;405;412;442;452;386;347;360;374;348;402
+ICD10-C14;    Bösartige Neubildung, Lippe, Mundhöhle, Pharynx;42;41;48;35;34;32;36;34;25;32
+ICD10-C15-C26;  Bösartige Neubildungen der Verdauungsorgane;25379;25177;24969;24154;23679;23839;24054;24448;24869;25397
+ICD10-C15;    Bösartige Neubildung des Ösophagus;1881;1946;1996;1976;2011;1915;2030;2057;2010;2116
+ICD10-C16;    Bösartige Neubildung des Magens;3963;3924;3782;3612;3471;3387;3446;3420;3453;3568
+ICD10-C17;    Bösartige Neubildung des Dünndarmes;259;269;319;290;269;295;326;338;353;399
+ICD10-C18;    Bösartige Neubildung des Kolons;5672;5577;5504;5239;5185;5222;5240;5198;5171;5306
+ICD10-C19;    Bösartige Neubildung am Rektosigmoid, Übergang;456;360;358;329;307;303;301;314;318;346
+ICD10-C20;    Bösartige Neubildung des Rektums;2760;2739;2666;2533;2422;2424;2427;2369;2399;2507
+ICD10-C21;    Bösartige Neubildung des Anus und des Analkanals;176;180;168;165;155;176;181;183;205;202
+ICD10-C22;    BN der Leber und der intrahepatischen Gallengänge;2941;2902;2836;2850;2725;2895;2872;3032;3053;3026
+ICD10-C23;    Bösartige Neubildung der Gallenblase;583;560;579;503;453;490;464;494;472;453
+ICD10-C24;    BN sonstiger und n.n.bez. Teile der Gallenwege;747;722;928;874;846;810;833;864;1028;913
+ICD10-C25;    Bösartige Neubildung des Pankreas;5891;5932;5772;5724;5774;5871;5877;6122;6345;6500
+ICD10-C26;    BN sonstiger u. ungenau bez. Verdauungsorgane;50;66;61;59;61;51;57;57;62;61
+ICD10-C30-C39;  BN d. Atmungsorgane u. so. intrathorakaler Organe;17848;18005;17881;17645;17435;17467;17181;17560;17923;18275
+ICD10-C30;    BN der Nasenhöhle und des Mittelohres;28;17;22;33;18;21;29;28;25;32
+ICD10-C31;    Bösartige Neubildung der Nasennebenhöhlen;61;56;71;62;86;45;54;73;64;80
+ICD10-C32;    Bösartige Neubildung des Larynx;380;381;366;336;338;370;355;390;372;375
+ICD10-C33;    Bösartige Neubildung der Trachea;26;28;16;17;16;24;17;11;14;18
+ICD10-C34;    Bösartige Neubildung der Bronchien und der Lunge;17129;17327;17196;17006;16781;16822;16545;16871;17245;17548
+ICD10-C37;    Bösartige Neubildung des Thymus;43;38;46;41;42;49;42;40;35;54
+ICD10-C38;    BN des Herzens, der Mediastinums und der Pleura;176;151;158;145;148;132;133;143;161;163
+ICD10-C39;    BN sonst. u. ungenau bez. Lokal. d. Atmungssystems;5;7;6;5;6;4;6;4;7;5
+ICD10-C40-C41;  BN des Knochens und des Gelenkknorpels;151;170;151;165;164;158;174;165;170;201
+ICD10-C40;    BN d. Knochens u.d. Gelenkknorpels d. Extremitäten;50;62;41;39;48;54;46;59;52;72
+ICD10-C41;    BN d.Knochens u.d.Gelenkknorpels n.n.bez. Lokalis.;101;108;110;126;116;104;128;106;118;129
+ICD10-C43-C44;  Melanom und sonstige BN der Haut;957;961;978;948;1028;1069;1055;958;1138;1156
+ICD10-C43;    Bösartiges Melanom der Haut;722;702;704;679;704;744;732;650;770;786
+ICD10-C44;    Sonstige bösartige Neubildungen der Haut;235;259;274;269;324;325;323;308;368;370
+ICD10-C45-C49;  BN d. mesothelialen Gewebes u.d. Weichteilgewebes;1398;1366;1435;1305;1303;1374;1302;1380;1367;1381
+ICD10-C45;    Mesotheliom;647;648;640;588;580;604;593;565;574;524
+ICD10-C46;    Kaposi-Sarkom;10;7;8;3;9;2;6;7;5;4
+ICD10-C47;    BN d. peripheren Nerven u.d. autonom Nervensystems;30;37;32;31;38;28;33;32;23;28
+ICD10-C48;    BN des Retroperitoneums und des Peritoneums;158;151;180;177;169;184;174;184;184;197
+ICD10-C49;    BN sonstigen Bindegewebes u.and. Weichteilgewebe;553;523;575;506;507;556;496;592;581;628
+ICD10-C50-C50;  Bösartige Neubildungen der Brustdrüse (Mamma);4533;4464;4551;4340;4270;4285;4404;4686;4973;5118
+ICD10-C50;    Bösartige Neubildung der Brustdrüse (Mamma);4533;4464;4551;4340;4270;4285;4404;4686;4973;5118
+ICD10-C51-C58;  BN der weiblichen Genitalorgane;3744;3652;3555;3603;3424;3379;3498;3518;3626;3853
+ICD10-C51;    Bösartige Neubildung der Vulva;230;214;215;232;220;260;245;233;261;283
+ICD10-C52;    Bösartige Neubildung der Vagina;48;45;44;63;42;56;56;48;64;53
+ICD10-C53;    Bösartige Neubildung der Cervix uteri;564;580;559;544;518;502;551;504;541;625
+ICD10-C54;    Bösartige Neubildung des Corpus uteri;695;704;653;673;720;748;709;758;772;822
+ICD10-C55;    Bösartige Neubildung des Uterus, Teil n.n.bez.;63;80;57;71;71;47;68;78;89;89
+ICD10-C56;    Bösartige Neubildung des Ovars;2048;1931;1933;1899;1757;1645;1753;1771;1760;1718
+ICD10-C57;    Bösartige Neubildung sonstiger weibl.Genitalorgane;96;97;89;119;96;120;112;126;138;261
+ICD10-C58;    Bösartige Neubildung der Plazenta;-;1;5;2;-;1;4;-;1;2
+ICD10-C60-C63;  BN der männlichen Genitalorgane;2795;2840;2929;2836;2633;2889;2824;2978;3228;3461
+ICD10-C60;    Bösartige Neubildung des Penis;50;52;51;56;59;47;54;63;82;58
+ICD10-C61;    Bösartige Neubildung der Prostata;2643;2688;2787;2663;2490;2755;2681;2839;3082;3335
+ICD10-C62;    Bösartige Neubildung des Hodens;74;68;67;93;60;63;69;55;53;65
+ICD10-C63;    Bösartige Neubildung sonst. männl. Genitalorgane;28;32;24;24;24;24;20;21;11;3
+ICD10-C64-C68;  Bösartige Neubildungen der Harnorgane;3953;4109;4068;3972;4068;4115;4128;4343;4494;4574
+ICD10-C64;    BN der Niere, ausgenommen Nierenbecken;1373;1397;1361;1334;1443;1327;1279;1372;1322;1340
+ICD10-C65;    Bösartige Neubildung des Nierenbeckens;225;243;267;280;235;265;247;259;233;243
+ICD10-C66;    Bösartige Neubildung des Ureters;95;92;83;94;82;104;90;114;121;121
+ICD10-C67;    Bösartige Neubildung der Harnblase;2142;2270;2257;2149;2168;2253;2247;2297;2420;2434
+ICD10-C68;    BN sonstiger und n.n.bez. Harnorgane;118;107;100;115;140;166;265;301;398;436
+ICD10-C69-C72;  BN des Auges/Gehirns/Zentralnervensystems;1451;1356;1399;1332;1265;1352;1361;1302;1516;1397
+ICD10-C69;    BN des Auges und der Augenanhangsgebilde;111;80;92;99;97;85;109;98;120;108
+ICD10-C70;    Bösartige Neubildung der Meningen;10;13;17;13;14;19;21;12;21;27
+ICD10-C71;    Bösartige Neubildung des Gehirns;1307;1241;1268;1201;1127;1221;1209;1179;1356;1248
+ICD10-C72;    BN d.Rückenmarks,d.Hirnnerven,d.Zentralnervensyst.;23;22;22;19;27;27;22;13;19;14
+ICD10-C73-C75;  BN der Schilddrüse und sonstiger endokriner Drüsen;402;382;406;377;376;363;352;302;305;318
+ICD10-C73;    Bösartige Neubildung der Schilddrüse;255;238;261;237;240;220;215;199;224;232
+ICD10-C74;    Bösartige Neubildung der Nebenniere;62;57;60;56;40;58;63;55;53;61
+ICD10-C75;    BN sonst. endokr. Drüsen u. verwandt. Strukturen;85;87;85;84;96;85;74;48;28;25
+ICD10-C76-C80;  BN ungenau bez., sekundärer u.n.n. bez. Lokalisat.;10544;10418;10301;9924;9589;9798;9420;9359;8339;8067
+ICD10-C76;    BN sonst. u. ungenau bezeichneter Lokalisationen;103;126;110;111;119;103;97;126;124;109
+ICD10-C77;    Sekundäre u.n.n. bezeichnete BN der Lymphknoten;297;254;235;222;212;217;181;167;142;133
+ICD10-C78;    Sekundäre BN der Atmungs- und Verdauungsorgane;4107;4074;3863;3590;3314;3323;3043;2895;2272;2217
+ICD10-C79;    Sekundäre BN an sonstigen Lokalisationen;3749;3812;3727;3653;3538;3658;3527;3454;2965;2701
+ICD10-C80;    BN ohne Angabe der Lokalisation;2288;2152;2366;2348;2406;2497;2572;2717;2836;2907
+ICD10-C81-C96;  BN des lymphat., blutbild. und verwandten Gewebes;7868;8075;8250;7872;8141;8218;8013;8397;8614;8774
+ICD10-C81;    Lymphom (Lymphogranulomatose);137;152;125;158;142;151;142;160;135;156
+ICD10-C82;    Follikuläres Lymphom;217;202;176;133;169;162;147;167;187;183
+ICD10-C83;    Nicht follikuläres Lymphom;1189;1271;1411;1460;1512;1523;1535;1670;1815;1842
+ICD10-C84;    Reifzellige T/NK-Zell-Lymphome;287;284;266;248;235;252;229;233;236;261
+ICD10-C85;    Sonst. u.n.n. bez. Typen des Non-Hodgkin-Lymphoms;850;906;753;709;702;653;633;587;565;536
+ICD10-C86;    Weitere spezifizierte T/NK-Zell-Lymphome;-;-;62;87;102;101;92;104;107;104
+ICD10-C88;    Bösartige immunproliferative Krankheiten;62;55;68;72;66;74;71;89;94;73
+ICD10-C90;    Plasmozytom u. bösartige Plasmazellen-Neubildungen;1503;1593;1567;1460;1530;1543;1586;1631;1653;1620
+ICD10-C91;    Lymphatische Leukämie;971;935;982;890;926;909;771;790;818;842
+ICD10-C92;    Myeloische Leukämie;2374;2407;2373;2256;2316;2350;2359;2460;2533;2679
+ICD10-C93;    Monozytenleukämie;83;83;197;205;230;280;261;279;267;244
+ICD10-C94;    Sonstige Leukämien näher bezeichneten Zelltyps;41;54;108;89;95;102;76;100;109;89
+ICD10-C95;    Leukämie nicht näher bezeichneten Zelltyps;126;113;111;90;90;104;79;106;72;102
+ICD10-C96;    Sonst.BN d.lymphat., blutbild. u. verwandt.Gewebes;28;20;51;15;26;14;32;21;23;43
+ICD10-C97-C97;  BN als Primärtumoren an mehreren Lokalisationen;-;-;-;-;-;-;-;-;-;-
+ICD10-C97;    BN als Primärtumoren an mehreren Lokalisationen;-;-;-;-;-;-;-;-;-;-
+ICD10-D00-D48;Übrige Neubildungen;2428;2468;2439;2424;2431;2542;2541;2601;2613;2832
+ICD10-D00-D09;  In-situ-Neubildungen;61;42;27;27;54;34;38;38;38;40
+ICD10-D00;    Carcinoma in situ d.Mundhöhle,d.Ösophagus,d.Magens;6;7;4;5;6;6;5;6;-;1
+ICD10-D01;    Carcinoma in situ sonst. u.n.n.bez. Verdauungsorg.;15;16;4;8;22;18;15;16;15;21
+ICD10-D02;    Carcinoma in situ d. Mittelohres u. d.Atmungssyss.;5;4;2;4;6;1;3;5;1;3
+ICD10-D03;    Melanoma in situ;2;1;3;-;1;1;-;1;-;-
+ICD10-D04;    Carcinoma in situ der Haut;1;3;2;3;3;-;2;-;3;2
+ICD10-D05;    Carcinoma in situ der Brustdrüse (Mamma);15;7;3;2;7;1;7;2;10;3
+ICD10-D06;    Carcinoma in situ der Cervix uteri;1;1;2;-;2;-;1;-;3;1
+ICD10-D07;    Carcinoma in situ sonst. u.n.n.bez. Genitalorgane;11;2;3;2;5;4;1;-;2;4
+ICD10-D09;    Carcinoma in situ sonst. u.n.n.bez. Lokalisationen;5;1;4;3;2;3;4;8;4;5
+ICD10-D10-D36;  Gutartige Neubildungen;428;405;414;424;376;456;406;409;397;454
+ICD10-D10;    Gutartige Neubildung des Mundes und des Pharynx;2;1;4;1;-;4;3;-;-;3
+ICD10-D11;    Gutartige Neubildung der großen Speicheldrüsen;8;-;2;3;3;5;4;1;4;8
+ICD10-D12;    Gutart.NB d.Kolons, d.Rekt.,d.Analkanals.u.d.Anus;77;90;97;72;54;99;83;84;72;84
+ICD10-D13;    Gutart.NB sonst.ungen.bez. Teile d.Verdauungssyst.;53;44;44;63;52;60;54;58;37;62
+ICD10-D14;    Gutart.NB des Mittelohres und des Atmungssystems;4;9;8;8;8;5;9;8;6;5
+ICD10-D15;    Gutart.NB sonst. u.n.n.bez. intrathorakaler Organe;14;9;7;6;12;12;9;7;10;9
+ICD10-D16;    Gutartige NB des Knochens und des Gelenkknorpels;3;-;1;1;5;3;1;1;-;1
+ICD10-D17;    Gutartige Neubildung des Fettgewebes;2;6;8;3;3;5;5;3;4;22
+ICD10-D18;    Hämangiom und Lymphangiom;18;18;18;15;19;20;11;15;14;15
+ICD10-D19;    Gutartige Neubildung des mesothelialen Gewebes;1;4;3;2;3;1;3;2;1;2
+ICD10-D20;    Gutart.NB Weichteilgew.,Retroperitoneum,Peritoneum;1;-;-;2;1;-;1;1;-;-
+ICD10-D21;    Sonst. gutart. NB d.Bindegew. u.a. Weichteilgewebe;3;4;5;7;3;7;4;3;1;1
+ICD10-D22;    Melanozytennävus;-;-;-;-;-;-;-;-;1;-
+ICD10-D23;    Sonstige gutartige Neubildungen der Haut;3;-;1;3;2;1;-;-;-;1
+ICD10-D24;    Gutartige Neubildung der Brustdrüse (Mamma);2;-;-;2;2;-;2;1;-;-
+ICD10-D25;    Leiomyom des Uterus;12;15;11;6;7;7;9;10;7;8
+ICD10-D26;    Sonstige gutartige Neubildungen des Uterus;1;-;-;-;1;1;-;1;1;-
+ICD10-D27;    Gutartige Neubildung des Ovars;23;16;21;18;17;21;18;16;16;16
+ICD10-D28;    Gutart. NB sonst. u.n.n.bez. weibl. Genitalorgane;-;-;1;1;-;1;-;1;1;-
+ICD10-D29;    Gutartige Neubildung der männlichen Genitalorgane;-;9;2;3;2;2;4;2;3;4
+ICD10-D30;    Gutartige Neubildung der Harnorgane;4;8;8;3;8;6;11;12;17;10
+ICD10-D31;    Gutart. NB des Auges und der Augenanhangsgebilde;-;-;1;-;-;-;-;-;-;-
+ICD10-D32;    Gutartige Neubildung der Meningen;139;123;118;153;113;128;130;129;141;146
+ICD10-D33;    Gutart. NB d.Gehirns u.a.Teile d.Zentralnervensys.;20;23;20;14;21;21;13;16;23;23
+ICD10-D34;    Gutartige Neubildung der Schilddrüse;2;1;3;1;-;-;1;-;-;-
+ICD10-D35;    Gutart. NB sonstiger u.n.n.bez. endokriner Drüsen;32;19;28;31;32;40;23;30;32;29
+ICD10-D36;    Gutart. NB sonstiger u.n.n.bez. Lokalisationen;4;6;3;6;8;7;8;8;6;5
+ICD10-D37-D48;  Neubildungen unsicheren o. unbekannten Verhaltens;1939;2021;1998;1973;2001;2052;2097;2154;2178;2338
+ICD10-D37;    NB unsich. Verh.d. Mundhöhle u.d. Verdauungsorgane;403;376;365;322;405;430;471;462;463;521
+ICD10-D38;    NB unbek.Verh.: Mittelohr,Atmg.,intrathorakal.Org.;272;314;304;317;316;364;324;338;351;380
+ICD10-D39;    NB unsich. Verhaltens der weibliche Genitalorgane;58;57;37;40;31;51;44;44;35;51
+ICD10-D40;    NB unsich. Verhaltens der männlichen Genitalorgane;6;7;13;5;7;8;5;6;9;5
+ICD10-D41;    NB unsich. Verhaltens der Harnorgane;52;82;75;73;66;75;78;54;69;80
+ICD10-D42;    NB unsich. Verhaltens der Meningen;6;3;7;2;4;1;3;7;10;4
+ICD10-D43;    NB unsich. Verh.d Gehirns u.d.Zentralnervensystems;132;111;107;129;127;134;133;144;158;143
+ICD10-D44;    NB unsich. Verhaltens der endokrinen Drüsen;31;40;38;35;24;23;16;17;19;20
+ICD10-D45;    Polycythaemia vera;30;18;25;27;36;28;17;26;23;29
+ICD10-D46;    Myelodysplastische Syndrome;659;706;673;704;664;613;678;704;663;709
+ICD10-D47;    Sonst.NB unbek.Verh.: lymph.,blutb.,verwandt.Gew.;161;160;218;192;219;206;216;226;231;248
+ICD10-D48;    NB unsicheren oder unbekannten Verhaltens;129;147;136;127;102;119;112;126;147;148
+ICD10-D50-D90;Krankheiten des Blutes;2426;2415;2357;2465;2412;2426;2404;2303;2255;2212
+ICD10-D50-D53;  Alimentäre Anämien;442;416;385;390;420;435;421;483;493;512
+ICD10-D50;    Eisenmangelanämie;373;342;321;321;346;374;361;409;413;425
+ICD10-D51;    Vitamin-B12-Mangelanämie;23;30;29;26;23;23;30;27;26;29
+ICD10-D52;    Folsäure-Mangelanämie;9;10;9;22;24;17;17;22;31;44
+ICD10-D53;    Sonstige alimentäre Anämien;37;34;26;21;27;21;13;25;23;14
+ICD10-D55-D59;  Hämolytische Anämien;127;120;159;108;128;117;145;133;112;143
+ICD10-D55;    Anämie durch Enzymdefekte;1;-;-;-;-;-;1;-;-;1
+ICD10-D56;    Thalassämie;2;2;-;2;5;-;2;1;1;4
+ICD10-D57;    Sichelzellenkrankheiten;5;5;5;2;3;4;2;6;7;5
+ICD10-D58;    Sonstige hereditäre hämolytische Anämien;3;1;6;1;1;6;5;3;4;13
+ICD10-D59;    Erworbene hämolytische Anämien;116;112;148;103;119;107;135;123;100;120
+ICD10-D60-D64;  Aplastische und sonstige Anämien;1069;1072;1003;1109;1108;1034;1080;1021;1021;984
+ICD10-D60;    Erworbene isolierte aplastische Anämie;6;2;7;6;10;3;5;3;2;7
+ICD10-D61;    Sonstige aplastische Anämien;303;314;280;281;311;287;291;313;303;296
+ICD10-D62;    Akute Blutungsanämie;374;348;287;338;342;291;285;251;274;256
+ICD10-D63;    Anämie bei chronischen, ao. klass. Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-D64;    Sonstige Anämien;386;408;429;484;445;453;499;454;442;425
+ICD10-D65-D69;  Koagulopathien,Purpura u.sonst.hämorrhag.Diathesen;429;455;452;481;461;504;428;352;305;268
+ICD10-D65;    Disseminierte intravasale Gerinnung;17;22;22;19;13;15;5;11;11;10
+ICD10-D66;    Hereditärer Faktor-VIII-Mangel;3;3;3;5;-;5;-;2;2;-
+ICD10-D67;    Hereditärer Faktor-IX-Mangel;-;-;-;-;-;-;-;-;-;-
+ICD10-D68;    Sonstige Koagulopathien;252;258;277;314;287;329;270;191;160;137
+ICD10-D69;    Purpura und sonstige hämorrhagische Diathesen;157;172;150;143;161;155;153;148;132;121
+ICD10-D70-D77;  Sonstige Kh. des Blutes und der blutbilden Organe;302;287;288;309;238;284;270;250;254;231
+ICD10-D70;    Agranulozytose;186;165;218;220;177;199;175;167;148;124
+ICD10-D71;    Funktionelle Störungen der neutrophilen Granulozyt;1;-;3;1;-;3;3;2;-;3
+ICD10-D72;    Sonstige Krankheiten der Leukozyten;7;7;11;7;11;6;5;11;8;7
+ICD10-D73;    Krankheiten der Milz;49;40;37;54;32;47;54;36;49;50
+ICD10-D74;    Methämoglobinämie;-;-;-;-;-;-;-;-;-;-
+ICD10-D75;    Sonstige Kh. des Blutes und der blutbilden Organe;46;64;8;7;5;6;4;4;5;9
+ICD10-D76;    Kh. mit Beteil. des lymphoretikulären Gewebes u.Ä.;13;11;11;20;13;23;29;30;44;38
+ICD10-D77;    Sonst.Kh.d.Blutes u.d.blutbild.Org.b.ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-D80-D90;  Best. Störungen mit Beteiligung des Immunsystems;57;65;70;68;57;52;60;64;70;74
+ICD10-D80;    Immundefekt mit vorherrschendem Antikörpermangel;4;1;4;3;1;-;-;2;1;-
+ICD10-D81;    Kombinierte Immundefekte;3;5;5;4;9;4;3;5;4;5
+ICD10-D82;    Immundefekt i. Verbind. m. and. Schweren Defekten;-;3;3;1;2;-;1;4;2;1
+ICD10-D83;    Variabler Immundefekt common variable immunodeficy;2;-;-;1;2;1;1;2;1;1
+ICD10-D84;    Sonstige Immundefekte;1;3;3;2;-;-;4;1;1;1
+ICD10-D86;    Sarkoidose;25;40;40;35;34;41;39;38;53;54
+ICD10-D89;    Sonst.Störungen m.Beteil.d.Immunsystems, ao.n.kl.;9;5;9;12;2;4;9;5;5;7
+ICD10-D90;    Immunkompromittierung nach Bestrahl.,Chemotherap.;13;8;6;10;7;2;3;7;3;5
+ICD10-E00-E90;Endokrine, Ernährungs- und Stoffwechselkrankheiten;9779;10057;9746;9896;10474;10245;11267;10765;11217;12035
+ICD10-E00-E07;  Krankheiten der Schilddrüse;148;157;162;169;155;136;149;128;116;139
+ICD10-E00;    Angeborenes Jodmangelsyndrom;-;-;-;-;-;-;-;-;-;-
+ICD10-E01;    Jodmangelbed. Schilddrüsenkh. u.verwandte Zustände;4;1;2;1;1;1;2;1;-;1
+ICD10-E02;    Subklinische Jodmangel-Hypothyreose;-;-;-;-;-;-;-;-;-;-
+ICD10-E03;    Sonstige Hypothyreose;33;36;45;35;42;40;38;46;27;38
+ICD10-E04;    Sonstige nichttoxische Struma;28;34;35;28;29;24;28;22;26;28
+ICD10-E05;    Hyperthyreose (Thyreotoxikose);80;81;77;103;79;67;78;57;62;66
+ICD10-E06;    Thyreoiditis;3;5;3;1;2;4;2;2;1;6
+ICD10-E07;    Sonstige Krankheiten der Schilddrüse;-;-;-;1;2;-;1;-;-;-
+ICD10-E10-E14;  Diabetes mellitus;4773;4502;4386;4150;4210;3810;3993;3653;3744;3669
+ICD10-E10;    Primär insulinabhängiger Diabetes mellitus (Typ-I);110;80;107;97;102;123;124;136;156;191
+ICD10-E11;    Nicht primär insulinabh.Diabetes mellitus (Typ-II);4551;4345;4193;3971;4024;3610;3790;3446;3515;3375
+ICD10-E12;    Diabetes mellitus i.Verb.m. Fehl-o.Mangelernährung;1;1;3;1;1;1;-;1;2;2
+ICD10-E13;    Sonstiger näher bezeichneter Diabetes mellitus;67;45;53;59;68;57;55;62;59;80
+ICD10-E14;    Nicht näher bezeichneter Diabetes mellitus;44;31;30;22;15;19;24;8;12;21
+ICD10-E15-E16;  Blutglukoseregulationsstörung;125;140;128;116;118;145;126;126;135;139
+ICD10-E15;    Hypoglykämisches Koma, nichtdiabetisch;53;52;36;36;24;39;33;40;30;30
+ICD10-E16;    Sonst. Störungen d. inneren Sekretion des Pankreas;72;88;92;80;94;106;93;86;105;109
+ICD10-E20-E35;  Krankheiten sonstiger endokriner Drüsen;89;71;68;71;75;53;94;93;94;97
+ICD10-E20;    Hypoparathyreoidismus;4;3;2;-;1;-;-;1;-;-
+ICD10-E21;    Hyperparathyreoidismus u.sonst.Kh.d.Nebenschilddr.;14;15;14;14;15;8;21;15;18;17
+ICD10-E22;    Überfunktion der Hypophyse;13;13;17;19;20;16;31;32;26;33
+ICD10-E23;    Unterfunktion und andere Störungen der Hypophyse;4;4;8;8;7;6;9;6;2;4
+ICD10-E24;    Cushing-Syndrom;6;6;4;4;7;4;4;10;3;8
+ICD10-E25;    Adrenogenitale Störungen;-;-;-;1;-;-;-;-;-;-
+ICD10-E26;    Hyperaldosteronismus;-;2;-;2;-;1;-;1;-;2
+ICD10-E27;    Sonstige Krankheiten der Nebenniere;41;25;20;17;23;15;28;24;42;29
+ICD10-E28;    Ovarielle Dysfunktion;-;-;-;-;-;-;-;-;-;-
+ICD10-E29;    Testikuläre Dysfunktion;-;-;-;-;-;-;-;-;-;-
+ICD10-E30;    Pubertätsstörungen, ao. nicht klassifiziert;-;-;-;-;-;-;-;-;-;-
+ICD10-E31;    Polyglanduläre Dysfunktion;-;-;-;1;-;1;-;1;1;1
+ICD10-E32;    Krankheiten des Thymus;-;-;-;1;-;-;-;-;-;-
+ICD10-E34;    Sonstige endokrine Störungen;7;3;3;4;2;2;1;3;2;3
+ICD10-E35;    Störungen der endokrinen Drüsen bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-E40-E46;  Mangelernährung;140;167;142;144;143;150;139;126;121;87
+ICD10-E40;    Kwashiorkor;-;-;-;-;1;1;1;-;-;-
+ICD10-E41;    Alimentärer Marasmus;89;92;79;79;57;52;45;42;42;39
+ICD10-E42;    Kwashiorkor-Marasmus;1;2;4;-;3;2;-;5;3;-
+ICD10-E43;    N.n.bez. erhebl. Energie- u. Eiweißmangelernährung;27;28;30;29;40;52;43;42;35;24
+ICD10-E44;    Energie-u.Eiweißmangelernähr.mäßigen u.leicht.Grd.;7;12;12;10;16;17;22;16;9;9
+ICD10-E45;    Entwicklungsverzög.d.Energie-u.Eiweißmangelernähr.;-;1;-;-;-;-;-;-;-;-
+ICD10-E46;    N.n.bez. Energie- und Eiweißmangelernährung;16;32;17;26;26;26;28;21;32;15
+ICD10-E50-E64;  Sonstige alimentäre Mangelzustände;22;16;29;29;31;32;36;28;27;35
+ICD10-E50;    Vitamin-A-Mangel;-;-;-;-;-;-;-;-;-;-
+ICD10-E51;    Thiaminmangel (Vitamin-B1-Mangel);14;15;24;20;22;24;28;21;23;26
+ICD10-E52;    Niazinmangel (Pellagra);-;-;-;-;-;-;-;-;-;-
+ICD10-E53;    Mangel an sonst. Vitaminen d. Vitamin-B-Komplexes;4;-;2;4;3;3;6;6;3;5
+ICD10-E54;    Askorbinsäuremangel;-;-;-;-;-;-;-;-;-;-
+ICD10-E55;    Vitamin-D-Mangel;-;-;-;-;1;-;-;-;1;1
+ICD10-E56;    Sonstige Vitaminmangelzustände;-;-;-;-;-;-;-;-;-;-
+ICD10-E58;    Alimentärer Kalziummangel;-;-;-;1;2;1;-;-;-;1
+ICD10-E59;    Alimentärer Selenmangel;-;-;-;-;-;-;-;-;-;-
+ICD10-E60;    Alimentärer Zinkmangel;-;-;-;-;-;-;-;-;-;-
+ICD10-E61;    Mangel an sonstigen Spurenelementen;-;-;2;1;-;1;-;-;-;-
+ICD10-E63;    Sonstige alimentäre Mangelzustände;4;1;1;3;3;3;2;1;-;2
+ICD10-E64;    Folgen v. Mangelernährung o.sonst.alim.Mangelzust.;-;-;-;-;-;-;-;-;-;-
+ICD10-E65-E68;  Adipositas und sonstige Überernährung;52;54;54;50;55;50;59;63;72;114
+ICD10-E65;    Lokalisierte Adipositas;2;3;1;2;1;1;3;1;2;3
+ICD10-E66;    Adipositas;50;51;53;48;54;49;56;62;69;111
+ICD10-E67;    Sonstige Überernährung;-;-;-;-;-;-;-;-;1;-
+ICD10-E68;    Folgen der Überernährung;-;-;-;-;-;-;-;-;-;-
+ICD10-E70-E90;  Stoffwechselstörungen;4430;4950;4777;5167;5687;5869;6671;6548;6908;7755
+ICD10-E70;    Störungen d.Stoffwechsels aromatischer Aminosäuren;1;-;-;-;-;1;2;-;1;-
+ICD10-E71;    Störungen d. Stoffwechsels verzweigter Aminosäuren;3;8;2;7;2;4;3;3;6;4
+ICD10-E72;    Sonstige Störungen des Aminosäurestoffwechsels;7;8;2;6;10;9;4;6;7;3
+ICD10-E73;    Laktoseintoleranz;-;-;-;2;2;-;-;-;-;-
+ICD10-E74;    Sonstige Störungen des Kohlenhydratstoffwechsels;4;3;3;2;2;8;2;4;3;2
+ICD10-E75;    Stör.d.Sphingolipidstoffwechsels u.d.Lipidspeich.;10;5;9;9;10;2;10;10;5;5
+ICD10-E76;    Störungen des Glykosaminoglykan-Stoffwechsels;2;2;-;-;1;-;-;1;1;1
+ICD10-E77;    Störungen des Glykoproteinstoffwechsels;2;2;1;-;-;3;-;1;-;2
+ICD10-E78;    Stör.d.Lipoproteinstoffwechs.u.sonst.Lipididämien;2;-;1;1;1;1;-;-;2;2
+ICD10-E79;    Störungen des Purin- und Pyrimidinstoffwechsels;1;-;-;-;2;2;1;2;1;-
+ICD10-E80;    Störungen des Porphyrin- und Bilirubinstoffwechsel;1;-;5;1;4;3;2;1;2;2
+ICD10-E83;    Störungen des Mineralstoffwechsels;105;121;94;117;116;115;123;130;143;145
+ICD10-E84;    Zystische Fibrose;40;49;46;47;46;55;57;45;40;51
+ICD10-E85;    Amyloidose;73;42;71;58;80;85;82;81;106;77
+ICD10-E86;    Volumenmangel;3630;4036;3869;4095;4528;4601;5309;5217;5391;6200
+ICD10-E87;    Sonst. Störungen d.Wasser- u. Elektrolythaushalte;522;650;648;792;854;952;1051;1021;1171;1232
+ICD10-E88;    Sonstige Stoffwechselstörungen;18;16;20;25;20;22;24;25;25;27
+ICD10-E89;    Endokrine u.Stoffwechselstör. nach med.Maßnahmen;9;8;6;5;9;6;1;1;4;2
+ICD10-E90;    Ernährungs- u. Stoffwechselstör. bei ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-F00-F99;Psychische und Verhaltensstörungen;2595;2571;2522;2558;2685;2618;2811;2744;2889;3161
+ICD10-F00-F09;  Organische, einschl. symptomat. psych. Störungen;1561;1616;1534;1693;1727;1749;1906;1821;1964;2137
+ICD10-F00;    Demenz bei Alzheimer-Krankheit;-;-;-;-;-;-;-;-;-;-
+ICD10-F01;    Vaskuläre Demenz;302;289;232;234;209;223;209;156;178;194
+ICD10-F02;    Demenz bei anderenorts klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-F03;    Nicht näher bezeichnete Demenz;203;179;168;147;165;131;153;146;139;200
+ICD10-F04;    Organisches amnestisch.Synd.,n.d. Alkoh.o.a.Subst.;5;2;4;8;1;-;-;-;2;2
+ICD10-F05;    Delir, nicht d.Alkohol o.a. psychotrope Substanzen;712;781;817;969;1022;1087;1223;1225;1335;1453
+ICD10-F06;    And. psychische Störungen aufgr. einer Schädigung;240;256;217;244;239;234;234;209;215;203
+ICD10-F07;    Persönl.- u.Verhaltensstörung aufgr.Gehirnschäd.;87;102;92;88;89;69;82;83;94;83
+ICD10-F09;    N.n.bez. organische o.symptomat.psychische Störung;12;7;4;3;2;5;5;2;1;2
+ICD10-F10-F19;  Psych. u. Verhaltensstörungen d.psychotrope Subst.;386;372;335;285;325;272;292;309;274;324
+ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;301;295;250;212;248;206;232;222;192;229
+ICD10-F11;    Psychische und Verhaltensstörungen durch Opioide;33;22;23;21;21;27;17;27;22;31
+ICD10-F12;    Psychische und Verhaltensstörungen durch Cannabino;-;-;1;-;2;-;-;1;1;2
+ICD10-F13;    Psych. u. Verhaltensstör. d.Sedativa o.Hypnotika;24;22;28;16;17;20;12;16;14;12
+ICD10-F14;    Psychische und Verhaltensstörungen durch Kokain;2;-;3;-;1;-;1;3;2;3
+ICD10-F15;    Psych. u. Verhaltensstörungen d. and. Stimulanzen;-;-;2;2;-;1;2;3;5;5
+ICD10-F16;    Psychische u. Verhaltensstörungen d. Halluzinogene;1;1;-;-;-;-;2;-;-;1
+ICD10-F17;    Psychische und Verhaltensstörungen durch Tabak;1;3;2;-;1;1;-;-;-;-
+ICD10-F18;    Psych. u. Verhaltensstör.d.flüchtige Lösungsmittel;-;1;-;1;-;-;-;-;-;-
+ICD10-F19;    Psych. u.Verhaltensstör.d. multiplen Substanzgebr.;24;28;26;33;35;17;26;37;38;41
+ICD10-F20-F29;  Schizophrenie, schizotype und wahnhafte Störungen;169;162;161;193;193;184;171;192;193;198
+ICD10-F20;    Schizophrenie;113;114;112;112;115;108;113;116;125;130
+ICD10-F21;    Schizotype Störung;-;1;-;-;-;2;1;-;-;-
+ICD10-F22;    Anhaltende wahnhafte Störungen;14;7;12;20;17;11;6;16;9;18
+ICD10-F23;    Akute vorübergehende psychotische Störungen;6;15;8;5;10;9;7;14;11;4
+ICD10-F24;    Induzierte wahnhafte Störung;-;-;-;-;-;-;1;-;-;-
+ICD10-F25;    Schizoaffektive Störungen;35;24;27;53;49;52;40;44;47;46
+ICD10-F28;    Sonstige nichtorganische psychotische Störungen;-;-;2;2;2;-;1;1;-;-
+ICD10-F29;    Nicht näher bezeichnete nichtorganische Psychose;1;1;-;1;-;2;2;1;1;-
+ICD10-F30-F39;  Affektive Störungen;346;315;357;296;331;314;346;323;338;371
+ICD10-F30;    Manische Episode;2;-;4;1;-;3;1;1;1;-
+ICD10-F31;    Bipolare affektive Störung;39;29;38;23;44;34;34;21;30;43
+ICD10-F32;    Depressive Episode;178;166;182;165;162;158;172;161;174;165
+ICD10-F33;    Rezidivierende depressive Störung;127;119;133;106;125;119;139;139;133;163
+ICD10-F34;    Anhaltende affektive Störungen;-;1;-;1;-;-;-;1;-;-
+ICD10-F38;    Andere affektive Störungen;-;-;-;-;-;-;-;-;-;-
+ICD10-F39;    Nicht näher bezeichnete affektive Störung;-;-;-;-;-;-;-;-;-;-
+ICD10-F40-F48;  Neurotische, Belastungs- und somatoforme Störungen;52;47;71;44;65;56;45;48;73;71
+ICD10-F40;    Phobische Störungen;2;1;-;1;-;1;-;1;2;2
+ICD10-F41;    Andere Angststörungen;9;10;16;18;17;12;11;16;24;17
+ICD10-F42;    Zwangsstörung;-;1;1;-;1;-;-;-;1;2
+ICD10-F43;    Reaktionen auf schwere Belast. u. Anpassungssstör.;25;20;45;13;32;27;24;22;24;31
+ICD10-F44;    Dissoziative Störungen (Konversionsstörungen);4;3;3;1;4;3;5;-;4;3
+ICD10-F45;    Somatoforme Störungen;12;11;6;10;10;12;5;9;17;15
+ICD10-F48;    Andere neurotische Störungen;-;1;-;1;1;1;-;-;1;1
+ICD10-F50-F59;  Verhaltensauffälligk. m. körperl. Stör. u.Faktoren;57;37;42;27;27;32;30;29;22;27
+ICD10-F50;    Essstörungen;56;36;41;26;26;31;28;27;20;27
+ICD10-F51;    Nichtorganische Schlafstörungen;-;-;1;1;-;-;1;1;1;-
+ICD10-F52;    Sexuelle Funktionsstörung, nichtorganisch;-;-;-;-;-;-;-;-;-;-
+ICD10-F53;    Psych.o.Verhaltensstörungen im Wochenbett,ao.n.kl.;-;-;-;-;-;-;-;-;-;-
+ICD10-F54;    Psych.Faktoren o.Verhaltensfaktoren b.ao.klass.Kh.;-;-;-;-;-;-;-;-;1;-
+ICD10-F55;    Schädl. Gebrauch nichtabhängigkeitserz. Substanzen;1;-;-;-;1;1;-;1;-;-
+ICD10-F59;    N.n.bez.Verhaltensauffälligk.b.körp.Stör.,Faktoren;-;1;-;-;-;-;1;-;-;-
+ICD10-F60-F69;  Persönlichkeits- und Verhaltensstörungen;13;14;13;6;10;6;11;16;15;17
+ICD10-F60;    Spezifische Persönlichkeitsstörungen;8;10;6;3;5;6;8;10;8;12
+ICD10-F61;    Kombinierte und andere Persönlichkeitsstörungen;2;2;2;1;-;-;1;5;3;3
+ICD10-F62;    Andauernde Persönlichkeitsänderungen;1;1;4;1;4;-;1;-;3;1
+ICD10-F63;    Abnorme Gewohnheiten u. Störungen der Impulskontr.;1;-;-;-;1;-;-;-;-;1
+ICD10-F64;    Störungen der Geschlechtsidentität;-;-;-;-;-;-;-;-;1;-
+ICD10-F65;    Störungen der Sexualpräferenz;-;1;-;-;-;-;-;-;-;-
+ICD10-F66;    Psych.u.Verhaltensstör.i.Verb.m.sexuell.Entwickl.;-;-;-;-;-;-;-;-;-;-
+ICD10-F68;    Andere Persönlichkeits- und Verhaltensstörungen;-;-;-;-;-;-;-;-;-;-
+ICD10-F69;    N.n.bez. Persönlichkeits- und Verhaltensstörungen;1;-;1;1;-;-;1;1;-;-
+ICD10-F70-F79;  Intelligenzstörung;9;5;7;11;5;4;7;4;5;14
+ICD10-F70;    Leichte Intelligenzminderung;-;1;1;2;1;-;1;1;2;3
+ICD10-F71;    Mittelgradige Intelligenzminderung;3;2;2;1;2;2;3;1;2;5
+ICD10-F72;    Schwere Intelligenzminderung;3;2;3;7;1;2;2;2;1;5
+ICD10-F73;    Schwerste Intelligenzminderung;2;-;1;1;1;-;1;-;-;1
+ICD10-F74;    Dissoziierte Intelligenz;-;-;-;-;-;-;-;-;-;-
+ICD10-F78;    Andere Intelligenzminderung;-;-;-;-;-;-;-;-;-;-
+ICD10-F79;    Nicht näher bezeichnete Intelligenzminderung;1;-;-;-;-;-;-;-;-;-
+ICD10-F80-F89;  Entwicklungsstörungen;1;1;1;-;1;-;1;-;2;-
+ICD10-F80;    Umschriebene Entwicklungsstör.d.Sprechens/Sprache;-;1;1;-;-;-;-;-;-;-
+ICD10-F81;    Umschrieb. Entwicklungsstör.schulisch.Fertigkeiten;-;-;-;-;-;-;-;-;-;-
+ICD10-F82;    Umschrieb. Entwicklungsstör.d.motorischen Funktion;-;-;-;-;-;-;-;-;-;-
+ICD10-F83;    Kombinierte umschriebene Entwicklungsstörungen;-;-;-;-;-;-;-;-;-;-
+ICD10-F84;    Tiefgreifende Entwicklungsstörungen;1;-;-;-;1;-;-;-;2;-
+ICD10-F88;    Andere Entwicklungsstörungen;-;-;-;-;-;-;-;-;-;-
+ICD10-F89;    Nicht näher bezeichnete Entwicklungsstörung;-;-;-;-;-;-;1;-;-;-
+ICD10-F90-F98;  Verhaltens-u.emot.Störungen/Beginn Kindheit u.Jgd.;1;1;1;3;1;1;2;2;3;2
+ICD10-F90;    Hyperkinetische Störungen;-;-;1;-;-;-;1;-;-;1
+ICD10-F91;    Störungen des Sozialverhaltens;1;1;-;1;-;-;1;-;1;1
+ICD10-F92;    Komb. Störungen d.Sozialverhaltens u.d.Emotionen;-;-;-;1;1;-;-;1;1;-
+ICD10-F93;    Emotionale Störungen des Kindesalters;-;-;-;1;-;-;-;-;1;-
+ICD10-F94;    Stör. sozialer Funkt.m. Beginn i.d.Kindh.u.Jugend;-;-;-;-;-;-;-;-;-;-
+ICD10-F95;    Ticstörungen;-;-;-;-;-;-;-;-;-;-
+ICD10-F98;    And. Verhaltens- u.emotion. Stör.i.d.Kindh./Jugend;-;-;-;-;-;1;-;1;-;-
+ICD10-F99-F99;  Nicht näher bezeichnete psychische Störungen;-;1;-;-;-;-;-;-;-;-
+ICD10-F99;    Psychische Störung ohne nähere Angabe;-;1;-;-;-;-;-;-;-;-
+ICD10-G00-G99;Krankheiten des Nervensystems;6151;6292;6196;6509;6758;6663;7286;7172;7525;7806
+ICD10-G00-G09;  Entzündliche Krankheiten des Zentralnervensystems;396;406;425;404;409;405;463;514;455;577
+ICD10-G00;    Bakterielle Meningitis, ao. nicht klassifiziert;128;112;103;112;94;99;118;138;97;145
+ICD10-G01;    Meningitis bei ao. Klass. bakteriellen Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-G02;    Meningitis b.sonst. ao.klass. infekt./parasit. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G03;    Meningitis durch sonst. u. n.n.bez. Ursachen;24;25;27;23;30;29;25;23;24;35
+ICD10-G04;    Enzephalitis, Myelitis, Enzephalomyelitis;132;120;142;151;133;131;152;158;145;184
+ICD10-G05;    Enzephalitis,Myelitis,Enzephalomyelitis b.ao.kl.Kh;-;-;-;-;-;-;-;-;-;-
+ICD10-G06;    Intrakranielle u.intraspinale Abszesse u.Granulome;105;134;137;110;140;136;161;178;174;195
+ICD10-G07;    Intrakran.u.intraspin.Absz.u.Granulome b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G08;    Intrakran.u.intraspin.Phlebitis u.Thrombophlebitis;6;15;16;8;12;10;7;17;15;18
+ICD10-G09;    Folgen entzündlicher Kh. des Zentralnervensystems;1;-;-;-;-;-;-;-;-;-
+ICD10-G10-G14;  Systematrophien, vorw.d.Zentralnervensystem betr.;378;411;421;433;458;435;467;458;469;485
+ICD10-G10;    Chorea Huntington;12;17;14;15;16;23;20;20;16;22
+ICD10-G11;    Hereditäre Ataxie;6;7;8;8;7;7;9;11;10;7
+ICD10-G12;    Spinale Muskelatrophie und verwandte Syndrome;360;387;399;410;435;405;438;427;443;456
+ICD10-G13;    Systematroph.,vorw.Zentralnervens.betr.b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G14;    Postpolio-Syndrom;-;-;-;-;-;-;-;-;-;-
+ICD10-G20-G26;  Extrapyramidale Krankheiten und Bewegungsstörungen;563;586;521;571;623;597;701;635;671;749
+ICD10-G20;    Primäres Parkinson-Syndrom;480;485;438;480;524;508;597;516;550;614
+ICD10-G21;    Sekundäres Parkinson-Syndrom;39;50;32;26;39;22;34;37;30;35
+ICD10-G22;    Parkinson-Syndrom b.anderenorts klass. Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-G23;    Sonstige degenerative Krankheiten der Basalganglie;27;22;19;33;32;31;39;58;61;69
+ICD10-G24;    Dystonie;3;4;6;9;7;8;3;8;2;5
+ICD10-G25;    Sonst. extrapyramidale Kh. und Bewegungsstörungen;14;25;26;23;21;28;28;16;28;26
+ICD10-G26;    Extrapyramidale Kh.u.Bewegungsstör. b.ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G30-G32;  Sonst. degenerative Krankheiten des Nervensystems;367;331;311;317;335;317;309;361;397;432
+ICD10-G30;    Alzheimer-Krankheit;298;259;252;258;268;249;242;286;305;333
+ICD10-G31;    Sonst.degenerative Kh.d.Nervensystems,ao.n.klass.;69;72;59;59;67;68;67;75;92;99
+ICD10-G32;    Sonst.degenerative Kh.d.Nervensys.,b.ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G35-G37;  Demyelinisierende Kh. des Zentralnervensystems;79;94;75;69;65;70;72;72;84;82
+ICD10-G35;    Multiple Sklerose (Encephalomyelitis disseminata);62;79;62;54;54;58;55;54;75;70
+ICD10-G36;    Sonstige akute disseminierte Demyelinisation;4;3;5;2;2;1;6;6;1;-
+ICD10-G37;    Sonst.demyelinisierende Kh. d.Zentralnervensystems;13;12;8;13;9;11;11;12;8;12
+ICD10-G40-G47;  Episodische und paroxysmale Kh. des Nervensystems;2567;2708;2650;2976;2986;2991;3156;2967;3258;3265
+ICD10-G40;    Epilepsie;1279;1292;1370;1447;1434;1488;1529;1431;1527;1554
+ICD10-G41;    Status epilepticus;847;966;901;1141;1145;1150;1251;1220;1356;1379
+ICD10-G43;    Migräne;-;-;2;1;1;2;-;1;-;-
+ICD10-G44;    Sonstige Kopfschmerzsyndrome;1;6;-;1;2;7;3;4;3;3
+ICD10-G45;    Zerebr. transitorische Ischämie u.verwandte Syndr.;430;430;364;378;395;337;364;296;360;313
+ICD10-G46;    Zerebrale Gefäßsyndrome bei zerebrovaskulären Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G47;    Schlafstörungen;10;14;13;8;9;7;9;15;12;16
+ICD10-G50-G59;  Kh. von Nerven, Nervenwurzeln und Nervenplexus;34;48;38;51;52;49;46;49;39;39
+ICD10-G50;    Krankheiten des N. trigeminus (V. Hirnnerv);7;13;3;12;11;10;13;16;11;6
+ICD10-G51;    Krankheiten des N. facialis (VII. Hirnnerv);7;10;17;13;13;17;11;12;12;8
+ICD10-G52;    Krankheiten sonstiger Hirnnerven;1;6;1;3;5;4;5;1;4;3
+ICD10-G53;    Krankheiten der Hirnnerven bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G54;    Krankheiten von Nervenwurzeln und Nervenplexus;8;7;3;11;8;8;6;5;2;8
+ICD10-G55;    Kompress.v.Nervenwurzeln u.Nervenplexus,b.ao.kl.Kh;-;-;-;-;-;-;-;-;-;-
+ICD10-G56;    Mononeuropathien der oberen Extremität;2;3;6;3;6;3;6;5;3;2
+ICD10-G57;    Mononeuropathien der unteren Extremität;5;2;5;5;6;3;1;4;5;6
+ICD10-G58;    Sonstige Mononeuropathien;4;7;3;4;3;4;4;6;2;6
+ICD10-G59;    Mononeuropathie b. ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-G60-G64;  Polyneuropathien u.sonst. Kh. d.periph. Nervensys.;318;375;365;400;514;488;632;654;659;701
+ICD10-G60;    Hereditäre und idiopathische Neuropathie;3;2;5;-;4;3;6;5;4;6
+ICD10-G61;    Polyneuritis;64;61;71;66;69;62;91;67;79;95
+ICD10-G62;    Sonstige Polyneuropathien;251;312;289;334;441;422;535;582;576;600
+ICD10-G63;    Polyneuropathie b. ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-G64;    Sonstige Krankheiten des peripheren Nervensystems;-;-;-;-;-;1;-;-;-;-
+ICD10-G70-G73;  Kh. im Bereich d.neuromuskul. Synapse u.d.Muskels;114;115;107;108;143;130;168;138;167;178
+ICD10-G70;    Myasthenia gravis und sonstige neuromuskuläre Kh.;61;62;61;57;79;73;102;72;113;106
+ICD10-G71;    Primäre Myopathien;40;34;28;33;43;31;34;39;31;35
+ICD10-G72;    Sonstige Myopathien;13;19;18;18;21;26;32;27;23;37
+ICD10-G73;    Kh. im Bereich d.neuromuskul. Synapse u.d.Muskels;-;-;-;-;-;-;-;-;-;-
+ICD10-G80-G83;  Zerebrale Lähmung und sonstige Lähmungssyndrome;203;199;191;176;189;174;185;229;200;191
+ICD10-G80;    Infantile Zerebralparese;2;3;2;1;1;6;1;2;3;6
+ICD10-G81;    Hemiparese und Hemiplegie;52;64;46;40;47;39;51;55;59;53
+ICD10-G82;    Paraparese u.Tetraplegie,Tetraparese u.Tetraplegie;125;103;123;106;121;107;110;140;115;114
+ICD10-G83;    Sonstige Lähmungssyndrome;24;29;20;29;20;22;23;32;23;18
+ICD10-G90-G99;  Sonstige Krankheiten des Nervensystems;1132;1019;1092;1004;984;1007;1087;1095;1126;1107
+ICD10-G90;    Krankheiten des autonomen Nervensystems;31;23;32;36;27;24;25;-;4;2
+ICD10-G91;    Hydrozephalus;102;77;107;114;102;96;101;97;94;104
+ICD10-G92;    Toxische Enzephalopathie;12;7;11;15;11;4;4;5;8;9
+ICD10-G93;    Sonstige Krankheiten des Gehirns;938;858;878;779;809;834;913;943;959;926
+ICD10-G94;    Sonstige Krankheiten des Gehirns b.ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-G95;    Sonstige Krankheiten des Rückenmarkes;23;23;31;35;17;26;28;26;31;41
+ICD10-G96;    Sonstige Krankheiten des Zentralnervensystems;9;10;10;9;5;11;2;9;8;9
+ICD10-G97;    Kh. des Nervensystems nach medizinischen Maßnahmen;16;21;22;15;13;12;13;14;22;16
+ICD10-G98;    Sonst. Kh. d. Nervensystems, ao. nicht klass.;1;-;1;1;-;-;1;1;-;-
+ICD10-G99;    Sonst. Kh. d. Nervensystems b. ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H00-H59;Krankheiten des Auges und der Augenanhangsgebilde;94;87;92;97;102;89;88;87;69;97
+ICD10-H00-H06;  Affekt. d.Augenlides, d.Tränenapparates u.d.Orbita;9;9;7;12;6;11;7;5;8;29
+ICD10-H00;    Hordeolum und Chalazion;-;-;-;-;2;-;1;-;1;-
+ICD10-H01;    Sonstige Entzündung des Augenlides;-;-;-;-;-;-;-;-;-;-
+ICD10-H02;    Sonstige Affektionen des Augenlides;4;5;1;4;2;2;-;1;2;20
+ICD10-H03;    Affektionen des Augenlides bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H04;    Affektionen des Tränenapparates;1;3;1;5;1;1;1;2;2;2
+ICD10-H05;    Affektionen der Orbita;4;1;5;3;1;8;5;2;3;7
+ICD10-H06;    Affektionen d.Tränenapp.u.d.Orbita b.ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H10-H13;  Affektionen der Konjunktiva;1;1;2;-;2;1;-;2;5;1
+ICD10-H10;    Konjunktivitis;1;-;-;-;2;1;-;2;3;-
+ICD10-H11;    Sonstige Affektionen der Konjunktiva;-;1;2;-;-;-;-;-;2;1
+ICD10-H13;    Affektionen d. Konjunktiva b. ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H15-H22;  Affektionen v.Sklera,Hornhaut,Iris u.Ziliarkörper;19;23;16;23;20;16;25;17;13;17
+ICD10-H15;    Affektionen der Sklera;-;-;-;1;-;-;-;-;-;-
+ICD10-H16;    Keratitis;15;19;14;19;17;15;21;16;8;14
+ICD10-H17;    Hornhautnarben und -trübungen;-;-;-;-;-;-;-;-;-;-
+ICD10-H18;    Sonstige Affektionen der Hornhaut;2;2;1;1;1;-;1;1;4;3
+ICD10-H19;    Affektionen der Sklera und der Hornhaut;-;-;-;-;-;-;-;-;-;-
+ICD10-H20;    Iridozyklitis;2;1;1;2;1;-;3;-;1;-
+ICD10-H21;    Sonstige Affektionen der Iris u. des Ziliarkörpers;-;1;-;-;1;1;-;-;-;-
+ICD10-H22;    Affektionen d.Iris u.d.Ziliarkörpers b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H25-H28;  Affektionen der Linse;18;14;19;12;24;17;14;18;8;12
+ICD10-H25;    Cataracta senilis;14;12;16;8;20;15;13;14;8;10
+ICD10-H26;    Sonstige Kataraktformen;-;2;3;4;4;2;1;3;-;1
+ICD10-H27;    Sonstige Affektionen der Linse;4;-;-;-;-;-;-;1;-;1
+ICD10-H28;    Katarakt u.sonst.Affektionen d.Linse b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H30-H36;  Affektionen der Aderhaut und der Netzhaut;17;17;21;13;21;11;19;20;12;16
+ICD10-H30;    Chorioretinitis;1;1;-;-;2;-;-;-;-;-
+ICD10-H31;    Sonstige Affektionen der Aderhaut;-;-;-;-;-;-;-;-;-;1
+ICD10-H32;    Chorioretinale Affektionen bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H33;    Netzhautablösung und Netzhautriss;8;4;3;3;7;4;5;4;2;4
+ICD10-H34;    Netzhautgefäßverschluss;6;4;10;9;8;4;11;10;8;6
+ICD10-H35;    Sonstige Affektionen der Netzhaut;2;8;8;1;4;3;3;6;2;5
+ICD10-H36;    Affektionen der Netzhaut bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H40-H42;  Glaukom;8;6;11;15;15;6;5;10;5;2
+ICD10-H40;    Glaukom;8;6;11;15;15;6;5;10;5;2
+ICD10-H42;    Glaukom bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-H43-H45;  Affektionen des Glaskörpers und des Augapfels;8;10;7;9;6;11;9;7;5;7
+ICD10-H43;    Affektionen des Glaskörpers;1;2;3;2;3;2;2;2;1;2
+ICD10-H44;    Affektionen des Augapfels;7;8;4;7;3;9;7;5;4;5
+ICD10-H45;    Affektionen des Glaskörpers und des Augapfels;-;-;-;-;-;-;-;-;-;-
+ICD10-H46-H48;  Affektionen des N. opticus und der Sehbahn;5;3;2;2;3;4;3;2;4;3
+ICD10-H46;    Neuritis nervi optici;-;1;-;-;-;-;-;-;-;-
+ICD10-H47;    Sonst.Affekt.d. N.opticus(II.Hirnnerv) u.d.Sehbahn;5;2;2;2;3;4;3;2;4;3
+ICD10-H48;    Affektionen d. N.opticus (II. Hirnnerv)u.d.Sehbahn;-;-;-;-;-;-;-;-;-;-
+ICD10-H49-H52;  Affekt.d.Augenmuskels,Stör.d.Blickbewegung u.Ä.;5;4;3;7;2;4;2;4;5;7
+ICD10-H49;    Strabismus paralyticus;4;4;3;7;2;4;2;4;4;7
+ICD10-H50;    Sonstiger Strabismus;-;-;-;-;-;-;-;-;-;-
+ICD10-H51;    Sonstige Störungen der Blickbewegungen;1;-;-;-;-;-;-;-;1;-
+ICD10-H52;    Akkommodationsstörungen und Refraktionsfehler;-;-;-;-;-;-;-;-;-;-
+ICD10-H53-H54;  Sehstörungen und Blindheit;4;-;3;4;3;5;4;2;3;1
+ICD10-H53;    Sehstörungen;3;-;2;3;2;4;1;2;3;1
+ICD10-H54;    Blindheit und Sehschwäche;1;-;1;1;1;1;3;-;-;-
+ICD10-H55-H59;  Sonst. Affekt. d. Auges u.d. Augenanhangsgebilde;-;-;1;-;-;3;-;-;1;2
+ICD10-H55;    Nystagmus und sonstige abnorme Augenbewegungen;-;-;-;-;-;-;-;-;-;-
+ICD10-H57;    Sonst. Affekt. d. Auges u.d. Augenanhangsgebilde;-;-;-;-;-;3;-;-;1;1
+ICD10-H58;    Sonst.Affekt.d.Auges u.d.Augenanhangsg.b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H59;    Affekt.d.Auges u.d.Augenanhangsgeb.n.med.Maßnahmen;-;-;1;-;-;-;-;-;-;1
+ICD10-H60-H95;Krankheiten des Ohres und des Warzenfortsatzes;37;40;41;32;44;46;36;43;39;186
+ICD10-H60-H62;  Krankheiten des äußeren Ohres;4;5;9;4;7;4;2;9;4;16
+ICD10-H60;    Otitis externa;4;3;8;3;6;4;2;7;4;7
+ICD10-H61;    Sonstige Krankheiten des äußeren Ohres;-;2;1;1;1;-;-;2;-;9
+ICD10-H62;    Krankheiten des äußeren Ohres bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H65-H75;  Kh. des Mittelohres und des Warzenfortsatzes;13;8;11;7;10;15;7;12;16;118
+ICD10-H65;    Nichteitrige Otitis media;-;-;1;-;3;3;4;1;1;6
+ICD10-H66;    Eitrige und nicht näher bezeichnete Otitis media;4;3;5;2;2;3;1;5;7;51
+ICD10-H67;    Otitis media bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-H68;    Entzündung und Verschluss der Tuba auditiva;-;-;-;-;-;-;-;-;-;12
+ICD10-H69;    Sonstige Krankheiten der Tuba auditiva;-;-;-;-;-;-;-;-;-;1
+ICD10-H70;    Mastoiditis und verwandte Zustände;6;3;4;4;4;6;2;5;4;11
+ICD10-H71;    Cholesteatom des Mittelohres;1;2;1;1;1;1;-;1;3;3
+ICD10-H72;    Trommelfellperforation;1;-;-;-;-;-;-;-;-;1
+ICD10-H73;    Sonstige Krankheiten des Trommelfells;-;-;-;-;-;1;-;-;-;-
+ICD10-H74;    Sonst. Kh. des Mittelohres u. des Warzenfortsatzes;1;-;-;-;-;1;-;-;1;33
+ICD10-H75;    Sonst.Kh.d.Mittelohres u.d.Warzenforts.b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H80-H83;  Krankheiten des Innenohres;15;21;15;13;20;19;23;18;16;40
+ICD10-H80;    Otosklerose;-;-;-;-;-;-;-;-;-;11
+ICD10-H81;    Störungen der Vestibularfunktion;15;21;14;13;20;19;23;18;15;28
+ICD10-H82;    Schwindelsyndrome bei ao. Klass. Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-H83;    Sonstige Krankheiten des Innenohres;-;-;1;-;-;-;-;-;1;1
+ICD10-H90-H95;  Sonstige Krankheiten des Ohres;5;6;6;8;7;8;4;4;3;12
+ICD10-H90;    Hörverlust d.Schalleitungs-/Schallempfindungsstör.;-;-;1;-;3;-;1;1;1;2
+ICD10-H91;    Sonstiger Hörverlust;3;5;4;5;3;8;2;2;2;2
+ICD10-H92;    Otalgie und Ohrenfluss;-;1;1;-;-;-;-;1;-;1
+ICD10-H93;    Sonstige Krankheiten des Ohres, ao. nicht klass.;2;-;-;1;1;-;-;-;-;1
+ICD10-H94;    Sonst. Kh des Ohres bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-H95;    Kh.d.Ohres u.d.Warzenfortsatzes nach med.Maßnahmen;-;-;-;2;-;-;1;-;-;6
+ICD10-I00-I99;Krankheiten des Kreislaufsystems;125115;123284;120121;120616;122255;118354;123905;121001;121651;120318
+ICD10-I00-I02;  Akutes rheumatisches Fieber;26;24;10;15;15;13;16;19;33;26
+ICD10-I00;    Rheumatisches Fieber o. Angabe einer Herzbeteilig.;5;-;1;-;-;2;-;-;1;1
+ICD10-I01;    Rheumatisches Fieber mit Herzbeteiligung;21;24;9;15;15;11;16;19;32;25
+ICD10-I02;    Rheumatische Chorea;-;-;-;-;-;-;-;-;-;-
+ICD10-I05-I09;  Chronische rheumatische Herzkrankheiten;343;342;332;367;317;285;301;317;266;225
+ICD10-I05;    Rheumatische Mitralklappenkrankheiten;44;36;34;38;31;28;34;49;43;25
+ICD10-I06;    Rheumatische Aortenklappenkrankheiten;22;17;11;13;5;10;15;12;3;2
+ICD10-I07;    Rheumatische Trikuspidalklappenkrankheiten;27;21;18;39;27;22;28;30;29;28
+ICD10-I08;    Krankheiten mehrerer Herzklappen;247;268;269;277;254;224;223;226;191;170
+ICD10-I09;    Sonstige rheumatische Herzkrankheiten;3;-;-;-;-;1;1;-;-;-
+ICD10-I10-I15;  Hypertonie (Hochdruckkrankheit);731;719;703;665;707;629;664;631;629;655
+ICD10-I10;    Essentielle (primäre) Hypertonie;405;403;433;425;449;404;415;378;357;383
+ICD10-I11;    Hypertensive Herzkrankheit;229;221;183;144;152;112;140;134;128;97
+ICD10-I12;    Hypertensive Nierenkrankheit;9;3;6;2;10;4;3;5;3;5
+ICD10-I13;    Hypertensive Herz- und Nierenkrankheit;83;89;78;91;93;107;106;111;140;169
+ICD10-I15;    Sekundäre Hypertonie;5;3;3;3;3;2;-;3;1;1
+ICD10-I20-I25;  Ischämische Herzkrankheiten;25553;24165;22997;22729;22881;21500;21401;20478;20369;19893
+ICD10-I20;    Angina pectoris;1218;1060;936;840;869;833;843;729;723;722
+ICD10-I21;    Akuter Myokardinfarkt;22208;21068;20162;20021;20033;18812;18613;17833;17840;17437
+ICD10-I22;    Rezidivierender Myokardinfarkt;170;123;89;63;73;65;84;49;57;48
+ICD10-I23;    Best. akute Komplikationen n.akutem Myokardinfarkt;99;94;55;62;60;60;57;56;66;53
+ICD10-I24;    Sonstige akute ischämische Herzkrankheit;145;112;118;92;77;79;77;77;78;72
+ICD10-I25;    Chronische ischämische Herzkrankheit;1713;1708;1637;1651;1769;1651;1727;1734;1605;1561
+ICD10-I26-I28;  Pulmonale Herzkrankheit u. Kh.d. Lungenkreislaufes;6526;6181;5766;5743;5861;5434;5524;5148;5012;4999
+ICD10-I26;    Lungenembolie;6062;5759;5371;5376;5483;5107;5178;4769;4630;4626
+ICD10-I27;    Sonstige pulmonale Herzkrankheiten;460;418;393;365;370;323;345;376;376;367
+ICD10-I28;    Sonstige Krankheiten der Lungengefäße;4;4;2;2;8;4;1;3;6;6
+ICD10-I30-I52;  Sonstige Formen der Herzkrankheit;51103;50931;50828;51694;53287;52422;56837;55685;56430;56167
+ICD10-I30;    Akute Perikarditis;30;22;24;18;38;15;29;25;26;30
+ICD10-I31;    Sonstige Krankheiten des Perikards;200;224;202;252;263;255;252;236;266;271
+ICD10-I32;    Perikarditis bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-I33;    Akute und subakute Endokarditis;746;748;818;929;961;1053;1105;1221;1353;1503
+ICD10-I34;    Nichtrheumatische Mitralklappenkrankheiten;449;470;479;521;586;630;648;667;638;652
+ICD10-I35;    Nichtrheumatische Aortenklappenkrankheiten;2117;2252;2415;2595;2546;2468;2474;2517;2410;2404
+ICD10-I36;    Nichtrheumatische Trikuspidalklappenkrankheiten;35;46;38;69;67;54;67;79;97;86
+ICD10-I37;    Pulmonalklappenkrankheiten;7;4;2;5;5;6;8;1;8;5
+ICD10-I38;    Endokarditis, Herzklappekh. nicht näher bezeichnet;120;117;122;118;122;147;140;165;135;105
+ICD10-I39;    Endokarditis u. Herzklappenkh. bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-I40;    Akute Myokarditis;47;35;38;46;59;27;34;50;46;65
+ICD10-I41;    Myokarditis bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-I42;    Kardiomyopathie;772;766;761;777;749;756;678;745;631;594
+ICD10-I43;    Kardiomyopathie b. ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-I44;    Atrioventrikulärer Block und Linksschenkelblock;695;727;724;702;750;733;799;834;801;889
+ICD10-I45;    Sonstige kardiale Erregungsleitungsstörungen;84;101;86;86;107;99;95;72;87;96
+ICD10-I46;    Herzstillstand;4022;4039;4037;4473;4450;4412;5655;5976;5962;6112
+ICD10-I47;    Paroxysmale Tachykardie;575;637;626;621;731;727;709;838;787;743
+ICD10-I48;    Vorhofflimmern und Vorhofflattern;1764;1914;1861;2034;2122;1861;2096;1971;2027;1985
+ICD10-I49;    Sonstige kardiale Arrhythmien;2516;2576;2616;2748;2903;2944;2927;2910;2864;3025
+ICD10-I50;    Herzinsuffizienz;36839;36152;35852;35593;36717;36122;38990;37245;38088;37417
+ICD10-I51;    Komplikat.einer Herzkh. u. ungenau beschr. Herzkh.;85;101;127;107;111;113;131;133;204;185
+ICD10-I52;    Sonstige Herzkh. b. anderenorts klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-I60-I69;  Zerebrovaskuläre Krankheiten;28944;28716;27847;27746;27362;26669;27664;27480;27810;27386
+ICD10-I60;    Subarachnoidalblutung;1640;1639;1543;1448;1418;1432;1549;1500;1468;1491
+ICD10-I61;    Intrazerebrale Blutung;7171;7316;7208;7340;7204;7487;7973;7792;7948;7734
+ICD10-I62;    Sonstige nichttraumatische intrakranielle Blutung;680;726;796;771;932;971;931;978;921;957
+ICD10-I63;    Hirninfarkt;16700;16528;16212;16395;16181;15363;15955;16094;16473;16315
+ICD10-I64;    Schlaganfall,nicht als Blutung o.Infarkt bezeichn.;1579;1430;1130;946;807;658;521;397;321;237
+ICD10-I65;    Verschl.u.Stenose präzerebral.Art. ohne Hirninf.;619;534;500;432;416;405;387;378;383;374
+ICD10-I66;    Verschl.u.Stenose zerebral.Art. ohne Hirninfarkt;26;34;27;28;42;17;28;27;44;29
+ICD10-I67;    Sonstige zerebrovaskuläre Krankheiten;520;502;420;379;345;329;309;293;236;231
+ICD10-I68;    Zerebrovaskuläre Störungen bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-I69;    Folgen einer zerebrovaskulären Krankheit;9;7;11;7;17;7;11;21;16;18
+ICD10-I70-I79;  Kh. der Arterien, Arteriolen und Kapillaren;10558;10896;10418;10412;10700;10346;10471;10180;10099;9965
+ICD10-I70;    Atherosklerose;5158;5451;5134;5151;5427;5070;5112;5007;4909;4855
+ICD10-I71;    Aortenaneurysma und -dissektion;2831;2847;2758;2759;2712;2828;2906;2850;2950;2854
+ICD10-I72;    Sonstiges Aneurysma;205;250;220;232;216;226;251;259;263;285
+ICD10-I73;    Sonstige periphere Gefäßkrankheiten;51;60;40;45;45;38;26;24;22;25
+ICD10-I74;    Arterielle Embolie und Thrombose;2210;2184;2145;2105;2188;2059;2044;1900;1798;1793
+ICD10-I77;    Sonstige Krankheiten der Arterien und Arteriolen;93;97;116;111;107;116;125;128;152;142
+ICD10-I78;    Krankheiten der Kapillaren;10;7;5;9;5;9;7;12;5;11
+ICD10-I79;    Krankheiten der Arterien, Arteriolen u. Kapillaren;-;-;-;-;-;-;-;-;-;-
+ICD10-I80-I89;  Kh. d.Venen,Lymphgefäße.u.Lymphknoten.,ao.n.klass.;1146;1131;1052;1031;909;885;830;863;780;794
+ICD10-I80;    Phlebitis und Thrombophlebitis;465;445;419;398;413;388;334;333;276;223
+ICD10-I81;    Pfortaderthrombose;30;35;40;47;25;42;45;46;48;35
+ICD10-I82;    Sonstige venöse Embolie und Thrombose;71;63;73;46;40;38;43;37;22;38
+ICD10-I83;    Varizen der unteren Extremitäten;194;219;192;199;178;216;210;192;200;229
+ICD10-I84;    Hämorrhoiden;53;65;53;69;-;-;-;-;-;-
+ICD10-I85;    Ösophagusvarizen;245;220;189;174;147;119;97;115;111;86
+ICD10-I86;    Varizen sonstiger Lokalisationen;24;20;29;26;23;22;27;19;23;33
+ICD10-I87;    Sonstige Venenkrankheiten;32;38;30;35;45;27;35;85;68;105
+ICD10-I88;    Unspezifische Lymphadenitis;4;-;5;1;2;2;1;-;1;3
+ICD10-I89;    Sonst. nichtinfekt. Kh. d. Lymphgefäße/-knoten;28;26;22;36;36;31;38;36;31;42
+ICD10-I95-I99;  Sonst. u. n.n.bez. Krankheiten d. Kreislaufsystems;185;179;168;214;216;171;197;200;223;208
+ICD10-I95;    Hypotonie;146;149;139;189;180;139;177;176;205;189
+ICD10-I97;    Kreislaufkomplikationen nach med.Maßn.,ao.n.klass.;26;23;21;15;23;21;13;12;12;11
+ICD10-I98;    Sonst. Störungen d. Kreislaufsystems b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-I99;    Sonst. u. nicht näher bez. Kh. d. Kreislaufsystems;13;7;8;10;13;11;7;12;6;8
+ICD10-J00-J99;Krankheiten des Atmungssystems;56907;53986;53066;54932;61135;53252;62254;58363;63199;66924
+ICD10-J00-J06;  Akute Infektionen der oberen Atemwege;79;55;62;67;73;67;97;80;97;90
+ICD10-J00;    Akute Rhinopharyngitis (Erkältungsschnupfen);1;-;-;-;-;-;2;-;1;-
+ICD10-J01;    Akute Sinusitis;3;4;5;6;4;2;6;5;5;6
+ICD10-J02;    Akute Pharyngitis;3;1;1;4;2;-;8;2;4;5
+ICD10-J03;    Akute Tonsillitis;5;4;5;1;5;2;4;4;1;4
+ICD10-J04;    Akute Laryngitis und Tracheitis;17;12;11;14;9;13;14;16;12;15
+ICD10-J05;    Akute obstruktive Laryngitis (Krupp) und Epiglotti;5;3;1;6;4;4;8;1;5;-
+ICD10-J06;    Infektionen an den oberen Atemwegen;45;31;39;36;49;46;55;52;69;60
+ICD10-J09-J18;  Grippe und Pneumonie;29899;28390;27293;28212;31841;25893;31058;27896;30622;33688
+ICD10-J09;    Grippe d. zoonotische, pandenmische Influenzaviren;55;36;95;7;86;15;87;78;93;98
+ICD10-J10;    Grippe durch saisonale Influenzaviren;40;12;40;19;189;24;351;161;728;2015
+ICD10-J11;    Grippe, Viren nicht nachgewiesen;12;5;8;4;22;6;42;35;78;137
+ICD10-J12;    Viruspneumonie, anderenorts nicht klassifiziert;47;41;58;45;67;46;75;91;181;238
+ICD10-J13;    Pneumonie durch Streptococcus pneumoniae;301;300;276;175;203;142;166;175;236;251
+ICD10-J14;    Pneumonie durch Haemophilus influenzae;81;85;89;91;117;111;135;98;125;142
+ICD10-J15;    Pneumonie durch Bakterien, ao.n.klass.;5039;5017;4730;4845;4650;4104;4617;4673;6129;7368
+ICD10-J16;    Pneumonie d. sonst. Infektionserreger, ao.n.klass.;196;185;185;155;118;120;145;136;140;141
+ICD10-J17;    Pneumonie bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-J18;    Pneumonie, Erreger nicht näher bezeichnet;24128;22709;21812;22871;26389;21325;25440;22449;22912;23298
+ICD10-J20-J22;  Sonstige akute Infektionen der unteren Atemwege;1728;1352;1429;1703;2052;1707;2436;2010;2722;2541
+ICD10-J20;    Akute Bronchitis;1110;868;873;1044;1202;879;1298;1018;1412;1292
+ICD10-J21;    Akute Bronchiolitis;18;10;8;7;11;4;10;5;18;9
+ICD10-J22;    Akute Infektion der unteren Atemwege, n.n.bez.;600;474;548;652;839;824;1128;987;1292;1240
+ICD10-J30-J39;  Sonstige Krankheiten der oberen Atemwege;82;106;116;97;135;89;101;122;84;804
+ICD10-J30;    Vasomotorische und allergische Rhinopathie;-;-;1;-;-;-;-;-;-;-
+ICD10-J31;    Chronische Rhinitis, Rhinopharyngitis und Pharyngi;1;-;-;-;1;1;1;1;-;-
+ICD10-J32;    Chronische Sinusitis;2;4;7;6;44;5;8;6;6;169
+ICD10-J33;    Nasenpolyp;-;-;1;-;2;1;1;3;-;-
+ICD10-J34;    Sonstige Kh. der Nase und der Nasennebenhöhlen;3;8;11;5;1;5;8;3;-;419
+ICD10-J35;    Chron. Krankheiten der Gaumen- und Rachenmandeln;5;8;10;3;4;2;5;1;3;111
+ICD10-J36;    Peritonsillarabszess;6;4;11;3;7;5;5;6;6;9
+ICD10-J37;    Chronische Laryngitis und Laryngotracheitis;-;-;-;-;1;1;-;2;2;2
+ICD10-J38;    Kh. der Stimmlippen u. des Kehlkopfes, ao.n.klass.;31;32;43;40;37;31;33;45;29;47
+ICD10-J39;    Sonstige Krankheiten der oberen Atemwege;34;50;32;40;38;38;40;55;38;47
+ICD10-J40-J47;  Chronische Krankheiten der unteren Atemwege;9092;8086;8788;8864;10273;9108;10897;10352;11282;11364
+ICD10-J40;    Bronchitis, nicht als akut oder chronisch bez.;273;188;167;141;210;165;156;149;161;134
+ICD10-J41;    Einfache u.schleimig-eitrige chronische Bronchitis;84;84;77;80;57;66;60;52;74;55
+ICD10-J42;    Nicht näher bezeichnete chronische Bronchitis;21;25;15;20;15;21;26;26;30;30
+ICD10-J43;    Emphysem;62;55;50;60;46;67;55;46;57;59
+ICD10-J44;    Sonstige chronische obstruktive Lungenkrankheit;8547;7657;8390;8481;9860;8708;10488;9977;10850;10961
+ICD10-J45;    Asthma bronchiale;36;27;29;29;27;25;53;46;54;51
+ICD10-J46;    Status asthmaticus;63;41;47;41;45;43;39;36;39;50
+ICD10-J47;    Bronchiektasen;6;9;13;12;13;13;20;20;17;24
+ICD10-J60-J70;  Lungenkrankheiten durch exogene Substanzen;8406;8431;7910;8212;8800;8390;9092;8945;9366;9470
+ICD10-J60;    Kohlenbergarbeiter-Pneumokoniose;1;3;3;1;2;1;5;4;2;4
+ICD10-J61;    Pneumokoniose d.Asbest u.sonst.anorganische Fasern;9;15;8;11;15;15;16;17;24;16
+ICD10-J62;    Pneumokoniose durch Quarzstaub;18;21;19;20;19;14;21;15;23;12
+ICD10-J63;    Pneumokoniose durch sonstige anorganische Stäube;4;1;4;1;1;2;1;-;-;2
+ICD10-J64;    Nicht näher bezeichnete Pneumokoniose;3;1;3;2;-;4;3;1;-;4
+ICD10-J65;    Pneumokoniose in Verbindung mit Tuberkulose;-;3;3;3;1;1;1;-;2;-
+ICD10-J66;    Kh. der Atemwege d. spezifischen organischen Staub;-;-;-;-;1;-;1;1;-;-
+ICD10-J67;    Allergische Alveolitis durch organischen Staub;19;17;12;14;13;17;32;35;48;38
+ICD10-J68;    Kh. der Atmungsorgane d.Einatmen v.chem.Substanzen;11;7;13;11;8;8;9;16;13;7
+ICD10-J69;    Pneumonie durch feste und flüssige Substanzen;8297;8323;7777;8090;8653;8268;8932;8775;9176;9305
+ICD10-J70;    Kh. der Atmungsorgane d. sonst. exogene Substanzen;44;40;68;59;87;60;71;81;78;82
+ICD10-J80-J84;  Sonst.Kh.d.Atmungsorg.,hpts.Interstitium betreff.;1565;1551;1658;1569;1767;1814;2011;2254;2103;2104
+ICD10-J80;    Atemnotsyndrom des Erwachsenen (ARDS);420;465;532;462;688;611;781;890;780;826
+ICD10-J81;    Lungenödem;257;187;228;180;136;157;139;127;97;101
+ICD10-J82;    Eosinophiles Lungeninfiltrat, ao.n.klass.;2;1;8;1;1;9;1;5;4;1
+ICD10-J84;    Sonstige interstitielle Lungenkrankheiten;886;898;890;926;942;1037;1090;1232;1222;1176
+ICD10-J85-J86;  Purulente u. nekrot. Kh.-Zust. d. unteren Atemwege;708;795;759;818;832;746;906;842;965;935
+ICD10-J85;    Abszess der Lunge und des Mediastinums;184;172;158;167;184;144;173;151;181;169
+ICD10-J86;    Pyothorax;524;623;601;651;648;602;733;691;784;766
+ICD10-J90-J94;  Sonstige Krankheiten der Pleura;1056;998;990;1049;988;1041;1018;1040;1010;981
+ICD10-J90;    Pleuraerguss, anderenorts nicht klassifiziert;638;586;578;627;584;598;555;576;519;528
+ICD10-J91;    Pleuraerguss bei ao. klass. Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-J92;    Pleuraplaques;1;1;1;1;1;-;2;1;4;1
+ICD10-J93;    Pneumothorax;259;270;272;265;263;288;279;271;310;296
+ICD10-J94;    Sonstige Krankheitszustände der Pleura;158;141;139;156;140;155;182;192;177;156
+ICD10-J95-J99;  Sonstige Krankheiten des Atmungssystems;4292;4222;4061;4341;4374;4397;4638;4822;4948;4947
+ICD10-J95;    Kh. der Atemwege nach medizinischen Maßnahmen;198;211;221;225;192;193;231;239;233;194
+ICD10-J96;    Respiratorische Insuffizienz, ao. n. klass.;3871;3829;3626;3917;3957;3997;4177;4365;4541;4565
+ICD10-J98;    Sonstige Krankheiten der Atemwege;223;182;214;199;225;207;230;218;174;188
+ICD10-J99;    Krankheiten der Atemwege bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-K00-K93;Krankheiten des Verdauungssystems;40972;40720;39136;38411;38379;36893;37322;36617;36253;35550
+ICD10-K00-K14;  Kh. d. Mundhöhle, d. Speicheldrüsen u.d. Kiefer;170;137;163;177;184;143;170;211;190;213
+ICD10-K00;    Störungen d. Zahnentwicklung u.d. Zahndurchbruchs;-;-;-;-;-;-;-;-;-;-
+ICD10-K01;    Retinierte und impaktierte Zähne;-;1;-;1;1;-;1;-;-;-
+ICD10-K02;    Zahnkaries;-;5;8;6;7;3;4;6;3;8
+ICD10-K03;    Sonstige Krankheiten der Zahnhartsubstanzen;-;-;-;-;-;-;-;-;-;1
+ICD10-K04;    Krankheiten der Pulpa und des periapikalen Gewebes;14;8;3;13;9;9;7;15;7;10
+ICD10-K05;    Gingivitis und Krankheiten des Parodonts;1;3;4;3;3;3;5;1;1;2
+ICD10-K06;    Sonst. Kh. d. Gingiva u.d. zahnlosen Alveoarkammes;-;1;1;1;1;-;-;-;3;-
+ICD10-K07;    Dentofaziale Anomalien;-;-;4;2;2;1;-;4;-;1
+ICD10-K08;    Sonst. Kh. der Zähne und des Zahnhalteapparates;14;7;11;7;5;5;4;10;9;6
+ICD10-K09;    Zysten der Mundregion, ao. nicht klassifizert;-;1;1;-;-;-;-;2;-;1
+ICD10-K10;    Sonstige Krankheiten der Kiefer;11;16;13;14;19;11;25;34;32;31
+ICD10-K11;    Krankheiten der Speicheldrüsen;78;65;71;75;88;59;70;74;74;91
+ICD10-K12;    Stomatitis und verwandte Krankheiten;42;20;35;46;40;43;47;55;51;50
+ICD10-K13;    Sonstige Krankheiten der Lippe und der Mundschleim;5;6;8;4;6;3;2;6;6;9
+ICD10-K14;    Krankheiten der Zunge;5;4;4;5;3;6;5;4;4;3
+ICD10-K20-K31;  Kh. des Ösophagus, des Magens und des Duodenums;6095;5971;5711;5466;5249;4820;4984;4632;4910;4769
+ICD10-K20;    Ösophagitis;52;40;34;28;36;34;37;36;32;31
+ICD10-K21;    Gastroösophageale Refluxkrankheit;387;389;368;364;342;338;315;312;326;301
+ICD10-K22;    Sonstige Krankheiten des Ösophagus;586;615;565;580;540;553;550;549;539;573
+ICD10-K23;    Krankheiten des Ösophagus bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-K25;    Ulcus ventriculi;2068;2051;1900;1711;1704;1446;1481;1376;1427;1396
+ICD10-K26;    Ulcus duodeni;1900;1838;1846;1775;1658;1479;1618;1445;1606;1530
+ICD10-K27;    Ulcus pepticum, Lokalisation nicht näher bezeichn.;27;31;20;17;19;17;13;14;16;26
+ICD10-K28;    Ulcus pepticum jejuni;44;48;41;52;57;32;40;41;45;50
+ICD10-K29;    Gastritis und Duodenitis;659;631;587;603;567;547;553;530;587;506
+ICD10-K30;    Funktionelle Dyspepsie;2;1;1;1;-;-;-;1;-;1
+ICD10-K31;    Sonstige Krankheiten des Magens und des Duodenums;370;327;349;335;326;374;377;328;332;355
+ICD10-K35-K38;  Krankheiten der Appendix;245;244;225;181;173;190;156;145;177;197
+ICD10-K35;    Akute Appendizitis;235;232;210;171;165;187;146;138;174;192
+ICD10-K36;    Sonstige Appendizitis;7;12;13;8;5;3;7;6;3;1
+ICD10-K37;    Nicht näher bezeichnete Appendizitis;1;-;2;1;-;-;2;-;-;2
+ICD10-K38;    Sonstige Krankheiten der Appendix;2;-;-;1;3;-;1;1;-;2
+ICD10-K40-K46;  Hernien;984;1055;989;1006;1049;958;1108;1085;1021;1158
+ICD10-K40;    Hernia inguinalis;259;319;285;286;315;282;327;296;282;332
+ICD10-K41;    Hernia femoralis;86;80;72;92;91;75;95;62;85;87
+ICD10-K42;    Hernia umbilicalis;108;121;114;114;134;126;131;123;109;118
+ICD10-K43;    Hernia ventralis;406;404;404;385;391;373;420;438;395;448
+ICD10-K44;    Hernia diaphragmatica;78;95;88;99;95;84;119;144;120;149
+ICD10-K45;    Sonstige abdominale Hernien;40;29;19;22;17;12;8;16;21;20
+ICD10-K46;    Nicht näher bezeichnete abdominale Hernien;7;7;7;8;6;6;8;6;9;4
+ICD10-K50-K52;  Nichtinfektiöse Enteritis und Kolitis;1467;1221;1120;1040;1051;962;913;801;736;670
+ICD10-K50;    Crohn-Krankheit (Morbus Crohn);81;81;75;78;76;84;96;72;76;82
+ICD10-K51;    Colitis ulcerosa;130;158;142;132;152;120;136;121;108;125
+ICD10-K52;    Sonst. nichtinfektiöse Gastroenteritis und Kolitis;1256;982;903;830;823;758;681;608;552;463
+ICD10-K55-K64;  Sonstige Krankheiten des Darmes;14255;14089;13355;13185;13079;12576;12535;12096;11993;11483
+ICD10-K55;    Gefäßkrankheiten des Darmes;4784;4532;4208;4074;4065;3896;3682;3466;3486;3369
+ICD10-K56;    Paralytischer Ileus und mechan. Ileus ohne Hernie;5831;5824;5630;5562;5585;5304;5456;5277;5156;5020
+ICD10-K57;    Divertikulose des Darmes;1823;1762;1683;1695;1612;1561;1580;1481;1505;1426
+ICD10-K58;    Colon irritabile;8;2;2;-;2;4;5;1;1;1
+ICD10-K59;    Sonstige funktionelle Darmstörungen;366;416;405;433;455;411;428;401;398;327
+ICD10-K60;    Fissur und Fistel in der Anal- und Rektalregion;15;24;30;23;17;21;16;24;19;24
+ICD10-K61;    Abszess in der Anal- und Rektalregion;68;71;62;81;62;64;58;60;66;70
+ICD10-K62;    Sonstige Krankheiten des Anus und des Rektums;196;213;206;229;188;219;214;222;202;204
+ICD10-K63;    Sonstige Krankheiten des Darmes;1164;1245;1129;1088;1049;1051;1016;1102;1102;1006
+ICD10-K64;    Hämorrhoiden und Perianalvenenthrombose;-;-;-;-;44;45;80;62;58;36
+ICD10-K65-K67;  Krankheiten des Peritoneums;1229;1272;1162;1062;1142;1145;1124;1159;1129;1017
+ICD10-K65;    Peritonitis;1077;1143;1035;921;992;1001;972;1030;973;854
+ICD10-K66;    Sonstige Krankheiten des Peritoneums;152;129;127;141;150;144;152;129;156;163
+ICD10-K67;    Kh. des Peritoneums bei ao. klass. Infektions-Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-K70-K77;  Krankheiten der Leber;9141;9236;8977;8755;8942;8669;8631;8619;8522;8376
+ICD10-K70;    Alkoholische Leberkrankheit;4657;4557;4431;4244;4521;4268;4228;4327;4297;4133
+ICD10-K71;    Toxische Leberkrankheit;134;124;134;139;134;127;145;138;95;125
+ICD10-K72;    Leberversagen, anderenorts nicht klassifiziert;1613;1692;1658;1642;1617;1576;1540;1525;1521;1535
+ICD10-K73;    Chronische Hepatitis, ao. nicht klassifizert;4;3;-;-;-;2;1;1;1;5
+ICD10-K74;    Fibrose und Zirrhose der Leber;1800;1870;1809;1673;1824;1788;1845;1754;1749;1736
+ICD10-K75;    Sonstige entzündliche Leberkrankheiten;172;182;164;180;186;204;183;194;197;200
+ICD10-K76;    Sonstige Krankheiten der Leber;761;808;781;877;660;704;689;680;662;642
+ICD10-K77;    Leberkrankheiten bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-K80-K87;  Kh. d. Gallenblase, d. Gallenwege u.d. Pankreas;4375;4314;4338;4326;4250;4262;4299;4418;4229;4163
+ICD10-K80;    Cholelithiasis;1311;1266;1275;1341;1339;1302;1381;1414;1368;1396
+ICD10-K81;    Cholezystitis;366;384;385;391;390;416;413;415;430;419
+ICD10-K82;    Sonstige Krankheiten der Gallenblase;127;101;140;116;132;130;104;124;137;121
+ICD10-K83;    Sonstige Krankheiten der Gallenwege;903;875;892;844;866;841;895;924;827;782
+ICD10-K85;    Akute Pankreatitis;1556;1564;1513;1504;1387;1458;1389;1417;1337;1325
+ICD10-K86;    Sonstige Krankheiten des Pankreas;112;124;133;130;136;115;117;124;130;120
+ICD10-K87;    Kh. d. Gallenblase, d. Gallenwege u.d. Pankreas;-;-;-;-;-;-;-;-;-;-
+ICD10-K90-K93;  Sonstige Krankheiten des Verdauungssystems;3011;3181;3096;3213;3260;3168;3402;3451;3346;3504
+ICD10-K90;    Intestinale Malabsorption;12;12;15;9;9;5;2;10;6;7
+ICD10-K91;    Kh. d.Verdauungssystems nach med.Maßn.,ao.n.klass.;262;242;234;228;221;210;214;213;189;194
+ICD10-K92;    Sonstige Krankheiten des Verdauungssystems;2737;2927;2847;2976;3030;2953;3186;3228;3151;3303
+ICD10-K93;    Kh. sonstiger Verdauungsorgane bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-L00-L99;Krankheiten der Haut und der Unterhaut;2312;2364;2388;2396;2587;2558;2673;2631;2554;2649
+ICD10-L00-L08;  Infektionen der Haut und der Unterhaut;633;670;642;603;687;681;689;772;726;670
+ICD10-L00;    Staphylococcal scalded skin syndrome (SSS-Syndrom);-;1;1;3;2;-;1;2;6;4
+ICD10-L01;    Impetigo;1;1;5;-;3;4;-;3;3;2
+ICD10-L02;    Hautabszess, Furunkel und Karbunkel;232;247;250;242;255;234;257;297;261;226
+ICD10-L03;    Phlegmone;364;398;352;331;396;402;400;425;418;390
+ICD10-L04;    Akute Lymphadenitis;2;4;2;-;3;4;2;3;4;4
+ICD10-L05;    Pilonidalzyste;4;3;2;2;1;3;2;3;2;10
+ICD10-L08;    Sonstige lokale Infektionen d. Haut u.d. Unterhaut;30;16;30;25;27;34;27;39;32;34
+ICD10-L10-L14;  Bullöse Dermatosen;60;55;65;65;58;50;65;60;61;58
+ICD10-L10;    Pemphiguskrankheiten;8;6;3;8;5;7;11;7;10;6
+ICD10-L11;    Sonstige akantholytische Dermatosen;-;-;-;-;-;-;-;-;-;-
+ICD10-L12;    Pemphigoidkrankheiten;50;48;60;57;50;40;53;52;48;48
+ICD10-L13;    Sonstige bullöse Dermatosen;2;1;2;-;3;3;1;1;3;4
+ICD10-L14;    Bullöse Dermatosen bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-L20-L30;  Dermatitis und Ekzem;57;75;62;62;67;57;90;69;70;80
+ICD10-L20;    Atopisches (endogenes) Ekzem;8;7;4;7;-;5;11;11;5;4
+ICD10-L21;    Seborrhoisches Ekzem;-;2;-;1;1;1;-;-;-;-
+ICD10-L22;    Windeldermatitis;-;1;2;-;-;-;1;1;-;2
+ICD10-L23;    Allergische Kontaktdermatitis;-;4;3;4;5;3;7;1;2;1
+ICD10-L24;    Toxische Kontaktdermatitis;-;2;3;2;-;2;2;7;3;2
+ICD10-L25;    Nicht näher bezeichnete Kontaktdermatitis;-;-;-;1;-;2;-;-;-;1
+ICD10-L26;    Exfoliative Dermatitis;-;2;2;-;-;1;1;1;1;1
+ICD10-L27;    Dermatitis d.oral,enteral o.parenteral aufgen.Sub.;18;26;19;24;24;17;22;16;22;21
+ICD10-L28;    Lichen simplex chronicus und Prurigo;3;4;7;3;6;4;8;4;9;6
+ICD10-L29;    Pruritus;5;1;4;2;1;3;5;2;2;6
+ICD10-L30;    Sonstige Dermatitis;23;26;18;18;30;19;33;26;26;36
+ICD10-L40-L45;  Papulosquamöse Hautkrankheiten;19;18;22;24;25;20;23;15;24;27
+ICD10-L40;    Psoriasis;15;17;19;21;24;20;21;14;21;26
+ICD10-L41;    Parapsoriasis;2;-;-;-;-;-;-;-;-;1
+ICD10-L42;    Pityriasis rosea;1;-;-;-;-;-;-;-;-;-
+ICD10-L43;    Lichen ruber planus;1;-;1;2;-;-;-;-;1;-
+ICD10-L44;    Sonstige papulosquamöse Hautkrankheiten;-;1;2;1;1;-;2;1;2;-
+ICD10-L45;    Papulosquamöse Hautkrankheiten bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-L50-L54;  Urtikaria und Erythem;38;42;65;55;63;58;54;59;49;56
+ICD10-L50;    Urtikaria;1;1;1;2;3;1;-;1;1;1
+ICD10-L51;    Erythema exsudativum multiforme;36;38;55;51;53;51;50;52;42;45
+ICD10-L52;    Erythema nodosum;-;-;1;-;-;-;-;1;-;-
+ICD10-L53;    Sonstige erythematöse Krankheiten;1;3;8;2;7;6;4;5;6;10
+ICD10-L54;    Erythem bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-L55-L59;  Kh.d. Haut u.d. Unterhaut durch Strahleneinwirkung;8;6;6;1;7;5;6;4;1;6
+ICD10-L55;    Dermatitis solaris acuta;2;-;-;-;-;-;-;1;-;-
+ICD10-L56;    Sonst. akute Hautveränderungen durch UV-Strahlen;1;1;2;-;-;1;3;-;-;-
+ICD10-L57;    Hautveränderung durch nichtionisiernde Strahlen;1;1;2;-;2;2;1;1;1;2
+ICD10-L58;    Radiodermatitis;4;1;1;-;2;2;1;-;-;2
+ICD10-L59;    Sonst. Kh. d. Haut u.d. Unterhaut (Strahleneinw.);-;3;1;1;3;-;1;2;-;2
+ICD10-L60-L75;  Krankheiten der Hautanhangsgebilde;11;2;9;8;13;9;8;7;9;8
+ICD10-L60;    Krankheiten der Nägel;3;-;3;-;2;1;-;1;-;1
+ICD10-L62;    Krankheiten der Nägel bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-L63;    Alopecia areata;-;-;-;-;-;-;-;-;-;-
+ICD10-L64;    Alopecia androgenetica;-;-;-;-;-;-;-;-;-;-
+ICD10-L65;    Sonstiger Haarausfall ohne Narbenbildung;-;-;-;-;-;-;-;-;-;-
+ICD10-L66;    Narbige Alopezie (Haarausfall mit Narbenbildung);-;-;-;-;-;-;-;-;1;-
+ICD10-L67;    Anomalien der Haarfarbe und des Haarschaftes;-;-;-;-;-;-;-;-;-;-
+ICD10-L68;    Hypertrichose;-;-;-;-;-;-;-;-;-;-
+ICD10-L70;    Akne;-;-;-;-;-;-;-;-;-;-
+ICD10-L71;    Rosazea;-;-;-;-;-;-;-;1;1;-
+ICD10-L72;    Follikuläre Zysten der Haut und der Unterhaut;4;1;3;5;7;4;3;4;6;3
+ICD10-L73;    Sonstige Krankheiten der Haarfollikel;2;-;3;2;2;3;5;1;1;3
+ICD10-L74;    Krankheiten der ekkrinen Schweißdrüsen;2;1;-;1;2;1;-;-;-;1
+ICD10-L75;    Krankheiten der apokrinen Schweißdrüsen;-;-;-;-;-;-;-;-;-;-
+ICD10-L80-L99;  Sonstige Krankheiten der Haut und der Unterhaut;1486;1496;1517;1578;1667;1678;1738;1645;1614;1744
+ICD10-L80;    Vitiligo;-;-;-;-;-;-;-;-;-;-
+ICD10-L81;    Sonstige Störungen der Hautpigmentierung;-;-;1;-;-;-;-;1;-;-
+ICD10-L82;    Seborrhoische Keratose;1;-;1;-;-;-;-;-;-;-
+ICD10-L83;    Acanthosis nigricans;-;-;-;-;2;-;-;-;-;-
+ICD10-L84;    Hühneraugen und Horn- (Haut-) Schwielen;-;-;-;2;-;-;1;-;-;-
+ICD10-L85;    Sonstige Epidermisverdickung;-;1;1;1;3;1;-;-;1;-
+ICD10-L86;    Keratom bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-L87;    Störungen der transepidermalen Elimination;1;2;3;3;4;1;2;2;3;4
+ICD10-L88;    Pyoderma gangraenosum;19;15;16;20;31;36;21;27;26;31
+ICD10-L89;    Dekubitalgeschwür;1238;1210;1269;1328;1370;1368;1455;1398;1417;1501
+ICD10-L90;    Atrophische Hautkrankheiten;-;1;1;1;2;1;-;3;1;1
+ICD10-L91;    Hypertrophe Hautkrankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-L92;    Granulomatöse Kh. der Haut und der Unterhaut;1;2;1;2;2;2;1;-;-;3
+ICD10-L93;    Lupus erythematodes;1;4;3;1;3;3;3;-;3;5
+ICD10-L94;    Sonstige lokalisierte Krankheiten des Bindegewebes;1;1;3;1;1;1;1;4;-;1
+ICD10-L95;    Vaskulitis, auf die Haut begrenzt;10;12;11;-;7;13;10;5;5;5
+ICD10-L97;    Ulcus cruris, anderenorts nicht klassifiziert;171;196;179;181;201;213;194;164;111;155
+ICD10-L98;    Sonst. Kh. d. Haut u.d. Unterhaut, ao.n.klass.;43;52;28;38;41;39;50;41;47;38
+ICD10-L99;    Sonst. Kh. d. Haut u.d. Unterhaut bei ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M00-M99;Krankh. d. Muskel-Skelett-Systems u.d.Bindegewebes;4002;4176;4111;4120;4430;4381;4719;4650;4704;5126
+ICD10-M00-M03;  Infektiöse Arthropathien;225;258;238;263;266;325;326;334;373;433
+ICD10-M00;    Eitrige Arthritis;223;254;232;262;263;323;324;331;371;430
+ICD10-M01;    Dir.Gelenkinfektionen.b.ao.kl.infekt.u.paras.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M02;    Reaktive Arthritiden;2;4;6;1;3;2;2;3;2;3
+ICD10-M03;    Postinfekt. u. reaktive Arthritiden b.ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M05-M14;  Entzündliche Polyarthropathien;105;120;124;116;130;98;128;120;142;127
+ICD10-M05;    Seropositive chronische Polyarthritis;26;26;27;25;34;20;22;23;25;26
+ICD10-M06;    Sonstige chronische Polyarthritis;31;37;33;34;25;18;26;24;25;32
+ICD10-M07;    Arthritis psoriatica/Arthritiden b. gastroint. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M08;    Juvenile Arthritis;2;-;-;2;-;2;-;2;1;1
+ICD10-M09;    Juvenile Arthritis bei ao. klass. Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-M10;    Gicht;22;32;42;35;48;40;55;50;65;54
+ICD10-M11;    Sonstige Kristall-Arthropathien;1;-;1;3;-;-;1;1;1;2
+ICD10-M12;    Sonstige näher bezeichnete Arthropathien;3;-;1;-;2;1;-;2;3;1
+ICD10-M13;    Sonstige Arthritis;20;25;20;17;21;17;24;18;22;11
+ICD10-M14;    Arthropathien bei sonstigen ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M15-M19;  Arthrose;520;551;540;537;491;508;533;466;487;517
+ICD10-M15;    Polyarthrose;6;4;6;7;10;1;2;4;2;4
+ICD10-M16;    Koxarthrose (Arthrose des Hüftgelenkes);288;319;308;329;292;312;307;285;299;298
+ICD10-M17;    Gonarthrose (Arthrose des Kniegelenkes);204;206;204;165;165;167;190;151;154;159
+ICD10-M18;    Rhizarthrose (Arthrose des Daumensattelgelenkes);2;-;-;-;-;-;2;-;-;-
+ICD10-M19;    Sonstige Arthrose;20;22;22;36;24;28;32;26;32;56
+ICD10-M20-M25;  Sonstige Gelenkkrankheiten;87;75;98;100;98;106;86;91;81;127
+ICD10-M20;    Erworbene Deformitäten der Finger und Zehen;2;1;2;8;5;8;3;1;3;13
+ICD10-M21;    Sonstige erworbene Deformitäten der Extremitäten;-;1;4;4;2;1;2;2;1;5
+ICD10-M22;    Krankheiten der Patella;2;-;1;-;1;-;-;1;-;8
+ICD10-M23;    Binnenschädigung des Kniegelenkes;5;1;13;5;7;2;3;1;2;9
+ICD10-M24;    Sonstige näher bezeichnete Gelenkschädigungen;10;9;8;7;7;9;10;13;12;9
+ICD10-M25;    Sonstige Gelenkkrankheiten,andernorts nicht klass.;68;63;70;76;76;86;68;73;63;83
+ICD10-M30-M36;  Systemkrankheiten des Bindegewebes;250;282;243;235;241;259;261;252;244;269
+ICD10-M30;    Panarteriitis nodosa und verwandte Zustände;8;2;7;6;6;5;4;6;7;12
+ICD10-M31;    Sonstige nekrotisierende Vaskulopathien;127;138;119;123;121;140;142;119;132;133
+ICD10-M32;    Systemischer Lupus erythematodes;33;34;30;24;24;24;16;21;21;20
+ICD10-M33;    Dermatomyositis-Polymyositis;18;24;23;15;26;23;16;17;19;21
+ICD10-M34;    Systemische Sklerose;40;46;44;34;38;41;53;47;38;52
+ICD10-M35;    Sonst. Kh. mit Systembeteiligung des Bindegewebes;24;38;20;33;26;26;30;42;27;31
+ICD10-M36;    Systemkrankheiten d. Bindegewebes bei ao.klass.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M40-M43;  Deformitäten der Wirbelsäule und des Rückens;63;68;62;63;70;72;76;72;71;77
+ICD10-M40;    Kyphose und Lordose;7;1;3;5;6;12;6;8;6;12
+ICD10-M41;    Skoliose;10;17;16;18;11;9;10;8;5;8
+ICD10-M42;    Osteochondrose der Wirbelsäule;29;19;19;11;29;24;24;32;29;23
+ICD10-M43;    Sonst. Deformitäten der Wirbelsäule u. des Rückens;17;31;24;29;24;27;36;24;31;34
+ICD10-M45-M49;  Spondylopathien;533;640;605;620;728;702;819;851;922;961
+ICD10-M45;    Spondylitis ankylosans;4;9;5;3;2;5;7;7;6;4
+ICD10-M46;    Sonstige entzündliche Spondylopathien;263;335;314;334;417;416;498;540;599;601
+ICD10-M47;    Spondylose;86;69;62;67;77;70;80;69;62;72
+ICD10-M48;    Sonstige Spondylopathien;180;227;224;216;232;211;234;235;255;284
+ICD10-M49;    Spondylopathien b. ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-M50-M54;  Sonst. Krankheiten der Wirbelsäule und des Rückens;486;553;580;568;642;604;635;642;548;559
+ICD10-M50;    Zervikale Bandscheibenschäden;16;14;13;15;17;17;18;24;13;13
+ICD10-M51;    Sonstige Bandscheibenschäden;103;92;95;97;89;92;90;79;66;93
+ICD10-M53;    Sonst. Kh. d. Wirbelsäule u.d. Rückens,ao.n.klass.;35;27;43;33;36;26;42;27;29;26
+ICD10-M54;    Rückenschmerzen;332;420;429;423;500;469;485;512;440;427
+ICD10-M60-M63;  Krankheiten der Muskeln;252;265;240;250;313;287;331;328;332;375
+ICD10-M60;    Myositis;63;64;81;66;78;96;108;92;96;110
+ICD10-M61;    Kalzifikation und Ossifikation von Muskeln;-;3;-;1;3;-;2;1;-;1
+ICD10-M62;    Sonstige Muskelkrankheiten;189;198;159;183;232;191;221;235;236;264
+ICD10-M63;    Muskelkrankheiten bei anderenorts klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M65-M68;  Krankheiten der Synovialis und der Sehnen;15;14;16;24;20;17;34;21;33;28
+ICD10-M65;    Synovitis und Tenosynovitis;10;9;10;19;16;16;32;20;28;23
+ICD10-M66;    Spontanruptur der Synovialis und von Sehnen;3;4;5;2;2;-;2;1;-;1
+ICD10-M67;    Sonstige Krankheiten der Synovialis und der Sehnen;2;1;1;3;2;1;-;-;5;4
+ICD10-M68;    Kh. d. Synovialis u.d. Sehnen bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M70-M79;  Sonstige Krankheiten des Weichteilgewebes;373;332;368;373;380;405;445;436;469;568
+ICD10-M70;    Kh. d. Weichteilgewebes im Zusammenh. m. Belastung;63;65;74;79;56;79;64;91;89;97
+ICD10-M71;    Sonstige Bursopathien;19;6;23;22;18;13;25;19;21;28
+ICD10-M72;    Fibromatosen;204;180;180;194;214;216;260;247;272;283
+ICD10-M73;    Kh. d. Weichteilgewebes bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-M75;    Schulterläsionen;11;20;17;17;10;12;17;6;6;76
+ICD10-M76;    Enthesopathien d. unteren Extremität (ohne Fuß);-;-;1;3;2;2;1;2;1;2
+ICD10-M77;    Sonstige Enthesopathien;1;-;-;-;1;1;-;2;-;-
+ICD10-M79;    Sonstige Kh. des Weichteilgewebes, ao. n. klass.;75;61;73;58;79;82;78;69;80;82
+ICD10-M80-M85;  Veränderungen der Knochendichte und -struktur;617;556;578;580;612;591;564;616;580;651
+ICD10-M80;    Osteoporose mit pathologischer Fraktur;351;320;336;354;410;384;378;401;383;403
+ICD10-M81;    Osteoporose ohne pathologische Fraktur;27;26;29;22;17;14;19;17;10;5
+ICD10-M82;    Osteoporose bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-M83;    Osteomalazie im Erwachsenenalter;-;2;-;1;-;-;-;-;-;1
+ICD10-M84;    Veränderungen der Knochenkontinuität;239;206;213;203;184;189;167;198;187;242
+ICD10-M85;    Sonst. Veränderungen d. Knochendichte u. -struktur;-;2;-;-;1;4;-;-;-;-
+ICD10-M86-M90;  Sonstige Osteopathien;305;291;272;259;328;325;382;337;339;314
+ICD10-M86;    Osteomyelitis;199;201;174;168;216;239;272;261;245;225
+ICD10-M87;    Knochennekrose;64;64;64;55;69;49;81;53;58;51
+ICD10-M88;    Osteodystrophia deformans (Paget-Krankheit);2;1;-;-;-;1;-;-;-;-
+ICD10-M89;    Sonstige Knochenkrankheiten;40;25;34;36;43;36;29;23;36;38
+ICD10-M90;    Osteopathien bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-M91-M94;  Chondropathien;1;1;3;1;2;1;1;1;4;1
+ICD10-M91;    Juvenile Osteochondrose der Hüfte und des Beckens;-;-;-;-;-;-;-;-;-;-
+ICD10-M92;    Sonstige juvenile Osteochondrosen;-;-;1;-;-;-;-;-;-;-
+ICD10-M93;    Sonstige Osteochondropathien;-;-;2;1;1;-;1;-;2;-
+ICD10-M94;    Sonstige Knorpelkrankheiten;1;1;-;-;1;1;-;1;2;1
+ICD10-M95-M99;  Sonst.Kh.d.Muskel-Skelett-Systems u.d.Bindegewebes;170;170;144;131;109;81;98;83;79;119
+ICD10-M95;    Deformitäten d.Muskel-Skelett-Syst.u.d.Bindegeweb.;-;-;1;4;1;-;1;2;2;52
+ICD10-M96;    Kh. d. Muskel-Skelett-Systems nach med. Maßnahmen;169;170;143;127;108;81;97;81;77;67
+ICD10-M99;    Biomechanische Funktionsstörungen, ao.n.klass.;1;-;-;-;-;-;-;-;-;-
+ICD10-N00-N99;Krankheiten des Urogenitalsystems;14628;14821;15062;15738;16548;16400;17795;17342;17116;18209
+ICD10-N00-N08;  Glomeruläre Krankheiten;36;40;41;33;44;27;52;35;26;45
+ICD10-N00;    Akutes nephritisches Syndrom;3;4;3;3;5;-;4;3;2;4
+ICD10-N01;    Rapid-progressives nephritisches Syndrom;4;2;3;5;3;4;8;3;2;2
+ICD10-N02;    Rezidivierende und persistierende Hämaturie;5;-;4;6;4;1;5;7;4;17
+ICD10-N03;    Chronisches nephritisches Syndrom;-;1;3;2;1;-;1;-;1;2
+ICD10-N04;    Nephrotisches Syndrom;22;29;26;17;28;19;28;21;16;20
+ICD10-N05;    Nicht näher bezeichnetes nephritisches Syndrom;2;4;2;-;3;3;5;1;1;-
+ICD10-N06;    Isolierte Proteinurie m. Angabe morpholog. Veränd.;-;-;-;-;-;-;-;-;-;-
+ICD10-N07;    Hereditäre Nephropathie, ao. nicht klassifizert;-;-;-;-;-;-;1;-;-;-
+ICD10-N08;    Glomeruläre Krankheiten bei ao. klass. Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-N10-N16;  Tubulointerstitielle Nierenkrankheiten;736;752;739;789;798;816;815;816;834;851
+ICD10-N10;    Akute tubulointerstitielle Nephritis;152;135;122;137;165;141;118;116;149;148
+ICD10-N11;    Chronische tubulointerstitielle Nephritis;7;5;8;9;2;11;2;5;7;6
+ICD10-N12;    Tubulointerstitielle Nephritis, n.akut o.chronisch;33;26;23;20;18;14;17;23;22;27
+ICD10-N13;    Obstruktive Uropathie und Refluxuropathie;507;538;548;561;563;593;635;626;614;618
+ICD10-N14;    Tubulointerstitielle u.tubuläre Kh.,durch Arzneim.;1;6;-;1;1;-;2;-;1;-
+ICD10-N15;    Sonstige tubulointerstitielle Nierenkrankheiten;36;42;38;61;49;57;41;46;41;52
+ICD10-N16;    Tubulointerstitielle Nierenkh. bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-N17-N19;  Niereninsuffizienz;10470;10417;10425;10913;11352;11396;12163;11741;11241;11777
+ICD10-N17;    Akutes Nierenversagen;7856;8215;8331;8941;9456;9629;10443;10136;9684;10122
+ICD10-N18;    Chronische Niereninsuffizienz;2497;2046;1936;1794;1703;1603;1599;1526;1464;1571
+ICD10-N19;    Nicht näher bezeichnete Niereninsuffizienz;117;156;158;178;193;164;121;79;93;84
+ICD10-N20-N23;  Urolithiasis;57;66;65;76;81;84;71;56;80;93
+ICD10-N20;    Nieren- und Ureterstein;41;42;50;54;64;63;59;41;61;72
+ICD10-N21;    Stein in den unteren Harnwegen;13;20;13;14;13;17;5;13;15;17
+ICD10-N22;    Harnstein bei ao. klassifizierten Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-N23;    Nicht näher bezeichnete Nierenkolik;3;4;2;8;4;4;7;2;4;4
+ICD10-N25-N29;  Sonstige Krankheiten der Niere und des Ureters;43;35;55;44;47;49;49;42;37;63
+ICD10-N25;    Kh. infolge Schädigung d. tubulären Nierenfunktion;5;7;8;2;2;7;6;-;3;4
+ICD10-N26;    Schrumpfniere, nicht näher bezeichnet;1;1;1;1;5;3;3;2;-;-
+ICD10-N27;    Kleine Niere unbekannter Ursache;-;-;-;-;-;-;-;-;-;-
+ICD10-N28;    Sonst. Kh. der Niere und des Ureters, ao.n.klass.;37;27;46;41;40;39;40;40;34;59
+ICD10-N29;    Sonst. Kh. Der Niere und des Ureters b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-N30-N39;  Sonstige Krankheiten des Harnsystems;2695;2934;3149;3311;3676;3522;4103;4095;4384;4830
+ICD10-N30;    Zystitis;575;538;661;627;654;639;690;675;757;728
+ICD10-N31;    Neuromuskuläre Dysfunktion d.Harnblase,ao.n.klass.;16;16;11;17;11;13;9;10;12;11
+ICD10-N32;    Sonstige Krankheiten der Harnblase;169;179;207;208;210;242;264;237;224;226
+ICD10-N33;    Krankheiten der Harnblase bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-N34;    Urethritis und urethrales Syndrom;2;8;5;2;4;6;6;6;6;3
+ICD10-N35;    Harnröhrenstriktur;20;18;12;7;9;14;16;12;11;12
+ICD10-N36;    Sonstige Krankheiten der Harnröhre;18;11;11;11;14;12;17;10;12;13
+ICD10-N37;    Krankheiten der Harnröhre bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-N39;    Sonstige Krankheiten des Harnsystems;1895;2164;2242;2439;2774;2596;3101;3145;3362;3837
+ICD10-N40-N51;  Krankheiten der männlichen Genitalorgane;302;306;300;322;316;277;310;328;316;328
+ICD10-N40;    Prostatahyperplasie;111;115;95;106;101;72;88;83;83;82
+ICD10-N41;    Entzündliche Krankheiten der Prostata;10;12;5;7;11;15;13;11;8;11
+ICD10-N42;    Sonstige Krankheiten der Prostata;15;15;14;24;14;14;17;24;17;17
+ICD10-N43;    Hydrozele und Spermatozele;9;6;8;6;2;4;6;2;3;4
+ICD10-N44;    Hodentorsion und Hydatidentorsion;1;-;1;-;1;-;-;-;1;-
+ICD10-N45;    Orchitis und Epididymitis;31;32;34;37;38;33;40;48;34;40
+ICD10-N46;    Sterilität beim Mann;-;-;-;-;-;-;-;-;-;-
+ICD10-N47;    Vorhauthypertrophie, Phimose und Paraphimose;9;9;10;10;9;12;10;13;8;12
+ICD10-N48;    Sonstige Krankheiten des Penis;11;7;12;10;11;17;16;11;15;11
+ICD10-N49;    Entzündl. Kh. d. männl. Genitalorgane, ao.n.klass.;102;107;118;118;124;105;119;130;143;148
+ICD10-N50;    Sonstige Krankheiten der männlichen Genitalorgane;3;3;3;4;5;5;1;6;4;3
+ICD10-N51;    Kh. d. männl. Genitalorgane bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-N60-N64;  Krankheiten der Mamma (Brustdrüse);7;7;14;3;12;10;10;13;11;14
+ICD10-N60;    Gutartige Mammadysplasie (Brustdrüsendysplasie);-;-;-;-;-;2;-;3;-;-
+ICD10-N61;    Entzündliche Krankheiten der Mamma (Brustdrüse);6;4;12;2;9;6;7;4;6;10
+ICD10-N62;    Hypertrophie der Mamma (Brustdrüse);-;1;-;-;-;1;2;3;3;4
+ICD10-N63;    Nicht näher bez. Knoten in der Mamma (Brustdrüse);-;-;-;-;-;-;-;1;-;-
+ICD10-N64;    Sonstige Krankheiten der Mamma (Brustdrüse);1;2;2;1;3;1;1;2;2;-
+ICD10-N70-N77;  Entzündliche Krankh. der weiblichen Beckenorgane;56;60;62;53;66;74;65;70;66;66
+ICD10-N70;    Salpingitis und Oophoritis;11;10;10;11;9;7;9;11;8;10
+ICD10-N71;    Entzündliche Kh. des Uterus,ausgenommen der Zervix;11;5;7;8;5;11;10;4;6;6
+ICD10-N72;    Entzündliche Krankheit der Cervix uteri;1;-;-;-;-;-;-;1;-;-
+ICD10-N73;    Sonstige entzündliche Kh. im weiblichen Becken;6;6;5;5;6;5;7;4;3;2
+ICD10-N74;    Entzündung im weiblichen Becken bei ao. klass. Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-N75;    Krankheiten der Bartholin-Drüsen;-;-;1;1;-;-;-;-;1;-
+ICD10-N76;    Sonst. entzündliche Krankheit der Vagina und Vulva;27;39;39;28;46;51;39;50;48;48
+ICD10-N77;    Vulvovaginale Ulzeration u. Entzündung b.ao.kl.Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-N80-N98;  Nichtentzündl. Kh. des weiblichen Genitaltraktes;146;130;137;129;114;104;123;111;90;114
+ICD10-N80;    Endometriose;2;1;1;-;2;2;-;1;-;-
+ICD10-N81;    Genitalprolaps bei der Frau;27;21;26;30;26;19;28;30;18;15
+ICD10-N82;    Fisteln mit Beteiligung des weibl. Genitaltraktes;65;64;60;60;51;45;49;40;39;48
+ICD10-N83;    Nichtentzündl. Kh. d. Ovars,Tuba,Lig. latum uteri;6;12;6;4;5;6;14;6;11;7
+ICD10-N84;    Polyp des weiblichen Genitaltraktes;5;-;2;4;4;5;1;2;2;2
+ICD10-N85;    Sonst.nichtentzündl. Kh.d.Uterus,ausgenom.d.Zervix;4;3;2;8;3;2;4;4;4;4
+ICD10-N86;    Erosion und Ektropium der Cervix uteri;-;-;-;-;1;-;-;-;-;-
+ICD10-N87;    Dysplasie der Cervix uteri;1;1;-;-;-;-;-;1;-;1
+ICD10-N88;    Sonstige nichtentzündliche Kh. der Cervix uteri;1;-;-;1;-;-;-;1;-;1
+ICD10-N89;    Sonstige nichtentzündliche Krankheiten der Vagina;2;-;3;-;2;1;1;2;-;-
+ICD10-N90;    Sonst. nichtentzündliche Kh. d.Vulva u.d.Perineums;-;-;1;-;1;1;1;-;-;4
+ICD10-N91;    Ausgeblieb.,zu schwache o. zu seltene Menstruation;-;-;-;-;-;-;-;-;-;-
+ICD10-N92;    Zu starke,zu häufige o. unregelmäßige Menstruation;1;-;1;2;1;2;1;2;2;2
+ICD10-N93;    Sonstige abnorme Uterus- oder Vaginalblutung;13;13;8;9;12;13;14;16;8;15
+ICD10-N94;    Schmerz/Zustände i.Zh.m.weibl.Genitalorg./Menstr.;1;1;1;-;-;-;-;-;-;-
+ICD10-N95;    Klimakterische Störungen;17;14;26;11;6;8;9;6;6;15
+ICD10-N96;    Neigung zu habituellem Abort;-;-;-;-;-;-;-;-;-;-
+ICD10-N97;    Sterilität der Frau;1;-;-;-;-;-;-;-;-;-
+ICD10-N98;    Komplikationen i.Zusammenh. m. künstl. Befruchtung;-;-;-;-;-;-;1;-;-;-
+ICD10-N99-N99;  Sonstige Krankheiten des Urogenitalsystems;80;74;75;65;42;41;34;35;31;28
+ICD10-N99;    Kh.d.Urogenitalsystems n.med.Maßnahmen,ao.n.klass.;80;74;75;65;42;41;34;35;31;28
+ICD10-O00-O99;Schwangerschaft, Geburt und Wochenbett;32;29;36;20;29;31;23;23;33;34
+ICD10-O00-O08;  Schwangerschaft mit abortivem Ausgang;1;1;-;1;-;2;2;1;2;1
+ICD10-O00;    Extrauteringravidität;-;-;-;-;-;-;1;1;-;1
+ICD10-O01;    Blasenmole;-;-;-;-;-;-;-;-;-;-
+ICD10-O02;    Sonstige abnorme Konzeptionsprodukte;-;1;-;-;-;-;-;-;-;-
+ICD10-O03;    Spontanabort;1;-;-;1;-;-;-;-;1;-
+ICD10-O04;    Ärztlich eingeleiteter Abort;-;-;-;-;-;-;-;-;1;-
+ICD10-O05;    Sonstiger Abort;-;-;-;-;-;-;1;-;-;-
+ICD10-O06;    Nicht näher bezeichneter Abort;-;-;-;-;-;-;-;-;-;-
+ICD10-O07;    Misslungene Aborteinleitung;-;-;-;-;-;-;-;-;-;-
+ICD10-O08;    Komplik.n.Abort,Extrauteringrav.u.Molenschwanger.;-;-;-;-;-;2;-;-;-;-
+ICD10-O09-O09;  Schwangerschaftsdauer;-;-;-;-;-;-;-;-;-;-
+ICD10-O09;    Schwangerschaftsdauer;-;-;-;-;-;-;-;-;-;-
+ICD10-O10-O16;  Ödeme/Proteinurie/Hypert.(Schwangerschaft/Geburt);4;7;-;3;2;4;3;2;5;2
+ICD10-O10;    Schwangerschaftskompl.durch vorher best.Hypertonie;-;-;-;-;-;-;-;-;-;-
+ICD10-O11;    Chronische Hypertonie mit aufgepr. Praeklampsie;-;-;-;-;-;-;-;-;-;-
+ICD10-O12;    Gestationsödeme/Gestationsproteinurie o.Hypertonie;-;-;-;-;-;-;-;-;-;-
+ICD10-O13;    Gestationshypertonie;-;2;-;-;-;1;-;-;-;-
+ICD10-O14;    Präeklampsie;2;4;-;3;1;3;2;2;5;1
+ICD10-O15;    Eklampsie;2;1;-;-;-;-;1;-;-;1
+ICD10-O16;    Nicht näher bezeichnete Hypertonie der Mutter;-;-;-;-;1;-;-;-;-;-
+ICD10-O20-O29;  Sonstige Schwangerschaftsbedingte Kh. der Mutter;1;1;-;-;-;-;1;2;3;3
+ICD10-O20;    Blutung in der Frühschwangerschaft;-;-;-;-;-;-;-;-;1;-
+ICD10-O21;    Übermäßiges Erbrechen während der Schwangerschaft;1;-;-;-;-;-;-;1;1;-
+ICD10-O22;    Venenkh. u. Hämorrhoiden als Schwangersch.-Kompl.;-;1;-;-;-;-;-;-;-;-
+ICD10-O23;    Infektionen d.Urogenitaltraktes i.d. Schwangersch.;-;-;-;-;-;-;-;-;-;1
+ICD10-O24;    Diabetes mellitus in der Schwangerschaft;-;-;-;-;-;-;1;-;1;-
+ICD10-O25;    Fehl- und Mangelernährung in der Schwangerschaft;-;-;-;-;-;-;-;-;-;-
+ICD10-O26;    Betreu.d.Mutter b.sonst.Zuständen i.Veb.m.Schwang.;-;-;-;-;-;-;-;1;-;1
+ICD10-O28;    Abnorme Befunde b.d.Screeninguntersuchung d.Mutter;-;-;-;-;-;-;-;-;-;1
+ICD10-O29;    Komplikationen b. Anästhesie i.d. Schwangerschaft;-;-;-;-;-;-;-;-;-;-
+ICD10-O30-O48;  Betreuung d. Mutter bei Entbindungskomplikationen;8;5;7;4;8;4;3;3;5;5
+ICD10-O30;    Mehrlingsschwangerschaft;-;-;-;-;-;-;-;-;-;-
+ICD10-O31;    Komplikationen bei Mehrlingsschwangerschaft;-;-;-;-;-;-;-;-;-;-
+ICD10-O32;    Betreu.d. Mutter b.Lage-/Einstellungsanom. d.Fetus;-;-;1;-;-;-;-;-;-;-
+ICD10-O33;    Betreu.d. Mutter b. Missverhältnis Fetus u.Becken;-;-;-;-;-;-;-;-;-;-
+ICD10-O34;    Betreu.d. Mutter bei Anomalie der Beckenorgane;1;1;-;1;-;1;-;-;-;3
+ICD10-O35;    Betreu.d. Mutter bei Anomalie/Schädigung d.Fetus;-;-;-;-;-;-;-;-;-;1
+ICD10-O36;    Betreu.d. Mutter wegen Komplikationen beim Fetus;1;-;1;1;2;-;1;1;-;-
+ICD10-O40;    Polyhydramnion;-;-;-;-;-;-;-;-;-;-
+ICD10-O41;    Sonst. Veränderungen d. Fruchtwassers u.d. Eihäute;-;1;-;-;1;-;-;-;1;-
+ICD10-O42;    Vorzeitiger Blasensprung;3;-;2;-;1;2;-;-;2;-
+ICD10-O43;    Pathologische Zustände der Plazenta;-;-;-;-;1;1;-;-;-;1
+ICD10-O44;    Placenta praevia;2;2;2;1;1;-;-;1;-;-
+ICD10-O45;    Vorzeitige Plazentalösung (Abruptio placentae);1;-;-;-;1;-;-;-;-;-
+ICD10-O46;    Präpartale Blutung,anderenorts nicht klassifiziert;-;-;-;-;-;-;-;-;1;-
+ICD10-O47;    Frustrane Kontraktionen (Unnütze Wehen);-;-;-;-;-;-;-;-;1;-
+ICD10-O48;    Übertragene Schwangerschaft;-;1;1;1;1;-;2;1;-;-
+ICD10-O60-O75;  Komplikationen bei Wehentätigkeit und Entbindung;10;6;8;5;4;10;4;6;3;5
+ICD10-O60;    Vorzeitige Wehen;-;1;-;-;1;1;-;-;-;-
+ICD10-O61;    Misslungene Geburtseinleitung;-;-;-;-;-;-;-;-;-;-
+ICD10-O62;    Abnorme Wehentätigkeit;-;-;-;-;-;1;-;-;-;2
+ICD10-O63;    Protrahierte Geburt;-;1;1;1;-;2;-;-;-;-
+ICD10-O64;    Geburtshind. d. Lage-/Haltungs-/Einstellungsanom.;1;-;-;-;-;-;-;-;-;-
+ICD10-O65;    Geburtshindernis d. Anomalie d. mütterl. Beckens;1;-;-;-;-;-;-;-;-;-
+ICD10-O66;    Sonstiges Geburtshindernis;-;-;-;-;-;-;-;-;-;1
+ICD10-O67;    Komplikat.b.Wehen/Entbindung d.Blutung,ao.n.klass.;-;-;-;-;-;-;-;1;-;1
+ICD10-O68;    Komplikat.b. Wehen/Entbindung d. fetalen Distress;3;1;2;2;2;1;2;1;2;-
+ICD10-O69;    Komplikat.b. Wehen/Entbindung d. Nabelschnurkompl.;-;-;-;-;-;-;1;-;-;-
+ICD10-O70;    Dammriss unter der Geburt;-;-;1;-;-;-;-;1;-;1
+ICD10-O71;    Sonstige Verletzungen unter der Geburt;-;-;1;-;-;1;-;1;-;-
+ICD10-O72;    Postpartale Blutung;3;3;1;-;-;3;1;2;1;-
+ICD10-O73;    Retention d. Plazenta u.d. Eihäute ohne Blutung;-;-;-;-;-;1;-;-;-;-
+ICD10-O74;    Komplikat.b.Anästhesie bei Wehentätigk./Entbindung;1;-;-;-;-;-;-;-;-;-
+ICD10-O75;    Sonst.Komplikationen bei Wehentätigkeit/Entbindung;1;-;2;2;1;-;-;-;-;-
+ICD10-O80-O84;  Entbindung;1;2;1;-;2;-;2;-;2;1
+ICD10-O80;    Spontangeburt eines Einlings;-;-;-;-;-;-;-;-;2;-
+ICD10-O81;    Geburt eines Einlings d. Zangen-/Vakuumextraktion;-;-;-;-;1;-;-;-;-;-
+ICD10-O82;    Geburt eines Einlings durch Schnittentbindung;1;2;1;-;1;-;2;-;-;1
+ICD10-O83;    Geburt eines Einlings, sonstige Maßnahmen;-;-;-;-;-;-;-;-;-;-
+ICD10-O84;    Mehrlingsgeburt;-;-;-;-;-;-;-;-;-;-
+ICD10-O85-O92;  Komplikationen, die vorw. im Wochenbett auftreten;4;5;8;5;6;3;4;4;8;9
+ICD10-O85;    Puerperalfieber;-;-;1;-;1;-;-;-;-;-
+ICD10-O86;    Sonstige Wochenbettinfektionen;-;-;-;-;-;1;-;-;-;-
+ICD10-O87;    Venenkh. u. Hämorrhoiden als Komplik. i.Wochenbett;-;-;-;-;1;-;-;-;-;-
+ICD10-O88;    Embolie während der Gestationsperiode;4;4;7;5;4;2;4;4;7;9
+ICD10-O89;    Komplikationen bei Anästhesie im Wochenbett;-;-;-;-;-;-;-;-;-;-
+ICD10-O90;    Wochenbettkomplikationen, andernorts nicht klass.;-;1;-;-;-;-;-;-;1;-
+ICD10-O91;    Infektion d. Mamma im Zusammenhang m.d. Gestation;-;-;-;-;-;-;-;-;-;-
+ICD10-O92;    Sonst. Kh. d. Mamma i. Zusammenh. m. d. Gestation;-;-;-;-;-;-;-;-;-;-
+ICD10-O94-O99;  Sonst.Kh.-zustände d.Gestationsperiode,ao.n.klass.;3;2;12;2;7;8;4;5;5;8
+ICD10-O94;    Folgen v. Komplikat. während Schwangersch./Geburt;-;-;-;-;-;-;-;-;-;-
+ICD10-O95;    Sterbefall währ. d. Gestationsperiode n.n.bez.Urs.;-;-;-;-;-;-;-;-;-;-
+ICD10-O96;    Tod,gestationsbed.Urs.,>42Tage-<1Jahr n.Entbindung;-;-;-;-;-;-;-;-;-;-
+ICD10-O97;    Tod an den Folgen direkt gestationsbed. Ursachen;-;-;-;-;-;-;-;-;-;-
+ICD10-O98;    Infekt. u. parasitäre Kh. d. Mutter, ao.klass.;-;-;1;-;1;2;-;2;-;1
+ICD10-O99;    Sonst. Kh. d. Mutter, andernorts klassifiziert;3;2;11;2;6;6;4;3;5;7
+ICD10-P00-P96;Best. Zustände mit Ursprung i.d Perinatalperiode;1300;1452;1423;1378;1366;1523;1556;1581;1582;1623
+ICD10-P00-P04;  Schädigung d.Fetus/Neugeb.d.mütterl.Faktoren u.Ä.;56;56;60;66;45;58;47;42;43;64
+ICD10-P00;    Schädigung d.Fetus/Neugeb.d. Zustände der Mutter;7;19;21;7;2;2;2;-;2;1
+ICD10-P01;    Schädigung d.Fetus/Neugeb.d. Schwangersch.-Kompl.;16;18;16;29;23;35;16;17;14;14
+ICD10-P02;    Schäd.d.Fetus/Neugeb.durch Kompl.v.Placenta u.Ä.;32;19;23;28;19;19;28;25;25;45
+ICD10-P03;    Schäd.d.Fetus/Neugeb.durch sonst. Komplikationen;1;-;-;2;1;2;1;-;2;4
+ICD10-P04;    Schädigung des Fetus und Neugeborenen durch Noxen;-;-;-;-;-;-;-;-;-;-
+ICD10-P05-P08;  Störungen i.Zusammenhang m.d.Schwangerschaftsdauer;880;1008;978;943;956;1038;1051;1112;1073;1064
+ICD10-P05;    Intrauterine Mangelentwicklung/fetale Mangelernäh.;10;3;7;4;6;13;10;13;14;8
+ICD10-P07;    Störungen im Zusammenhang m.kurzer Schwangerschaft;870;1004;971;939;950;1023;1040;1095;1059;1056
+ICD10-P08;    Störungen im Zusammenhang m.langer Schwangerschaft;-;1;-;-;-;2;1;4;-;-
+ICD10-P10-P15;  Geburtstrauma;1;-;-;1;-;-;-;-;-;1
+ICD10-P10;    Intrakran.Verletzung u.Blutung d.Geburtsverletzung;1;-;-;1;-;-;-;-;-;1
+ICD10-P11;    Sonst. Geburtsverletzungen d. Zentralnervensystems;-;-;-;-;-;-;-;-;-;-
+ICD10-P12;    Geburtsverletzung der behaarten Kopfhaut;-;-;-;-;-;-;-;-;-;-
+ICD10-P13;    Geburtsverletzung des Skeletts;-;-;-;-;-;-;-;-;-;-
+ICD10-P14;    Geburtsverletzung des peripheren Nervensystems;-;-;-;-;-;-;-;-;-;-
+ICD10-P15;    Sonstige Geburtsverletzungen;-;-;-;-;-;-;-;-;-;-
+ICD10-P20-P29;  Perinatale Kh.d. Atmungs- u. Herz-Kreislaufsystems;154;144;170;162;163;172;201;182;188;188
+ICD10-P20;    Intrauterine Hypoxie;18;12;21;15;13;14;21;22;22;23
+ICD10-P21;    Asphyxie unter der Geburt;63;73;81;80;78;82;101;88;78;85
+ICD10-P22;    Atemnot (Respiratory distress) beim Neugeborenen;15;13;13;21;22;12;14;9;22;21
+ICD10-P23;    Angeborene Pneumonie;-;1;3;1;-;2;2;1;-;2
+ICD10-P24;    Aspirationssyndrome beim Neugeborenen;2;4;4;2;4;4;3;3;10;5
+ICD10-P25;    Interstitiell.Emphysem u.Ä.,Ursp.i.d.Perinatalper.;2;4;-;-;1;-;2;-;-;-
+ICD10-P26;    Lungenblutung mit Ursprung in der Perinatalperiode;-;3;3;1;2;-;2;-;3;1
+ICD10-P27;    Chronische Atemwegskh.m.Urspr.i.d.Perinatalperiode;4;4;4;7;4;8;8;1;5;2
+ICD10-P28;    Sonst.Störung d.Atmung m.Urspr.i.d.Perinatalper.;35;18;28;21;32;34;32;44;31;37
+ICD10-P29;    Kardiovaskulare Kh. m. Ursprung i.d. Perinatalper.;15;12;13;14;7;16;16;14;17;12
+ICD10-P35-P39;  Perinatale Infektionskrankheiten;12;23;10;9;13;19;17;13;10;11
+ICD10-P35;    Angeborene Viruskrankheiten;1;1;1;1;-;1;-;-;1;-
+ICD10-P36;    Bakterielle Sepsis beim Neugeborenen;11;20;8;8;12;15;16;11;9;10
+ICD10-P37;    Sonstige angeborene infektiöse und parasitäre Kh.;-;2;1;-;-;2;1;-;-;1
+ICD10-P38;    Omphalitis b. Neugeb. mit/ohne leichte Blutung;-;-;-;-;-;-;-;-;-;-
+ICD10-P39;    Sonst. Infektionen, typisch für Perinatalperiode;-;-;-;-;1;1;-;2;-;-
+ICD10-P50-P61;  Hämorrhag. u. hämatolog. Kh. beim Fetus u. Neugeb.;8;12;6;8;2;7;8;7;6;6
+ICD10-P50;    Fetaler Blutverlust;1;2;3;2;-;3;-;-;2;1
+ICD10-P51;    Nabelblutung beim Neugeborenen;-;-;-;-;-;-;-;-;-;-
+ICD10-P52;    Intrakran. nichttraumat. Blutung b. Fetus/Neugeb.;4;2;1;4;1;3;4;3;2;2
+ICD10-P53;    Hämorrhagische Kh. beim Fetus und Neugeborenen;-;-;-;-;-;-;-;-;-;-
+ICD10-P54;    Sonstige Blutungen beim Neugeborenen;-;-;-;1;-;-;-;1;-;-
+ICD10-P55;    Hämolytische Krankheit beim Fetus und Neugeborenen;-;2;2;-;-;-;-;-;2;-
+ICD10-P56;    Hydrops fetalis durch hämolytische Krankheit;1;5;-;1;1;1;2;3;-;2
+ICD10-P57;    Kernikterus;-;-;-;-;-;-;-;-;-;-
+ICD10-P58;    Neugeborenenikterus durch sonst. gesteig.Hämolyse;-;-;-;-;-;-;-;-;-;-
+ICD10-P59;    Neugeborenenikterus durch sonst.u.n.n.bez.Ursachen;-;-;-;-;-;-;-;-;-;-
+ICD10-P60;    Disseminierte intravasal.Gerinnung b.Fetus/Neugeb.;1;-;-;-;-;-;1;-;-;-
+ICD10-P61;    Sonst. hämatologische Kh. in der Perinatalperiode;1;1;-;-;-;-;1;-;-;1
+ICD10-P70-P74;  Transit.Stoffwechelstörungen beim Fetus u. Neugeb.;-;1;2;2;2;-;2;3;1;1
+ICD10-P70;    Transit.Stör.d.Kohlenhydratstoffw.b.Fetus/Neugeb.;-;1;1;1;1;-;1;1;1;-
+ICD10-P71;    Transit.Stör.d.Kalzium-/Magnesiumstoffw.b.Neugeb.;-;-;-;-;-;-;-;-;-;-
+ICD10-P72;    Sonst.transitorische endokrine Kh. b.Neugeborenen;-;-;1;-;-;-;-;-;-;-
+ICD10-P74;    Sonst.transit.Stör.d.Elektrolythsh./Stoffw.Neugeb.;-;-;-;1;1;-;1;2;-;1
+ICD10-P75-P78;  Kh.d. Verdauungssystems beim Fetus u. Neugeborenen;19;23;16;11;21;18;17;24;28;23
+ICD10-P75;    Mekoniumileus bei zystischer Fibrose;-;-;-;-;-;-;-;-;-;-
+ICD10-P76;    Sonstiger Darmverschluss beim Neugeborenen;1;2;1;-;3;-;3;3;3;2
+ICD10-P77;    Enterocolitis necroticans beim Fetus und Neugeb.;18;19;11;9;13;16;12;13;23;16
+ICD10-P78;    Sonst. Kh. d. Verdauungssyst.i.d. Perinatalperiode;-;2;4;2;5;2;2;8;2;5
+ICD10-P80-P83;  Kh.-Zustände d.Haut u.d.Temp-reg.b.Fetus u.Neugeb.;21;19;10;12;10;15;12;15;10;18
+ICD10-P80;    Hypothermie beim Neugeborenen;-;-;-;-;-;-;-;-;-;-
+ICD10-P81;    Sonst. Störungen d.Temperaturregulation b.Neugeb.;-;-;-;-;-;-;-;-;-;-
+ICD10-P83;    Sonst.Kh.-Zustände m.Beteil.d.Haut b.Fetus/Neugeb.;21;19;10;12;10;15;12;15;10;18
+ICD10-P90-P96;  Sonst. Störungen mit Urspr. i.d. Perinatalperiode;149;166;171;164;154;196;201;183;223;247
+ICD10-P90;    Krämpfe beim Neugeborenen;2;-;1;3;1;1;1;3;-;1
+ICD10-P91;    Sonstige zerebrale Störungen beim Neugeborenen;13;10;9;8;21;8;12;22;31;21
+ICD10-P92;    Ernährungsprobleme beim Neugeborenen;-;-;-;-;-;-;-;-;-;-
+ICD10-P93;    Reakt./Intoxikationen d.Arzneim./Drogen b.Neugeb.;-;-;-;-;-;-;-;-;-;-
+ICD10-P94;    Störungen des Muskeltonus beim Neugeborenen;1;1;-;1;-;-;1;2;1;1
+ICD10-P95;    Fetaltod nicht näher bezeichneter Ursache;121;147;150;140;125;175;178;140;182;205
+ICD10-P96;    Sonst. Zustände mit Ursprung i.d. Perinatalperiode;12;8;11;12;7;12;9;16;9;19
+ICD10-Q00-Q99;Angeb.Fehlbild.,Deformitäten,Chromosomenanomalien;510;473;488;485;472;442;450;517;559;574
+ICD10-Q00-Q07;  Angeborene Fehlbildungen des Nervensystems;32;28;27;34;32;27;34;40;42;39
+ICD10-Q00;    Anenzephalie und ähnliche Fehlbildungen;10;11;6;10;7;12;7;16;16;12
+ICD10-Q01;    Enzephalozele;-;-;3;2;2;2;2;1;3;1
+ICD10-Q02;    Mikrozephalie;-;1;-;1;-;1;1;-;-;-
+ICD10-Q03;    Angeborener Hydrozephalus;3;-;1;5;4;2;2;6;2;6
+ICD10-Q04;    Sonstige angeborene Fehlbildungen des Gehirns;17;11;13;10;14;6;15;12;16;10
+ICD10-Q05;    Spina bifida;-;3;3;3;2;-;5;3;2;9
+ICD10-Q06;    Sonstige angeborene Fehlbildungen des Rückenmarks;-;-;-;1;-;-;-;1;1;-
+ICD10-Q07;    Sonst. angeborene Fehlbildungen des Nervensystems;2;2;1;2;3;4;2;1;2;1
+ICD10-Q10-Q18;  Angeborene Fehlbildungen, Auge/Ohr/Gesicht/Hals;2;-;2;1;3;1;1;2;2;13
+ICD10-Q10;    Angebor. Fehlbild. d. Augenlides/Tränenapp./Orbita;-;-;-;-;-;-;-;-;-;-
+ICD10-Q11;    Anophthalmus, Mikrophthalmus und Makrophthalmus;-;-;-;-;-;-;-;1;-;-
+ICD10-Q12;    Angeborene Fehlbildungen der Linse;-;-;-;-;1;-;-;-;-;-
+ICD10-Q13;    Angebor.Fehlbildungen d. vorderen Augenabschnittes;-;-;-;-;-;-;-;-;-;-
+ICD10-Q14;    Angebor. Fehlbildung des hinteren Augenabschnittes;-;-;-;-;-;-;-;-;-;-
+ICD10-Q15;    Sonstige angeborene Fehlbildungen des Auges;-;-;-;-;-;-;-;-;-;-
+ICD10-Q16;    Angebor. Fehlbild.d.Ohres m.Beeinträcht.d.Hörverm.;-;-;-;-;-;-;-;-;-;-
+ICD10-Q17;    Sonstige angeborene Fehlbildungen des Ohres;-;-;1;-;-;-;-;-;-;10
+ICD10-Q18;    Sonst. Angebor.Fehlbildungen d.Gesichts u.d.Halses;2;-;1;1;2;1;1;1;2;3
+ICD10-Q20-Q28;  Angeborene Fehlbildungen des Kreislaufsystems;285;252;253;236;256;231;225;285;292;240
+ICD10-Q20;    Angeborene Fehlbildungen der Herzhöhlen;65;50;41;59;46;35;45;46;57;38
+ICD10-Q21;    Angeborene Fehlbildungen der Herzsepten;50;44;46;25;44;47;38;42;43;35
+ICD10-Q22;    Angebor.Fehlbild.d.Pulmonal- u.d.Trikuspidalklappe;33;24;14;20;24;33;20;32;18;26
+ICD10-Q23;    Angeborene Fehlbildungen der Aorten-/Mitralklappe;69;64;86;79;89;71;75;97;109;99
+ICD10-Q24;    Sonstige angeborene Fehlbildungen des Herzens;3;10;13;7;10;5;13;12;8;8
+ICD10-Q25;    Angeborene Fehlbildungen der großen Arterien;39;33;30;28;24;17;14;29;34;14
+ICD10-Q26;    Angeborene Fehlbildungen der großen Venen;10;18;11;13;12;12;9;15;11;11
+ICD10-Q27;    Sonst. angeborene Fehlbild.d.peripheren Gefäßsyst.;1;-;1;2;1;-;2;3;-;1
+ICD10-Q28;    Sonst. angeborene Fehlbildungen des Kreislaufsyst.;15;9;11;3;6;11;9;9;12;8
+ICD10-Q30-Q34;  Angeborene Fehlbildungen des Atmungssystems;30;26;36;28;21;39;37;36;42;34
+ICD10-Q30;    Angeborene Fehlbildungen der Nase;-;-;1;-;-;-;1;-;1;-
+ICD10-Q31;    Angeborene Fehlbildungen des Kehlkopfes;1;-;1;1;-;-;-;2;3;-
+ICD10-Q32;    Angeborene Fehlbild. der Trachea und der Bronchien;2;2;4;2;3;3;5;4;5;3
+ICD10-Q33;    Angeborene Fehlbildungen der Lunge;26;24;28;23;18;36;30;30;33;31
+ICD10-Q34;    Sonstige angeborene Fehlbildungen d.Atmungssystems;1;-;2;2;-;-;1;-;-;-
+ICD10-Q35-Q37;  Lippen-, Kiefer- und Gaumenspalte;-;3;1;-;2;1;-;-;1;2
+ICD10-Q35;    Gaumenspalte;-;2;-;-;1;-;-;-;1;1
+ICD10-Q36;    Lippenspalte;-;-;-;-;-;-;-;-;-;-
+ICD10-Q37;    Gaumenspalte mit Lippenspalte;-;1;1;-;1;1;-;-;-;1
+ICD10-Q38-Q45;  Sonst. angeb. Fehlbildungen d. Verdauungssystems;27;23;31;30;24;17;18;19;28;17
+ICD10-Q38;    Sonst. angeborene Fehlbildungen Zunge/Mund/Rachen;-;-;-;-;-;1;-;-;-;-
+ICD10-Q39;    Angeborene Fehlbildungen des Ösophagus;4;5;7;7;7;4;3;5;6;3
+ICD10-Q40;    Sonst.angebor.Fehlbild.d.oberen Verdauungstraktes;2;-;2;-;-;-;1;-;-;-
+ICD10-Q41;    Angeborene(s) Fehlen, Atresie/Stenose d.Dünndarmes;2;2;2;2;1;-;2;1;3;3
+ICD10-Q42;    Angeborene(s) Fehlen, Atresie/Stenose d.Dickdarmes;1;1;1;-;-;-;-;1;2;1
+ICD10-Q43;    Sonstige angeborene Fehlbildungen des Darmes;7;8;9;8;3;8;9;9;9;5
+ICD10-Q44;    Angebor. Fehlbild. Gallenblase/Gallengänge/Leber;9;7;8;12;12;4;3;3;8;5
+ICD10-Q45;    Sonst. angebor. Fehlbildungen d. Verdauungssystems;2;-;2;1;1;-;-;-;-;-
+ICD10-Q50-Q56;  Angeborene Fehlbildungen der Genitalorgane;-;1;1;-;-;-;-;-;-;1
+ICD10-Q50;    Angeb.Fehlbild.d.Ovarien/Tubae uter./Ligg.lata ut.;-;1;1;-;-;-;-;-;-;-
+ICD10-Q51;    Angeborene Fehlbildungen Uterus/Cervix uteri;-;-;-;-;-;-;-;-;-;-
+ICD10-Q52;    Sonst. angebor. Fehlbildungen weibl. Genitalorgane;-;-;-;-;-;-;-;-;-;-
+ICD10-Q53;    Nondescensus testis;-;-;-;-;-;-;-;-;-;-
+ICD10-Q54;    Hypospadie;-;-;-;-;-;-;-;-;-;1
+ICD10-Q55;    Sonst. angebor. Fehlbildungen männl. Genitalorgane;-;-;-;-;-;-;-;-;-;-
+ICD10-Q56;    Unbestimmtes Geschlecht u. Pseudohermaphroditismus;-;-;-;-;-;-;-;-;-;-
+ICD10-Q60-Q64;  Angeborene Fehlbildungen des Harnsystems;17;35;29;30;22;22;24;27;34;26
+ICD10-Q60;    Nierenagenesie u. sonstige Reduktionsdefekte Niere;10;16;10;13;7;7;11;11;18;9
+ICD10-Q61;    Zystische Nierenkrankheit;6;17;15;13;13;14;12;12;14;13
+ICD10-Q62;    Angeborene Defekte des Nierenbeckens/Ureters;1;1;2;4;1;-;-;2;1;-
+ICD10-Q63;    Sonstige angeborene Fehlbildungen der Niere;-;1;1;-;-;-;-;-;1;1
+ICD10-Q64;    Sonstige angeborene Fehlbildungen des Harnsystems;-;-;1;-;1;1;1;2;-;3
+ICD10-Q65-Q79;  Angeb. Fehlbild./Deform.d.Muskel-Skelett-Systems;41;55;58;52;50;48;58;52;53;61
+ICD10-Q65;    Angeborene Deformitäten der Hüfte;1;-;-;1;-;1;-;-;-;1
+ICD10-Q66;    Angeborene Deformitäten der Füße;-;1;-;-;-;-;-;-;-;-
+ICD10-Q67;    Angeborene Muskel-Skelett-Deformitäten;-;1;1;3;3;1;1;-;1;-
+ICD10-Q68;    Sonstige angeborene Muskel-Skelett-Deformitäten;1;-;1;-;-;-;-;-;-;1
+ICD10-Q69;    Polydaktylie;-;-;-;-;-;-;-;-;-;-
+ICD10-Q70;    Syndaktylie;-;-;-;-;-;-;-;-;-;-
+ICD10-Q71;    Reduktionsdefekte der oberen Extremität;-;-;-;-;-;-;-;-;-;1
+ICD10-Q72;    Reduktionsdefekte der unteren Extremität;-;-;-;-;-;-;-;-;-;-
+ICD10-Q73;    Reduktionsdefekte nicht näher bez. Extremität(en);-;-;-;-;-;-;-;-;-;-
+ICD10-Q74;    Sonst. angeborene Fehlbildungen der Extremität(en);-;5;1;2;2;4;4;2;1;-
+ICD10-Q75;    Sonst.angebor.Fehlbild.Schädel-/Gesichtsschädelkn.;-;1;2;1;-;2;1;4;1;-
+ICD10-Q76;    Angebor. Fehlbild. Wirbelsäule/knöcherner Thorax;-;2;-;1;-;-;3;2;-;-
+ICD10-Q77;    Osteochondrodysplasie mit Wachstumsstörungen;9;8;7;8;6;3;4;6;8;6
+ICD10-Q78;    Sonstige Osteochondrodysplasien;3;4;2;-;3;2;5;1;2;2
+ICD10-Q79;    Angeborene Fehlbildung des Muskel-Skelett-System;27;33;44;36;36;35;40;37;40;50
+ICD10-Q80-Q89;  Sonstige angeborene Fehlbildungen;34;16;13;29;14;11;18;25;13;98
+ICD10-Q80;    Ichthyosis congenita;-;3;-;1;-;-;-;-;3;2
+ICD10-Q81;    Epidermolysis bullosa;6;5;5;2;-;3;4;8;2;5
+ICD10-Q82;    Sonstige angeborene Fehlbildungen der Haut;5;2;4;4;1;1;2;1;4;23
+ICD10-Q83;    Angeborene Fehlbildungen der Mamma (Brustdrüse);1;-;1;16;-;-;-;-;1;58
+ICD10-Q84;    Sonstige angeborene Fehlbildungen des Integumentes;-;-;-;-;-;-;-;-;-;-
+ICD10-Q85;    Phakomatosen, anderenorts nicht klassifiziert;10;3;1;2;4;2;5;5;1;5
+ICD10-Q86;    Angeborene Fehlbildungssyndrome bekannter Ursache;-;-;-;-;-;-;-;1;-;-
+ICD10-Q87;    Sonst. näher bezeichn. angebor. Fehlbildungssyndr.;3;-;-;-;-;-;-;1;-;-
+ICD10-Q89;    Sonstige angeborene Fehlbildungen, ao.nicht klass.;9;3;2;4;9;5;7;9;2;5
+ICD10-Q90-Q99;  Chromosomenanomalien, andernorts nicht klass.;42;34;37;45;48;45;35;31;52;43
+ICD10-Q90;    Down-Syndrom;2;4;3;4;5;3;2;1;5;3
+ICD10-Q91;    Edwards-Syndrom und Patau-Syndrom;34;26;29;35;37;37;30;27;43;27
+ICD10-Q92;    Trisomien der Autosomen, andernorts nicht klass.;3;2;3;2;1;-;2;1;1;4
+ICD10-Q93;    Monosomien und Deletionen der Autosomen;1;1;1;2;1;3;1;2;1;-
+ICD10-Q95;    Balancierte Chromos.-Rearrangements/Struktur-Mark.;-;-;-;1;-;-;-;-;-;-
+ICD10-Q96;    Turner-Syndrom;1;-;-;1;1;1;-;-;-;1
+ICD10-Q97;    Sonst. Anomalien d. Gonosomen b. weib. Phänotyp;-;-;-;-;-;-;-;-;-;-
+ICD10-Q98;    Sonst. Anomalien d. Gonosomen b. männl. Phänotyp;-;-;-;-;-;-;-;-;-;-
+ICD10-Q99;    Sonstige Chromosomenanomalien, ao. nicht klass.;1;1;1;-;3;1;-;-;2;8
+ICD10-R00-R99;Symptome u.abnorme klin. u.Laborbefunde,ao.n.kl.;9712;10484;10456;11128;11090;10776;11087;11029;11244;10865
+ICD10-R00-R09;  Symptome, d.d. Kreislauf- u. Atmungssystem betr.;1138;1112;1137;1234;1314;1304;1441;1362;1368;1274
+ICD10-R00;    Störungen des Herzschlages;125;163;163;178;211;162;206;166;160;176
+ICD10-R01;    Herzgeräusche und andere Herz-Schallphänomene;-;-;-;1;-;-;-;-;-;-
+ICD10-R02;    Gangrän, anderenorts nicht klassifiziert;74;46;49;66;61;77;61;48;66;88
+ICD10-R03;    Abnormer Blutdruckwert ohne Diagnose;-;-;-;-;-;-;1;-;-;1
+ICD10-R04;    Blutung aus den Atemwegen;195;193;223;218;221;251;285;301;277;244
+ICD10-R05;    Husten;4;4;3;4;1;2;-;-;3;3
+ICD10-R06;    Störungen der Atmung;341;349;375;440;471;430;440;434;501;473
+ICD10-R07;    Hals- und Brustschmerzen;87;94;84;93;86;97;89;85;81;71
+ICD10-R09;    Sonstige Symptome des Kreislauf-/Atmungssystems;312;263;240;234;263;285;359;328;280;218
+ICD10-R10-R19;  Symptome, d.d. Verdauungssystem u. Abdomen betr.;1611;1555;1611;1553;1508;1416;1360;1308;1212;1157
+ICD10-R10;    Bauch- und Beckenschmerzen;753;769;802;709;701;592;575;576;543;502
+ICD10-R11;    Übelkeit und Erbrechen;208;223;247;244;258;275;242;225;205;192
+ICD10-R12;    Sodbrennen;2;-;-;1;1;-;-;-;-;1
+ICD10-R13;    Dysphagie;272;244;259;260;247;259;265;223;245;235
+ICD10-R14;    Flatulenz und verwandte Zustände;4;6;5;3;3;2;-;1;1;2
+ICD10-R15;    Stuhlinkontinenz;21;7;8;4;6;14;9;8;6;5
+ICD10-R16;    Hepatomegalie und Splenomegalie, ao.nicht klass.;4;5;8;3;7;4;4;5;3;2
+ICD10-R17;    Hyperbilirubinämie mit/ohne Gelbsucht, ao.n.klass.;30;31;39;37;34;38;28;29;28;22
+ICD10-R18;    Aszites;256;226;208;255;208;199;199;208;159;162
+ICD10-R19;    Sonst.Symptome,d.d. Verdauungssystem/Abdomen betr.;61;44;35;37;43;33;38;33;22;34
+ICD10-R20-R23;  Symptome, d.d. Haut u.d. Unterhautgewebe betreffen;12;18;19;18;19;14;15;14;13;18
+ICD10-R20;    Sensibilitätsstörungen der Haut;1;2;9;5;3;3;4;4;2;7
+ICD10-R21;    Hautausschlag u.sonst.unspezifische Hauteruptionen;-;3;1;1;3;2;3;-;1;1
+ICD10-R22;    Schwellung/Raumforderung/Knoten d. Haut/Unterhaut;4;8;3;6;8;4;4;4;4;6
+ICD10-R23;    Sonstige Hautveränderungen;7;5;6;6;5;5;4;6;6;4
+ICD10-R25-R29;  Symptome, Nervensys., Muskel-Skelett-System betr.;346;368;368;520;551;572;661;738;869;975
+ICD10-R25;    Abnorme unwillkürliche Bewegungen;1;1;1;2;5;3;1;2;8;3
+ICD10-R26;    Störungen des Ganges und der Mobilität;215;214;240;372;403;393;478;547;654;747
+ICD10-R27;    Sonstige Koordinationsstörungen;3;3;1;1;6;1;1;1;1;-
+ICD10-R29;    Sonst.Sympt.,Nervensys.,Muskel-Skelett-Syst.betr.;127;150;126;145;137;175;181;188;206;225
+ICD10-R30-R39;  Symptome, die das Harnsystem betreffen;367;411;364;409;437;439;482;461;492;480
+ICD10-R30;    Schmerzen beim Wasserlassen;-;1;1;1;2;2;1;1;1;-
+ICD10-R31;    Nicht näher bezeichnete Hämaturie;186;234;206;238;265;284;300;308;323;341
+ICD10-R32;    Nicht näher bezeichnete Harninkontinenz;7;-;4;4;3;4;-;1;6;3
+ICD10-R33;    Harnverhaltung;134;142;121;141;138;123;146;118;122;105
+ICD10-R34;    Anurie und Oligurie;16;8;14;13;10;9;12;10;15;9
+ICD10-R35;    Polyurie;-;-;-;-;-;1;-;1;-;-
+ICD10-R36;    Ausfluss aus der Harnröhre;-;-;-;-;-;-;-;-;-;-
+ICD10-R39;    Sonstige Symptome, die das Harnsystem betreffen;24;26;18;12;19;16;23;22;25;22
+ICD10-R40-R46;  Symptome, Wahrnehmungsvermögen,Stimmung betreffend;722;684;714;811;906;907;988;1051;1102;1074
+ICD10-R40;    Somnolenz, Sopor und Koma;628;580;614;678;784;787;877;953;997;980
+ICD10-R41;    Sonst. Sympt. d. Erkennungsvermögens/Bewusstseins;46;43;34;54;41;46;52;44;47;34
+ICD10-R42;    Schwindel und Taumel;35;38;48;55;58;53;48;43;46;46
+ICD10-R43;    Störungen des Geruchs- und Geschmackssinnes;-;-;1;-;-;1;-;-;-;-
+ICD10-R44;    Sonst.Sympt. Sinneswahrnehmungen/Wahrnehmungsverm.;4;6;3;2;4;3;4;1;2;4
+ICD10-R45;    Symptome, die die Stimmung betreffen;7;16;12;22;18;16;7;9;8;10
+ICD10-R46;    Symptome, bezüglich Erscheinungsbild/Verhalten;2;1;2;-;1;1;-;1;2;-
+ICD10-R47-R49;  Symptome, die die Sprache und die Stimme betreffen;16;23;21;28;26;36;33;28;30;34
+ICD10-R47;    Sprech- und Sprachstörungen, ao.nicht klass.;13;22;20;28;25;32;32;28;30;33
+ICD10-R48;    Dyslexie/sonst. Werkzeugstörungen, ao.nicht klass.;2;1;-;-;1;1;-;-;-;1
+ICD10-R49;    Störungen der Stimme;1;-;1;-;-;3;1;-;-;-
+ICD10-R50-R69;  Allgemeinsymptome;5325;6057;5995;6407;6197;5931;5960;5915;5958;5725
+ICD10-R50;    Fieber sonstiger und unbekannter Ursache;160;168;113;115;132;103;112;87;82;92
+ICD10-R51;    Kopfschmerz;9;13;6;13;15;13;8;7;16;5
+ICD10-R52;    Schmerz, anderenorts nicht klassifiziert;228;294;226;263;252;288;251;249;299;254
+ICD10-R53;    Unwohlsein und Ermüdung;347;367;402;443;397;374;371;419;450;445
+ICD10-R54;    Senilität;26;13;29;18;20;19;23;17;29;36
+ICD10-R55;    Synkope und Kollaps;764;686;706;772;759;681;761;740;701;772
+ICD10-R56;    Krämpfe, anderenorts nicht klassifiziert;174;205;192;185;183;158;138;133;123;103
+ICD10-R57;    Schock, anderenorts nicht klassifiziert;2962;3700;3734;4013;3901;3803;3833;3760;3785;3519
+ICD10-R58;    Blutung, anderenorts nicht klassifiziert;91;90;116;118;94;117;111;112;111;107
+ICD10-R59;    Lymphknotenvergrößerung;10;11;3;14;13;12;14;20;7;13
+ICD10-R60;    Ödem, anderenorts nicht klassifiziert;18;17;9;14;32;8;12;17;16;14
+ICD10-R61;    Hyperhidrose;1;1;1;-;-;-;-;-;-;1
+ICD10-R62;    Ausbleiben d. normalen physiologischen Entwicklung;1;-;-;-;-;1;1;-;-;-
+ICD10-R63;    Symptome, bezügl. Nahrungs-/Flüssigkeitsaufnahme;293;289;282;288;296;244;209;237;198;232
+ICD10-R64;    Kachexie;165;133;112;106;73;69;72;81;64;56
+ICD10-R65;    Systemisches inflammatorisches Response-Syndrom;-;-;-;-;-;-;-;-;-;-
+ICD10-R68;    Sonstige Allgemeinsymptome;76;70;62;45;30;40;44;34;73;75
+ICD10-R69;    Unbekannte und nicht näher bez. Krankheitsursachen;-;-;2;-;-;1;-;2;4;1
+ICD10-R70-R79;  Aborme Blutuntsuchungsbef. o. Vorlieg.einer Diag.;21;28;26;31;29;24;36;18;14;15
+ICD10-R70;    Beschleun.Blutkörperchensenkungsreak./Plasmavisko.;-;-;1;3;1;-;2;-;-;-
+ICD10-R71;    Veränderung der Erythrozyten;-;-;-;-;-;-;-;-;-;-
+ICD10-R72;    Veränderung der Leukozyten, ao.nicht klass.;-;-;1;2;3;1;2;-;1;1
+ICD10-R73;    Erhöhter Blutglukosewert;11;16;13;15;9;13;15;5;5;6
+ICD10-R74;    Abnorme Serumenzymwerte;3;1;5;5;5;5;5;4;4;2
+ICD10-R75;    Laborhinweis a. Humanes Immundefizienz-Virus (HIV);-;-;-;-;-;-;-;-;-;-
+ICD10-R76;    Sonstige abnorme immunologische Serumbefunde;-;-;-;-;-;-;-;-;1;-
+ICD10-R77;    Sonstige Veränderungen der Plasmaproteine;1;5;4;2;4;2;6;4;-;1
+ICD10-R78;    Nachweis von Drogen und anderen Substanzen im Blut;-;-;-;-;-;-;-;-;1;1
+ICD10-R79;    Sonstige abnorme Befunde der Blutchemie;6;6;2;4;7;3;6;5;2;4
+ICD10-R80-R82;  Aborme Urinuntsuchungsbef. o. Vorlieg.einer Diag.;1;-;2;2;-;-;-;-;2;-
+ICD10-R80;    Isolierte Proteinurie;-;-;2;1;-;-;-;-;-;-
+ICD10-R81;    Glukosurie;-;-;-;-;-;-;-;-;-;-
+ICD10-R82;    Sonstige abnorme Urinbefunde;1;-;-;1;-;-;-;-;2;-
+ICD10-R83-R89;  Abnorme Bef. anderer Körperflüssigkeiten, Gewebe;1;-;1;1;1;-;-;1;2;3
+ICD10-R83;    Abnorme Liquorbefunde;-;-;-;-;1;-;-;-;-;-
+ICD10-R84;    Abnorme Bef. in Unt.-mat. aus Atemwegen u.Thorax;1;-;-;-;-;-;-;-;1;-
+ICD10-R85;    Abnorme Bef. in Unt.-mat. aus Verd.-Org./Bauchh.;-;-;-;-;-;-;-;-;1;2
+ICD10-R86;    Abnorme Bef. in Unt.-mat. aus männl. Genitalorg.;-;-;-;1;-;-;-;-;-;-
+ICD10-R87;    Abnorme Bef. in Unt.-mat. aus weibl. Genitalorg.;-;-;-;-;-;-;-;-;-;-
+ICD10-R89;    Abnorme Befunde Körperorgane,-systeme,-gewebe;-;-;1;-;-;-;-;1;-;1
+ICD10-R90-R94;  Abn.Befunde b.bildgeb.Diagnostik u.Funktionsprüf.;37;41;36;39;45;63;44;60;53;70
+ICD10-R90;    Abnorme Befunde des Zentralnervensystems;12;13;8;14;11;27;17;15;23;21
+ICD10-R91;    Abnorme Befunde der Lunge;17;19;16;16;23;18;14;28;18;23
+ICD10-R92;    Abnorme Befunde der Mamma (Brustdrüse);-;-;-;-;-;-;-;-;-;-
+ICD10-R93;    Abnorme Befunde sonstiger Körperstrukturen;6;8;8;6;6;11;9;14;8;19
+ICD10-R94;    Abnorme Ergebnisse von Funktionsprüfungen;2;1;4;3;5;7;4;3;4;7
+ICD10-R95-R99;  Ungenau bezeichnete und unbekannte Diagnose;115;187;162;75;57;70;67;73;129;40
+ICD10-R95;    Plötzlicher Kindstod;46;48;28;22;33;35;34;32;40;27
+ICD10-R96;    Sonstiger plötzlicher Tod unbekannter Ursache;17;27;10;12;7;2;8;7;5;1
+ICD10-R98;    Tod ohne Anwesenheit anderer Personen;1;1;2;1;1;1;-;-;-;-
+ICD10-R99;    Sonstige ungenau oder n.n.bez. Todesursachen;51;111;122;40;16;32;25;34;84;12
+ICD10-S00-T98;Verletzungen und Vergiftungen;24287;25027;24973;25386;26470;26818;28822;28591;29323;30565
+ICD10-S00-S09;  Verletzungen des Kopfes;4914;5006;5035;5168;5654;5755;6133;6286;6462;6802
+ICD10-S00;    Oberflächliche Verletzung des Kopfes;75;96;102;95;147;147;193;185;204;236
+ICD10-S01;    Offene Wunde des Kopfes;50;36;45;43;50;65;52;54;57;60
+ICD10-S02;    Fraktur des Schädels u. d. Gesichtsschädelknochen;191;195;205;201;204;221;221;209;234;244
+ICD10-S03;    Luxation/Verstauch./Zerr.,Gelenk./Bänd.d.Kopfes;1;1;2;1;4;3;5;1;3;-
+ICD10-S04;    Verletzung von Hirnnerven;1;1;1;-;-;-;-;-;-;-
+ICD10-S05;    Verletzung des Auges und der Orbita;8;5;7;5;7;4;10;9;6;10
+ICD10-S06;    Intrakranielle Verletzung;4571;4648;4653;4809;5223;5294;5628;5812;5943;6225
+ICD10-S07;    Zerquetschung des Kopfes;2;-;2;-;-;1;2;-;-;2
+ICD10-S08;    Traumatische Amputation von Teilen des Kopfes;4;6;7;7;7;6;8;6;8;14
+ICD10-S09;    Sonstige und nicht näher bezeichnete Verletzungen;11;18;11;7;12;14;14;10;7;11
+ICD10-S10-S19;  Verletzungen des Halses;397;483;479;526;570;647;673;677;756;848
+ICD10-S10;    Oberflächliche Verletzung des Halses;1;2;1;4;2;2;5;3;6;1
+ICD10-S11;    Offene Wunde des Halses;10;11;5;4;6;9;9;8;12;4
+ICD10-S12;    Fraktur im Bereich des Halses;289;340;371;410;452;513;521;548;593;689
+ICD10-S13;    Luxation/Verstauch./Zerr.,Gelenk./Bänd.i.Halshöhe;28;51;35;35;40;42;39;45;49;56
+ICD10-S14;    Verletzung d. Nerven u.d. Rückenmarkes in Halshöhe;58;65;61;65;59;65;81;62;80;81
+ICD10-S15;    Verletzung von Blutgefäßen in Halshöhe;6;11;3;6;8;14;17;10;14;12
+ICD10-S16;    Verletzung von Muskeln und Sehnen in Halshöhe;-;1;1;-;-;-;-;-;-;-
+ICD10-S17;    Zerquetschung des Halses;-;1;1;1;1;1;-;-;-;-
+ICD10-S18;    Traumatische Amputation in Halshöhe;4;1;-;-;-;1;1;-;-;1
+ICD10-S19;    Sonstige nicht näher bez. Verletzungen des Halses;1;-;1;1;2;-;-;1;2;4
+ICD10-S20-S29;  Verletzungen des Thorax;1426;1420;1505;1576;1688;1669;1849;1910;1916;1979
+ICD10-S20;    Oberflächliche Verletzung des Thorax;101;99;95;112;110;102;115;126;124;116
+ICD10-S21;    Offene Wunde des Thorax;14;14;12;14;7;11;9;13;8;6
+ICD10-S22;    Fraktur der Rippe(n)/Sternums/Brustwirbelsäule;816;852;937;957;1057;1054;1191;1207;1206;1276
+ICD10-S23;    Luxation/Verstauch./Zerr.,Gelenk./Bänd.d.Thorax;3;3;11;2;4;3;4;3;6;3
+ICD10-S24;    Verletzung d.Nerven u.d.Rückenmarkes in Thoraxhöhe;26;14;19;14;24;15;23;20;16;22
+ICD10-S25;    Verletzung von Blutgefäßen des Thorax;31;30;27;34;33;30;36;38;34;43
+ICD10-S26;    Verletzung des Herzens;21;36;31;34;45;26;28;42;38;44
+ICD10-S27;    Verletzung sonst.u.n.n.bez. intrathorakaler Organe;400;361;364;388;396;415;432;455;473;458
+ICD10-S28;    Zerquetsch.d.Thorax/traum.Amput.v.Teilen d.Thorax;1;-;-;3;1;1;2;-;1;-
+ICD10-S29;    Sonstige und n.n. bez. Verletzungen des Thorax;13;11;9;18;11;12;9;6;10;11
+ICD10-S30-S39;  Verletzungen Abdomen,Lumbosakralgeg., LWS, Becken;1952;2050;2079;2192;2247;2282;2500;2472;2592;2789
+ICD10-S30;    Oberflächl.Verletz. Abdomen/Lumbosakralgeg./Becken;185;179;228;210;218;212;256;273;280;280
+ICD10-S31;    Offene Wunde Abdomen/Lumbosakralgegend/Becken;18;22;21;16;19;15;17;18;27;17
+ICD10-S32;    Fraktur der Lendenwirbelsäule und des Beckens;1361;1467;1484;1589;1642;1664;1829;1804;1935;2104
+ICD10-S33;    Luxation/Verstauch./Zerrung der LWS u.d.Beckens;19;12;12;16;12;9;16;14;8;11
+ICD10-S34;    Verletzung der Nerven u.d. lumbalen Rückenmarkes;3;2;4;2;3;1;4;5;5;4
+ICD10-S35;    Verletzung v. Blutgefäßen i. Höhe Abdomens/Beckens;30;33;32;30;29;40;35;38;37;42
+ICD10-S36;    Verletzung von intraabdominalen Organen;286;280;251;283;289;298;289;281;255;278
+ICD10-S37;    Verletzung der Harnorgane und der Beckenorgane;38;48;37;37;22;31;42;30;38;47
+ICD10-S38;    Zerquet.,Amputat.-Abdomen,Lumbosakralgeg., Becken;2;1;-;1;2;-;2;1;1;-
+ICD10-S39;    Sonst.Verletzung-Abdomen,Lumbosakralgegend, Becken;10;6;10;8;11;12;10;8;6;6
+ICD10-S40-S49;  Verletzungen der Schulter und des Oberarmes;986;1034;1054;1032;1053;1077;1204;1163;1201;1231
+ICD10-S40;    Oberflächliche Verletzung Schulter/Oberarm;24;27;33;39;41;32;40;37;44;47
+ICD10-S41;    Offene Wunde der Schulter und des Oberarmes;3;2;5;1;6;2;-;5;7;7
+ICD10-S42;    Fraktur im Bereich der Schulter und des Oberarmes;909;973;983;954;961;998;1122;1082;1106;1123
+ICD10-S43;    Luxation/Verstauchung/Zerrung des Schultergürtels;46;28;27;31;41;36;34;37;38;47
+ICD10-S44;    Verletzung von Nerven in Höhe Schulter/Oberarm;-;-;-;-;-;1;-;-;1;-
+ICD10-S45;    Verletzung v. Blutgefäßen in Höhe Schulter/Oberarm;2;1;4;3;3;4;3;2;1;1
+ICD10-S46;    Verletzung v. Muskeln/Sehnen Höhe Schulter/Oberarm;1;1;1;2;1;-;2;-;1;6
+ICD10-S47;    Zerquetschung der Schulter und des Oberarmes;-;-;-;-;-;-;-;-;1;-
+ICD10-S48;    Traumatische Amputation an Schulter und Oberarm;1;1;1;1;-;4;3;-;2;-
+ICD10-S49;    Sonst. u. n.n.bez. Verletzungen Schulter/Oberarm;-;1;-;1;-;-;-;-;-;-
+ICD10-S50-S59;  Verletzungen des Ellenbogens und des Unterarmes;217;228;264;225;232;222;252;230;250;266
+ICD10-S50;    Oberflächliche Verletzung des Unterarmes;9;9;16;8;13;14;11;14;24;19
+ICD10-S51;    Offene Wunde des Unterarmes;10;14;26;21;16;34;27;16;20;22
+ICD10-S52;    Fraktur des Unterarmes;189;193;211;186;196;162;204;193;196;211
+ICD10-S53;    Luxation/Verstauchung/Zerrung d.Ellenbogen/-gelenk;2;-;2;5;4;3;3;2;2;1
+ICD10-S54;    Verletzung von Nerven in Höhe des Unterarmes;1;2;2;-;-;1;-;-;-;2
+ICD10-S55;    Verletzung von Blutgefäßen in Höhe des Unterarmes;5;7;6;3;1;5;3;4;3;7
+ICD10-S56;    Verletzung v. Muskeln/Sehnen in Höhe d. Unterarmes;1;2;1;1;2;2;3;1;3;4
+ICD10-S57;    Zerquetschung des Unterarmes;-;1;-;-;-;-;-;-;-;-
+ICD10-S58;    Traumatische Amputation am Unterarm;-;-;-;1;-;1;-;-;2;-
+ICD10-S59;    Sonstige u. n.n. bez. Verletzungen d. Unterarmes;-;-;-;-;-;-;1;-;-;-
+ICD10-S60-S69;  Verletzungen des Handgelenkes und der Hand;24;39;33;26;26;35;32;37;33;26
+ICD10-S60;    Oberflächliche Verletzung d. Handgelenkes/d. Hand;6;6;7;6;2;7;6;8;9;4
+ICD10-S61;    Offene Wunde des Handgelenkes und der Hand;6;11;10;6;9;11;7;10;5;6
+ICD10-S62;    Fraktur im Bereich des Handgelenkes und der Hand;5;10;8;5;7;5;9;7;9;12
+ICD10-S63;    Luxation/Verstauchung/Zerrung von Hand/-gelenken;2;3;-;4;-;2;3;3;-;-
+ICD10-S64;    Verletzung v. Nerven in Höhe des Handgelenkes/Hand;1;1;-;1;1;-;1;2;-;-
+ICD10-S65;    Verletzung v.Blutgefäßen in Höhe d. Hand/-gelenkes;2;4;3;1;3;4;1;3;6;2
+ICD10-S66;    Verletzung v.Muskeln/Sehnen i.Höh.d.Hand/-gelenkes;1;2;4;2;3;4;2;3;2;2
+ICD10-S67;    Zerquetschung des Handgelenkes und der Hand;-;-;-;-;-;-;-;-;-;-
+ICD10-S68;    Traumatische Amputation an Handgelenk und Hand;1;2;-;-;1;2;2;1;2;-
+ICD10-S69;    Sonst.u. n.n. bez. Verletzungen d. Hand/-gelenkes;-;-;1;1;-;-;1;-;-;-
+ICD10-S70-S79;  Verletzungen der Hüfte und des Oberschenkels;8369;8415;8301;8529;8926;8976;9877;9641;9828;10076
+ICD10-S70;    Oberflächl. Verletzung der Hüfte/des Oberschenkels;178;188;184;199;233;208;227;241;253;259
+ICD10-S71;    Offene Wunde der Hüfte und des Oberschenkels;4;13;5;8;9;8;9;3;8;5
+ICD10-S72;    Fraktur des Femurs;8133;8156;8060;8275;8627;8694;9578;9322;9503;9750
+ICD10-S73;    Luxation/Verstauch./Zerrung d.Hüftgelenkes/Bänder;30;33;31;30;32;40;36;48;41;38
+ICD10-S74;    Verletzung v.Nerven in Höhe d. Hüfte/Oberschenkels;-;-;-;-;-;-;-;-;-;-
+ICD10-S75;    Verletzung v.Blutgefäßen i.Höhe Hüfte/Oberschenkel;6;7;3;5;8;12;11;11;7;6
+ICD10-S76;    Verletzung v.Muskeln/Sehnen i.H.Hüfte/Oberschenkel;13;15;15;8;13;11;12;10;13;12
+ICD10-S77;    Zerquetschung der Hüfte und des Oberschenkels;1;1;-;-;-;1;-;1;-;2
+ICD10-S78;    Traumatische Amputation an Hüfte und Oberschenkel;3;1;3;4;4;2;3;5;2;4
+ICD10-S79;    Sonst. u. n.n.bez. Verletzungen Hüfte/Oberschenkel;1;1;-;-;-;-;1;-;1;-
+ICD10-S80-S89;  Verletzungen des Knies und des Unterschenkels;583;582;566;638;672;701;724;703;740;751
+ICD10-S80;    Oberflächliche Verletzung des Unterschenkels;107;116;135;143;154;199;167;165;193;221
+ICD10-S81;    Offene Wunde des Unterschenkels;48;40;43;42;52;54;66;59;61;61
+ICD10-S82;    Fraktur d.Unterschenkels einschl. d.ob. Sprunggel.;405;407;363;431;439;424;469;454;463;433
+ICD10-S83;    Luxation/Verstauch./Zerrung d. Kniegelenkes/Bänder;15;9;10;11;10;9;10;7;11;21
+ICD10-S84;    Verletzung von Nerven in Höhe des Unterschenkels;-;-;-;-;-;1;-;-;-;-
+ICD10-S85;    Verletzung v. Blutgefäßen in Höhe d.Unterschenkels;5;3;4;3;2;3;2;1;3;4
+ICD10-S86;    Verletzung v.Muskeln/Sehnen in Höhe d.Unterschenk.;-;1;5;3;8;7;4;4;1;3
+ICD10-S87;    Zerquetschung des Unterschenkels;-;-;1;-;-;1;1;-;1;-
+ICD10-S88;    Traumatische Amputation am Unterschenkel;1;4;3;3;6;3;4;9;5;8
+ICD10-S89;    Sonst. u. n.n.bez. Verletzungen d. Unterschenkels;2;2;2;2;1;-;1;4;2;-
+ICD10-S90-S99;  Verletzungen der Knöchelregion und des Fußes;40;27;36;34;35;30;36;32;33;39
+ICD10-S90;    Oberflächliche Verletzung d. Knöchelregion/Fußes;3;2;5;10;4;3;4;4;7;6
+ICD10-S91;    Offene Wunde der Knöchelregion und des Fußes;7;4;7;4;3;5;5;6;3;5
+ICD10-S92;    Fraktur d. Fußes (ausgenommen oberes Sprunggelenk);18;12;16;10;18;13;18;8;17;18
+ICD10-S93;    Luxation/Verstauch./Zerrung Sprunggelenk/Fuß;8;9;8;9;9;9;8;12;5;9
+ICD10-S94;    Verletzung von Nerven in Höhe d. Knöchels/Fußes;-;-;-;-;-;-;-;-;-;-
+ICD10-S95;    Verletzung v.Blutgefäßen in Höhe d.Knöchels/Fußes;-;-;-;-;-;-;-;-;1;-
+ICD10-S96;    Verletzung v.Muskeln/Sehnen i.H.d. Knöchels/Fußes;1;-;-;-;-;-;-;-;-;-
+ICD10-S97;    Zerquetschung des oberen Sprunggelenkes/Fußes;-;-;-;-;-;-;-;-;-;-
+ICD10-S98;    Traumatische Amputation am oberen Sprunggelenk/Fuß;3;-;-;1;1;-;-;1;-;1
+ICD10-S99;    Sonst. u. n.n.bez. Verletzungen Knöchelregion/Fuß;-;-;-;-;-;-;1;1;-;-
+ICD10-T00-T07;  Verletzungen mit Beteil. mehrerer Körperregionen;54;43;61;39;32;36;18;22;21;14
+ICD10-T00;    Oberfl.Verletzungen m. Beteil. mehrerer Körperreg.;6;8;4;3;3;5;4;2;1;3
+ICD10-T01;    Offene Wunden mehrerer Körperregionen;1;2;-;-;1;-;1;-;-;-
+ICD10-T02;    Frakturen mit Beteiligung mehrerer Körperregionen;8;1;1;1;1;8;-;2;3;4
+ICD10-T03;    Luxation./Verstauch./Zerrungen mehrerer Körperreg.;-;-;-;-;-;-;-;-;-;-
+ICD10-T04;    Zerquetschungen mehrerer Körperregionen;-;2;-;-;-;2;1;1;-;-
+ICD10-T05;    Traumatische Amputationen mehrerer Körperregionen;-;-;2;-;-;-;-;1;-;-
+ICD10-T06;    Sonst. Verletz. mehrerer Körperreg., ao.n.klass.;7;4;3;5;3;9;5;2;3;1
+ICD10-T07;    Nicht näher bezeichnete multiple Verletzungen;32;26;51;30;24;12;7;14;14;6
+ICD10-T08-T14;  Sonst.Verletzungen, Rumpf,Extremit.,and.Körperreg.;39;46;50;40;36;16;24;28;17;21
+ICD10-T08;    Fraktur der Wirbelsäule, Höhe nicht näher bez.;2;12;6;2;3;1;4;3;5;3
+ICD10-T09;    Sonst.Verletzungen d.Wirbelsäule/Rumpfes, n.n.bez.;13;9;18;10;10;8;11;12;2;4
+ICD10-T10;    Fraktur d.oberen Extremität, Höhe nicht näher bez.;-;-;-;-;-;-;-;-;-;-
+ICD10-T11;    Sonst.Verletzungen d.ob. Extremität, Höhe n.n.bez.;1;2;2;3;1;-;-;1;-;-
+ICD10-T12;    Fraktur der unteren Extremität, Höhe n.n.bez.;1;-;-;-;-;-;-;-;-;-
+ICD10-T13;    Sonstige Verletzungen der unteren Extremität, Höhe;1;2;3;4;-;1;-;-;-;1
+ICD10-T14;    Verletzung an einer n.n. bezeichneten Körperregion;21;21;21;21;22;6;9;12;10;13
+ICD10-T15-T19;  Eindringen von Fremdkörpern in eine Körperöffnung;402;452;506;481;479;565;567;562;626;665
+ICD10-T15;    Fremdkörper im äußeren Auge;-;-;-;-;-;-;-;-;-;-
+ICD10-T16;    Fremdkörper im Ohr;-;-;-;-;-;-;-;-;-;-
+ICD10-T17;    Fremdkörper in den Atemwegen;385;433;495;468;463;542;538;532;600;628
+ICD10-T18;    Fremdkörper im Verdauungstrakt;17;17;9;13;16;23;26;28;26;35
+ICD10-T19;    Fremdkörper im Urogenitaltrakt;-;2;2;-;-;-;3;2;-;2
+ICD10-T20-T32;  Verbrennungen oder Verätzungen;240;225;232;248;278;213;216;220;257;209
+ICD10-T20;    Verbrennung/Verätzung des Kopfes und des Halses;47;31;43;40;33;38;34;42;55;37
+ICD10-T21;    Verbrennung oder Verätzung des Rumpfes;84;96;90;101;122;86;81;78;97;72
+ICD10-T22;    Verbrennung o. Verätzung der Schulter u.d. Armes;22;25;10;18;17;13;18;13;21;25
+ICD10-T23;    Verbrennung o.Verätzung des Handgelenkes u.d. Hand;11;5;8;8;7;6;6;10;8;8
+ICD10-T24;    Verbrennung o. Verätzung der Hüfte u.d. Beines;41;39;50;49;58;32;46;39;34;38
+ICD10-T25;    Verbrennung o.Verätzung d. Knöchelregion u.d.Fußes;9;10;9;7;6;6;8;16;8;4
+ICD10-T26;    Verbrennung o.Verätzung d.Auges u.d.Anhangsgebilde;-;-;-;-;-;-;-;-;-;-
+ICD10-T27;    Verbrennung oder Verätzung der Atemwege;3;1;1;-;7;-;3;4;5;1
+ICD10-T28;    Verbrennung oder Verätzung sonst. innerer Organe;10;9;7;12;10;19;11;8;13;6
+ICD10-T29;    Verbrennungen/Verätzungen mehrerer Körperregionen;11;8;13;11;13;13;8;8;16;17
+ICD10-T30;    Verbrennung oder Verätzung, Körperregion n.n.bez.;2;1;1;2;5;-;1;2;-;1
+ICD10-T31;    Verbrennung,klass.n.d.Ausmaß d.betr.Körperoberfl.;-;-;-;-;-;-;-;-;-;-
+ICD10-T32;    Verätzungen,klass.n.d.Ausmaß d.betr.Körperoberfl.;-;-;-;-;-;-;-;-;-;-
+ICD10-T33-T35;  Erfrierungen;8;7;5;6;3;-;1;1;2;2
+ICD10-T33;    Oberflächliche Erfrierung;3;1;-;-;-;-;-;-;-;-
+ICD10-T34;    Erfrierung mit Gewebsnekrose;4;4;4;6;2;-;1;1;1;2
+ICD10-T35;    Erfrierung mit Beteiligung mehrerer Körperregionen;1;2;1;-;1;-;-;-;1;-
+ICD10-T36-T50;  Vergiftungen durch Arzneimittel,Drogen, Substanzen;391;423;373;246;244;196;170;156;158;138
+ICD10-T36;    Vergiftung durch systemisch wirkende Antibiotika;-;1;-;-;-;-;-;-;-;-
+ICD10-T37;    Vergiftung d. sonst. Antiinfektiva/Antiparasitika;-;-;1;-;-;1;-;1;-;-
+ICD10-T38;    Vergiftung d.Hormone,synth.Ersatzst./Antagonisten;11;12;15;18;9;7;5;8;5;4
+ICD10-T39;    Vergift. d.Analgetika/Antipyretika/Antirheumatika;13;14;11;8;7;7;4;7;6;2
+ICD10-T40;    Vergiftung d. Betäubungsmittel u. Psychodysleptika;63;58;56;26;32;39;38;25;23;24
+ICD10-T41;    Vergiftung durch Anästhetika u.therapeutische Gase;3;3;-;1;1;2;2;1;2;-
+ICD10-T42;    Vergift.d.Antiepilep./Sedativa/Hypnotika/Antipark.;90;108;95;51;61;45;30;34;25;28
+ICD10-T43;    Vergiftung durch psychotrope Substanzen;42;60;60;36;30;25;24;21;26;18
+ICD10-T44;    Vergiftung d.prim.a.d.auton.Nervensyst.wirk.Arzn.;10;7;10;3;10;4;5;-;4;3
+ICD10-T45;    Vergiftung d.prim.syst.a.d.Blut wirk.M., ao.n.kl.;29;27;27;30;29;16;15;17;10;11
+ICD10-T46;    Vergiftung d.prim.a.d.Herz-Kreisl.-syst.wirk.M.;75;65;52;42;22;22;16;14;21;11
+ICD10-T47;    Vergift. d.prim.a.d. Magen-Darm-Trakt wirk. Mittel;-;-;1;1;1;-;-;-;-;-
+ICD10-T48;    Vergiftung d.prim.a. Muskeln u.Atmung wirk. Mittel;2;3;2;2;1;1;2;-;1;1
+ICD10-T49;    Vergiftung d.prim.a.Haut u.Schleimhaut wirk.Mittel;-;-;1;-;1;-;-;-;-;-
+ICD10-T50;    Vergiftung d.Diuretika u.sonst.Arzneim./Drogen;53;65;42;28;40;27;29;28;35;36
+ICD10-T51-T65;  Toxische Wirkungen v.vorw.nicht med.verwend.Subst.;92;95;99;66;61;57;76;73;64;55
+ICD10-T51;    Toxische Wirkung von Alkohol;3;7;7;2;-;3;2;3;-;4
+ICD10-T52;    Toxische Wirkung von organischen Lösungsmitteln;1;2;2;3;2;1;3;1;4;-
+ICD10-T53;    Toxische Wirkung von Kohlenwasserstoffen;-;-;1;-;-;-;-;-;-;-
+ICD10-T54;    Toxische Wirkung von ätzenden Substanzen;6;7;2;1;1;2;6;2;1;4
+ICD10-T55;    Toxische Wirkung von Seifen und Detergenzien;5;5;3;1;3;2;2;-;4;2
+ICD10-T56;    Toxische Wirkung von Metallen;-;-;-;-;-;-;1;1;-;-
+ICD10-T57;    Toxische Wirkung v. sonst.anorganischen Substanzen;4;4;-;-;1;-;-;2;1;-
+ICD10-T58;    Toxische Wirkung von Kohlenmonoxid;25;26;28;27;21;22;28;31;25;21
+ICD10-T59;    Toxische Wirkung sonst. Gase/Dämpfe/Rauches;16;23;23;13;12;17;15;12;12;8
+ICD10-T60;    Toxische Wirkung von Schädlingsbekämpfungsmitteln;9;6;12;4;5;2;-;7;2;2
+ICD10-T61;    Toxische Wirkung schädl. Substanzen v.Meerestieren;-;-;-;-;2;-;-;-;-;-
+ICD10-T62;    Tox. Wirkung sonst.schädl.Substanzen/Nahrungsmitt.;3;3;2;3;1;-;3;1;3;6
+ICD10-T63;    Toxische Wirkung durch Kontakt mit giftigen Tieren;6;2;6;1;-;2;5;3;4;5
+ICD10-T64;    Tox. Wirkung v. Aflatoxin/Mykotoxin in Lebensmitt.;-;-;-;-;-;-;-;-;-;-
+ICD10-T65;    Toxische Wirkung sonst. und n.n.bez. Substanzen;14;10;13;11;13;6;11;10;8;3
+ICD10-T66-T78;  Sonst. und n.n.bez. Schäden durch äußere Ursachen;348;358;331;319;333;314;337;352;336;377
+ICD10-T66;    Nicht näher bezeichnete Schäden durch Strahlung;-;-;2;-;1;-;-;-;-;1
+ICD10-T67;    Schäden durch Hitze und Sonnenlicht;3;7;3;7;13;4;25;6;2;15
+ICD10-T68;    Hypothermie;143;159;127;137;118;108;101;124;115;132
+ICD10-T69;    Sonstige Schäden durch niedrige Temperatur;1;-;-;-;1;-;-;-;-;-
+ICD10-T70;    Schäden durch Luft- und Wasserdruck;-;1;2;-;1;1;3;1;-;-
+ICD10-T71;    Erstickung;69;68;63;57;63;79;61;67;66;57
+ICD10-T73;    Schäden durch sonstigen Mangel;2;-;-;-;-;-;-;-;-;-
+ICD10-T74;    Missbrauch von Personen;-;-;-;-;-;-;-;-;-;-
+ICD10-T75;    Schäden durch sonstige äußere Ursachen;87;82;79;70;82;78;85;101;90;109
+ICD10-T78;    Unerwünschte Nebenwirkungen, ao.nicht klass.;43;41;55;48;54;44;62;53;63;63
+ICD10-T79-T79;  Bestimmte Frühkomplikationen eines Traumas;144;121;135;109;129;132;125;141;154;207
+ICD10-T79;    Frühkomplikationen eines Traumas, ao.nicht klass.;144;121;135;109;129;132;125;141;154;207
+ICD10-T80-T88;  Komplikationen bei chirurg.Eingriff.u.med.Behandl.;3646;3961;3820;3876;3760;3879;3995;3871;3865;4052
+ICD10-T80;    Komplikationen nach Infusion/Transfusion/Injektion;13;26;15;15;15;21;10;19;10;12
+ICD10-T81;    Komplikationen bei Eingriffen, ao.nicht klass.;604;619;587;606;504;559;517;488;487;489
+ICD10-T82;    Kompl.d.Prothesen/Implant./Herz-/Gefäßtransplant.;1187;1260;1245;1298;1199;1323;1367;1353;1325;1450
+ICD10-T83;    Kompl.d.Prothesen/Implant./Urogenitaltransplant.;137;143;140;136;140;155;145;130;124;169
+ICD10-T84;    Kompl.d.orth.Endoprothesen/Implant./Transplantate;876;977;911;922;1053;1003;1118;1048;1159;1134
+ICD10-T85;    Kompl.d.sonst.inter.Prothes./Implant./Transplant.;355;363;370;355;334;298;271;269;248;298
+ICD10-T86;    Versagen/Abstoßung von transplant.Organen/Geweben;227;297;317;313;292;282;337;312;295;266
+ICD10-T87;    Kompl.d.f.Replantation/Amputation bezeichnend sind;194;212;201;196;183;193;200;216;200;209
+ICD10-T88;    Sonstige Komplikationen bei chirurgischen Eingriff;53;64;34;35;40;45;30;36;17;25
+ICD10-T89-T89;  Sonst. Komplikationen eines Traumas, ao.n.klass.;14;11;9;9;11;16;13;14;12;17
+ICD10-T89;    Sonst. Komplikationen eines Traumas, ao.n.klass.;14;11;9;9;11;16;13;14;12;17
+ICD10-T90-T98;  Folgen v.Verletz.,Vergift.u.sonst.Auswirk.äuß.Urs.;1;1;-;1;1;-;-;-;-;1
+ICD10-T90;    Folgen von Verletzungen des Kopfes;-;-;-;1;-;-;-;-;-;-
+ICD10-T91;    Folgen von Verletzungen des Halses und des Rumpfes;-;-;-;-;-;-;-;-;-;1
+ICD10-T92;    Folgen von Verletzungen der oberen Extremität;-;1;-;-;-;-;-;-;-;-
+ICD10-T93;    Folgen von Verletzungen der unteren Extremität;-;-;-;-;-;-;-;-;-;-
+ICD10-T94;    Folgen von Verletzungen n.n.bez. Körperregionen;-;-;-;-;-;-;-;-;-;-
+ICD10-T95;    Folgen von Verbrennungen/Verätzungen/Erfrierungen;-;-;-;-;-;-;-;-;-;-
+ICD10-T96;    Folgen e.Vergiftung d.Arzneim./Drogen/biol.Subst.;-;-;-;-;-;-;-;-;-;-
+ICD10-T97;    Folgen tox.Wirkungen vorw.nicht med.verwend.Subst.;-;-;-;-;-;-;-;-;-;-
+ICD10-T98;    Folg. sonst. u. n.n.bez. Wirk. äußerer Ursachen;1;-;-;-;1;-;-;-;-;-
+ICD10-Z00-Z99;Faktoren,die zur Inanspruchn.d.Gesundheitsw.führen;135;113;298;232;114;99;103;130;242;302
+ICD10-Z00-Z13;  Inanspruchnahme Gesundheitswesen, Untersuchung;15;14;25;24;11;16;22;15;18;32
+ICD10-Z00;    Allgemeinuntersuch.b.Pers.ohne Beschwerden/Diagn.;1;-;-;1;-;1;1;2;1;1
+ICD10-Z01;    Spez. Untersuch./Abklär. b.Pers.ohne Beschwerden;2;1;1;1;-;-;1;-;1;-
+ICD10-Z02;    Untersuchung und Konsultation aus admin. Gründen;2;1;3;1;-;-;-;1;1;-
+ICD10-Z03;    Ärztl. Beobachtung u.Beurteilung v.Verdachtsfällen;9;7;15;18;7;13;15;8;9;28
+ICD10-Z04;    Untersuchung und Beobachtung aus sonstigen Gründen;-;1;1;-;1;-;-;1;2;1
+ICD10-Z08;    Nachuntersuchung nach Behandlung wegen BN;1;3;3;-;1;1;3;1;2;-
+ICD10-Z09;    Nachuntersuchung wegen and. Kh.-Zustände außer BN;-;-;1;2;1;-;-;1;1;1
+ICD10-Z10;    Allg.Reihenuntersuch.bestimmter Bevölkerugsgruppen;-;-;-;-;-;-;-;-;-;-
+ICD10-Z11;    Spez. Verfahren z. Untersuch. infekt./parasit.Kh.;-;1;1;1;-;1;2;-;-;-
+ICD10-Z12;    Spezielles Verfahren zur Untersuchung auf NB;-;-;-;-;-;-;-;-;-;-
+ICD10-Z13;    Spez. Verfahren z. Untersuch. sonst.Kh./Störungen;-;-;-;-;1;-;-;1;1;1
+ICD10-Z20-Z29;  Pers. mit potent.Gesundheitsrisiken,übertragb. Kh.;8;3;3;-;2;1;3;1;2;1
+ICD10-Z20;    Kontakt/Exposition gegenüber übertragbaren Krankh.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z21;    Asymptomatische HIV-Infektion;-;-;-;-;-;-;-;-;-;-
+ICD10-Z22;    Keimträger von Infektionskrankheiten;5;2;3;-;2;-;1;-;1;1
+ICD10-Z23;    Notwendigkeit der Impfung gegen bakt. Krankheiten;-;-;-;-;-;-;-;-;-;-
+ICD10-Z24;    Notwendigkeit der Impfung gegen best. Virus-Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z25;    Notwendigkeit der Impfung gegen andere Virus-Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z26;    Notwendigkeit d. Impfung gegen and. Infektions-Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z27;    Notwendigk.d.Impfung gegen Kombin.v.Infektions-Kh.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z28;    Nicht durchgeführte Impfung [Immunisierung];-;-;-;-;-;-;-;-;-;-
+ICD10-Z29;    Notwendigkeit von and. prophylaktischen Maßnahmen;3;1;-;-;-;1;2;1;1;-
+ICD10-Z30-Z39;  Inanspruchn. Gesundheitswesen, Reproduktionsprobl.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z30;    Kontrazeptive Maßnahmen;-;-;-;-;-;-;-;-;-;-
+ICD10-Z31;    Fertilisationsfördernde Maßnahmen;-;-;-;-;-;-;-;-;-;-
+ICD10-Z32;    Untersuch./Test z. Feststell.einer Schwangerschaft;-;-;-;-;-;-;-;-;-;-
+ICD10-Z33;    Schwangerschaftsfeststellung als Nebenbefund;-;-;-;-;-;-;-;-;-;-
+ICD10-Z34;    Überwachung einer normalen Schwangerschaft;-;-;-;-;-;-;-;-;-;-
+ICD10-Z35;    Überwachung einer Risikoschwangerschaft;-;-;-;-;-;-;-;-;-;-
+ICD10-Z36;    Pränatales Screening;-;-;-;-;-;-;-;-;-;-
+ICD10-Z37;    Resultat der Entbindung;-;-;-;-;-;-;-;-;-;-
+ICD10-Z38;    Lebendgeborene nach dem Geburtsort;-;-;-;-;-;-;-;-;-;-
+ICD10-Z39;    Postpartale Betreuung und Untersuchung der Mutter;-;-;-;-;-;-;-;-;-;-
+ICD10-Z40-Z54;  Inanspruchn. Gesundheitswesen, med.Betreuung u.Ä.;88;76;243;190;81;65;66;101;214;260
+ICD10-Z40;    Prophylaktische Operation;1;-;-;-;-;-;-;-;-;-
+ICD10-Z41;    Maßn. nicht z.Wiederherst. d. Gesundheitszustandes;-;-;-;-;-;-;-;-;-;-
+ICD10-Z42;    Nachbehandlung unter Anwend. plastischer Chirurgie;-;-;-;-;-;-;-;-;-;-
+ICD10-Z43;    Versorgung künstlicher Körperöffnungen;11;12;14;11;14;10;9;10;9;4
+ICD10-Z44;    Versorgen mit und Anpassen einer Ektoprothese;-;-;-;-;-;-;-;-;-;-
+ICD10-Z45;    Anpassung/Handhabung eines implant. med. Gerätes;26;12;47;43;31;24;37;30;30;14
+ICD10-Z46;    Versorgen/Anpassen v. med. Geräten/Hilfsmitteln;2;1;-;4;1;-;-;3;1;-
+ICD10-Z47;    Andere orthopädische Nachbehandlung;-;-;-;-;-;-;-;-;-;-
+ICD10-Z48;    Andere Nachbehandlung nach chirurgischem Eingriff;4;7;7;5;2;6;1;3;5;1
+ICD10-Z49;    Dialysebehandlung;4;6;5;4;3;-;1;2;3;1
+ICD10-Z50;    Rehabilitationsmaßnahmen;-;-;-;-;-;-;-;-;-;-
+ICD10-Z51;    Sonstige medizinische Behandlung;14;4;139;97;5;1;-;43;132;223
+ICD10-Z52;    Spender von Organen oder Geweben;25;34;30;25;25;24;18;6;34;17
+ICD10-Z53;    Personen ohne Durchführung der Maßnahme;1;-;1;1;-;-;-;4;-;-
+ICD10-Z54;    Rekonvaleszenz;-;-;-;-;-;-;-;-;-;-
+ICD10-Z55-Z65;  Pers.m.Gesundheitsrisiken,sozökon.,psychsoz.Umst.;1;-;-;-;2;-;-;-;-;-
+ICD10-Z55;    Kontaktanlässe mit Bezug auf die Ausbildung;-;-;-;-;-;-;-;-;-;-
+ICD10-Z56;    Kontaktanlässe mit Bezug auf das Berufsleben;-;-;-;-;-;-;-;-;-;-
+ICD10-Z57;    Berufliche Exposition gegenüber Risikofaktoren;-;-;-;-;-;-;-;-;-;-
+ICD10-Z58;    Kontaktanlässe mit Bezug a.d. physikalische Umwelt;-;-;-;-;-;-;-;-;-;-
+ICD10-Z59;    Kontaktanlässe m.Bezug a.d.Wohnumfeld/wirtsch.Lage;-;-;-;-;-;-;-;-;-;-
+ICD10-Z60;    Kontaktanlässe mit Bezug auf die soziale Umgebung;1;-;-;-;-;-;-;-;-;-
+ICD10-Z61;    Kontaktanlässe mit Bezug auf Kindheitserlebnisse;-;-;-;-;-;-;-;-;-;-
+ICD10-Z62;    Andere Kontaktanlässe mit Bezug auf die Erziehung;-;-;-;-;-;-;-;-;-;-
+ICD10-Z63;    Andere Kontaktanl.m.Bezug a.d.engeren Familienkr.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z64;    Kontaktanl. m. Bezug auf best. psychosoz. Umstände;-;-;-;-;-;-;-;-;-;-
+ICD10-Z65;    Kontaktanl. m. Bezug auf and. psychosoz. Umstände;-;-;-;-;2;-;-;-;-;-
+ICD10-Z70-Z76;  Sonstige Inanspruchnahme Gesundheitswesen;5;3;3;6;4;5;2;1;-;2
+ICD10-Z70;    Beratung in Bezug auf Sexualeinstellung;-;-;-;-;-;-;-;-;-;-
+ICD10-Z71;    Pers.m.Inanspruchn.d.Gesundheitsw.wg.and.Beratung;-;-;-;-;-;1;-;-;-;-
+ICD10-Z72;    Probleme mit Bezug auf die Lebensführung;-;-;-;-;-;-;-;-;-;-
+ICD10-Z73;    Probl. m. Bezug auf Schwierigk. b.d. Lebensbewält.;-;1;-;-;-;-;-;-;-;-
+ICD10-Z74;    Probleme mit Bezug auf Pflegebedürftigkeit;5;1;2;3;4;3;1;-;-;1
+ICD10-Z75;    Probl. m. Bezug auf med. Betreuungsmöglichkeiten;-;-;-;-;-;-;-;-;-;-
+ICD10-Z76;    Pers., die d.Gesundheitsw.aus sonst.Gründ.beanspr.;-;1;1;3;-;1;1;1;-;1
+ICD10-Z80-Z99;  Pers.m.Gesundheitsrisiken,Fam.-/Eigenanamnese u.Ä.;18;17;24;12;14;12;10;12;8;7
+ICD10-Z80;    Bösartige Neubildung in der Familienanamnese;-;-;-;-;-;-;-;-;-;-
+ICD10-Z81;    Psych.Kh./Verhaltensstör. i.d. Familienanamnese;-;-;-;-;-;-;-;-;-;-
+ICD10-Z82;    Best. Behind. o. chron. Kh. in der Familienanamn.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z83;    Andere spezifische Krankheiten i.d. Familienanamn.;-;-;-;-;-;-;-;-;-;-
+ICD10-Z84;    Andere Krankheiten/Zustände i.d. Familienanamnese;-;-;-;-;-;-;-;-;-;-
+ICD10-Z85;    Bösartige Neubildung in der Eigenanamnese;7;8;11;9;5;5;7;5;5;3
+ICD10-Z86;    Bestimmte andere Krankheiten in der Eigenanamnese;-;1;1;-;-;1;-;-;-;-
+ICD10-Z87;    Andere Krankheiten oder Zustände in der Eigenanamn;-;1;-;-;1;1;-;1;-;-
+ICD10-Z88;    Allergie gegenüber Arzneim./Drogen/biol.Subst.;-;-;-;-;-;1;-;-;-;-
+ICD10-Z89;    Extremitätenverlust;1;-;-;-;-;-;-;-;-;-
+ICD10-Z90;    Verlust von Organen, andernorts nicht klass.;2;-;3;-;2;-;-;-;-;1
+ICD10-Z91;    Risikofaktoren i.d. Eigenanamnese, ao.nicht klass.;1;2;-;-;2;-;-;-;-;1
+ICD10-Z92;    Medizinische Behandlung in der Eigenanamnese;1;-;-;-;-;1;-;2;2;-
+ICD10-Z93;    Vorhandensein einer künstlichen Körperöffnung;1;1;4;-;-;-;-;-;-;-
+ICD10-Z94;    Zustand nach Organ- oder Gewebetransplantation;-;-;-;-;-;-;-;-;-;-
+ICD10-Z95;    Vorhandensein v.kardialen/vaskulär. Impl./Transpl.;3;-;3;-;2;-;-;2;1;1
+ICD10-Z96;    Vorhandensein von anderen funktionellen Implantate;-;1;-;1;-;-;1;-;-;-
+ICD10-Z97;    Vorhandensein anderer med. Geräte/Hilfsmittel;-;-;-;-;-;-;-;-;-;-
+ICD10-Z98;    Sonstige Zustände nach chirurgischem Eingriff;-;-;-;1;2;2;1;2;-;1
+ICD10-Z99;    Abhängigkeit von unterstützenden Apparaten/Geräten;2;3;2;1;-;1;1;-;-;-
+ICD10-U00-U85;Schlüsselnummern für besondere Zwecke;2;4;3;2;3;-;-;-;6;9
+ICD10-U00-U49;  Vorl.Zuord. f. Kh. m.unkl.Ätiologie u.n.b.Schl-Nr.;1;1;1;1;-;-;-;-;1;-
+ICD10-U04;    Schweres akutes respiratorisches Syndrom (SARS);1;1;1;1;-;-;-;-;1;-
+ICD10-U05;    Nicht belegte Schlüsselnummer;-;-;-;-;-;-;-;-;-;-
+ICD10-U06;    Zika-Viruskrankheit;-;-;-;-;-;-;-;-;-;-
+ICD10-U50-U52;  Funktionseinschränkung;1;3;2;1;3;-;-;-;5;9
+ICD10-U50;    Motorische Funktionseinschränkung;1;1;2;1;-;-;-;-;1;3
+ICD10-U51;    Kognitive Funktionseinschränkung;-;2;-;-;-;-;-;-;4;6
+ICD10-U52;    Frührehabilitations-Barthel-Index (FRB);-;-;-;-;3;-;-;-;-;-
+ICD10-U55-U55;  Erfolgte Registrierung zur Organtransplantation;-;-;-;-;-;-;-;-;-;-
+ICD10-U55;    Erfolgte Registrierung zur Organtransplantation;-;-;-;-;-;-;-;-;-;-
+ICD10-U60-U61;  Stadieneinteilung der HIV-Infektion;-;-;-;-;-;-;-;-;-;-
+ICD10-U60;    Klinische Kategorien der HIV-Krankheit;-;-;-;-;-;-;-;-;-;-
+ICD10-U61;    Anzahl der T-Helferzellen bei HIV-Krankheit;-;-;-;-;-;-;-;-;-;-
+ICD10-U80-U85;  Infektionserr.m.best.Antibiotika-/Chemotherap.res.;-;-;-;-;-;-;-;-;-;-
+ICD10-U80;    Grampos.Erreger m.Antibiotikares.,bes.Maßn.erford.;-;-;-;-;-;-;-;-;-;-
+ICD10-U81;    Gramneg. Erreger mit Multiresis. gegen Antibiotika;-;-;-;-;-;-;-;-;-;-
+ICD10-U82;    Mykobakterien mit Resistenz gegen Antituberkulotik;-;-;-;-;-;-;-;-;-;-
+ICD10-U83;    Candida m. Resistenz gegen Fluconalzol/Voriconazol;-;-;-;-;-;-;-;-;-;-
+ICD10-U84;    Herpesviren mit Resistenz gegen Virustatika;-;-;-;-;-;-;-;-;-;-
+ICD10-U85;    Humanes Immundefizienz-Virus mit Resistenz;-;-;-;-;-;-;-;-;-;-
+UNBEKANNT;unbekannt;16;26;11;4;5;2;18;10;9;5
+;Insgesamt;408310;407473;401865;404842;417290;403787;427201;419359;427917;437398
+__________
+© Statistisches Bundesamt (Destatis), 2021
+Stand: 14.01.2021 / 19:17:03

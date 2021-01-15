@@ -1,4 +1,6 @@
 ###Historical death counts website
+population age analysis
+diagnostics analysis
 
 ###visit
 
