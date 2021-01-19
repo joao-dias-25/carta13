@@ -29,6 +29,7 @@ def app():
         fig2.update_yaxes(title_text='Sterbefallzahlen monatlich')
         st.plotly_chart(fig2)
 
+
         if st.checkbox('Extracting Seasonality and Trend from Data (Monat)'):
             st.markdown('Trend, Saisonalität, Rest')
             time_series.timeseries(df_mon,12, 'additive', 'Anzahl')
