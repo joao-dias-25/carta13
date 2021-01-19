@@ -14,7 +14,7 @@ def app():
     status = st.radio("Information: ", ('im Allgemeinen', 'Hauptdiagnose','Bevölkerungen'))
 
     if (status == 'im Allgemeinen'):
-        df_mon = pd.read_csv("data/Deutschland/sterbefallzahlen_monatlich.csv", delimiter=';', skiprows=6, nrows=369,
+        df_mon = pd.read_csv("data/Deutschland/sterbefallzahlen_monatlich.csv", delimiter=';', skiprows=6, nrows=372,
                          encoding='ISO-8859-1')
         md = {'Januar': 1, 'Februar': 2, 'März': 3, 'April': 4, 'Mai': 5, 'Juni': 6, 'Juli': 7, 'August': 8, 'September': 9,
               'Oktober': 10, 'November': 11, 'Dezember': 12}
@@ -33,7 +33,7 @@ def app():
             st.markdown('Trend, Saisonalität, Rest')
             time_series.timeseries(df_mon,12, 'additive', 'Anzahl')
 
-        df = pd.read_csv("data/Deutschland/sterbefallzahlen_w.csv", delimiter=';',usecols=range(6))
+        df = pd.read_csv("data/Deutschland/sterbefallzahlen_w2.csv", delimiter=';',usecols=range(6))
         df2=pd.melt(df,id_vars=["Kalenderwoche"])
         df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
         df2 = df2.set_index('date')

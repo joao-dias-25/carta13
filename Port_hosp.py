@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 from io import StringIO
 import plotly.express as px
-import json
+
 
 def app():
     @st.cache(persist=True,allow_output_mutation=True)
@@ -20,12 +20,14 @@ def app():
         return df
 
     df=load_data()
+    #top = df.loc[df['fields.periodo'] == 'Jun 2020']['fields.desc_capitulo'].value_counts().loc[lambda x: x > 200].index.tolist()
 
     dfg=df.groupby(['fields.periodo','fields.desc_capitulo'], as_index=False).agg({'fields.obitos':'sum'})
 
+    #dfg = dfg.loc[dfg['fields.desc_capitulo'].isin(top)]
     fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color='fields.desc_capitulo')
     fig.update_yaxes(title_text='Mortes em unidades hospitalares')
-    fig.update_layout(showlegend=True, height=700, width=1200,
+    fig.update_layout(showlegend=True, height=800, width=1200,
                       title_text="Total de episódios de internamento, ambulatório e óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS",
                       legend=dict(
                           x=1, y=0, traceorder="normal", font=dict(size=10), bgcolor="WhiteSmoke"))
