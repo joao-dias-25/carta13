@@ -35,7 +35,6 @@ def app():
     st.plotly_chart(fig)
 
 
-    st.write()
     st.markdown("""
 
     <iframe src="https://transparencia.sns.gov.pt/explore/embed/dataset/morbilidade-e-mortalidade-hospitalar/analyze/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IlNVTSIsInlBeGlzIjoib2JpdG9zIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiIzhkYTBjYiJ9XSwieEF4aXMiOiJwZXJpb2RvIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoibW9udGgiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb3JiaWxpZGFkZS1lLW1vcnRhbGlkYWRlLWhvc3BpdGFsYXIiLCJvcHRpb25zIjp7fX19XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwidGltZXNjYWxlIjoiIn0%3D&static=false&datasetcard=false" width="800" height="500" frameborder="0"></iframe>
@@ -45,3 +44,16 @@ def app():
     <iframe src="https://transparencia.sns.gov.pt/explore/embed/dataset/morbilidade-e-mortalidade-hospitalar/analyze/?sort=periodo&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IlNVTSIsInlBeGlzIjoiZGlhc19pbnRlcm5hbWVudG8iLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjNjZjMmE1In0seyJ0eXBlIjoibGluZSIsImZ1bmMiOiJTVU0iLCJ5QXhpcyI6ImFtYnVsYXRvcmlvIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiI2ZjOGQ2MiJ9XSwieEF4aXMiOiJwZXJpb2RvIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoibW9udGgiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb3JiaWxpZGFkZS1lLW1vcnRhbGlkYWRlLWhvc3BpdGFsYXIiLCJvcHRpb25zIjp7InNvcnQiOiJwZXJpb2RvIn19fV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWUsInRpbWVzY2FsZSI6IiJ9&static=false&datasetcard=false" width="800" height="500" frameborder="0"></iframe>
 
     """, unsafe_allow_html=True)
+
+    st.write()
+    url = 'https://transparencia.sns.gov.pt/api/records/1.0/search/?dataset=atividade-gripe-inem&q=&rows=5000&sort=periodo&facet=periodo'
+    result = requests.get(url)
+    data = result.json()
+    df=pd.json_normalize(data["records"])
+    df['fields.periodo'] = pd.to_datetime(df['fields.periodo'], format='%Y-%m')
+    fig2 = px.line(df, x=df['fields.periodo'], y='fields.n_o_registos')
+    fig2.update_yaxes(title_text='N. de registos')
+    fig2.update_layout(showlegend=True, height=800, width=1200,
+                      title_text="Evolução Diária das Chamadas de Emergência Atendidas no Centro de Orientação de Doentes Urgentes (CODU)",
+                      )
+    st.plotly_chart(fig2)
