@@ -13,7 +13,7 @@ def app():
         df = pd.read_csv(csv_raw, low_memory=False, index_col=0)
         df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.lower()
         df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.replace("códigos para fins especiais",
-                                                                            "códigos para fins especiais (COVID??)")
+                                                                            "códigos para fins especiais (COVID-19??)")
         df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.replace("algumas ",
                                                                             "")
         #df['fields.periodo'] = pd.to_datetime(df['fields.periodo'], format='%Y-%m')

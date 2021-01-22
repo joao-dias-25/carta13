@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 import time_series
+import Ger_gesundsystem
 
 def app():
     st.write('## Deutschland')
@@ -34,7 +35,7 @@ def app():
             st.markdown('Trend, Saisonalität, Rest')
             time_series.timeseries(df_mon,12, 'additive', 'Anzahl')
 
-        df = pd.read_csv("data/Deutschland/sterbefallzahlen_w2.csv", delimiter=';',usecols=range(6))
+        df = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
         df2=pd.melt(df,id_vars=["Kalenderwoche"])
         df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
         df2 = df2.set_index('date')
@@ -62,3 +63,6 @@ def app():
         st.plotly_chart(figb)
         figbt = px.line(dfp, x=dfp.index, y=['Insgesamt'])
         st.plotly_chart(figbt)
+
+    else:
+        Ger_gesundsystem.app()
