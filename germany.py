@@ -11,6 +11,7 @@ def app():
 
     st.sidebar.write('Source')
     st.sidebar.write('https://www-genesis.destatis.de/')
+    st.sidebar.write('https://www.gbe-bund.de/')
 
     status = st.radio("Information: ", ('im Allgemeinen', 'Hauptdiagnose','Bevölkerungen'))
 
