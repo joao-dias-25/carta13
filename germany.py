@@ -16,6 +16,23 @@ def app():
     status = st.radio("Information: ", ('im Allgemeinen', 'Hauptdiagnose','Bevölkerungen'))
 
     if (status == 'im Allgemeinen'):
+
+        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_taglich.csv", skiprows=7, usecols=range(367),
+                         encoding='utf-8', index_col=0)
+        df = df.T
+        df = pd.melt(df, id_vars='Jahr')
+        df['date'] = df["Jahr"] + df["variable"]  # .astype(str)
+        df = df[df.value != 'X']
+        df = df.dropna()
+        df.value = df.value.astype(int)
+
+        df.date = pd.to_datetime(df.date, format="%d.%m.%Y")
+        df = df.sort_values('date')
+        figo = px.line(df, x=df.date, y=df.value, title="Mortalität taglich")
+        st.plotly_chart(figo)
+
+
+
         df_mon = pd.read_csv("data/Deutschland/sterbefallzahlen_monatlich.csv", delimiter=';', skiprows=6, nrows=370,
                          encoding='ISO-8859-1')
         md = {'Januar': 1, 'Februar': 2, 'März': 3, 'April': 4, 'Mai': 5, 'Juni': 6, 'Juli': 7, 'August': 8, 'September': 9,
