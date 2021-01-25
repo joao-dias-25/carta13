@@ -21,14 +21,14 @@ def app():
                          encoding='utf-8', index_col=0)
         df = df.T
         df = pd.melt(df, id_vars='Jahr')
-        df['date'] = df["Jahr"] + df["variable"]  # .astype(str)
+        df['date'] = df["Jahr"] + df["variable"]
         df = df[df.value != 'X']
         df = df.dropna()
         df.value = df.value.astype(int)
 
         df.date = pd.to_datetime(df.date, format="%d.%m.%Y")
-        df = df.sort_values('date')
-        figo = px.line(df, x=df.date, y=df.value, title="Mortalität taglich")
+        dft = df.sort_values('date')
+        figo = px.line(dft, x=dft.date, y=dft.value, title="Mortalität taglich")
         st.plotly_chart(figo)
 
 

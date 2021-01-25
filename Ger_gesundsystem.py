@@ -23,5 +23,5 @@ def app():
     fig.update_layout(showlegend=True, height=600, width=1200,
                       title_text="Mortalität und Todesursachen",
                       legend=dict(
-                          x=2, y=1, traceorder="normal", font=dict(size=10), bgcolor="WhiteSmoke"))
+                          x=1, y=1, traceorder="normal", font=dict(size=10), bgcolor="WhiteSmoke"))
     st.plotly_chart(fig)
