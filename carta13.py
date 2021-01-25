@@ -3,7 +3,8 @@ import streamlit as st
 import portugal
 import germany
 import compare
-import Port_hosp
+import resources
+
 
 st.set_page_config(layout="wide")
 
@@ -37,7 +38,8 @@ st.sidebar.markdown('---')
 PAGES = {
     "Portugal": portugal,
     "Germany": germany,
-    "[compare age groups]": compare}
+    "- [compare age groups]": compare,
+    "- Resources": resources}
 
 country = st.sidebar.radio("Country", list(PAGES.keys()))
 
