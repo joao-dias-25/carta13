@@ -84,7 +84,7 @@ def app():
         df_mon = df_mon.set_index('date')
         df_mon.value = df_mon.Anzahl
 
-        fig2 = px.line(df_mon, x=df_mon.index, y="Anzahl", title="Mortalität in Deutschland seit 1990 (Offizielle Daten)")
+        fig2 = px.line(df_mon, x=df_mon.index, y="Anzahl", title="Mortalität in Deutschland seit 1990")
         fig2.update_yaxes(title_text='Sterbefallzahlen monatlich')
         st.plotly_chart(fig2)
 
