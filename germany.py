@@ -29,10 +29,10 @@ def app():
         df.date = pd.to_datetime(df.date, format="%d.%m.%Y")
         dft = df.sort_values('date')
         dft = dft.set_index('date')
-        figo = px.line(dft, x=dft.index, y=dft.value, title="Mortalität taglich")
+        figo = px.line(dft, x=dft.index, y=dft.value, title="Mortalität täglich")
         st.plotly_chart(figo)
 
-        if st.checkbox('Extracting Seasonality and Trend from Data (taglich)'):
+        if st.checkbox('Extracting Seasonality and Trend from Data (täglich)'):
             st.markdown('Trend, Saisonalität, Rest_')
             time_series.timeseries(dft,365, 'additive', 'value')
 

@@ -4,6 +4,9 @@ import plotly.express as px
 
 
 def app():
-    st.title('Resources')
+    st.header(' ')
+    st.header('Resources')
     st.write('https://en.wikipedia.org/wiki/ICD-10')
     st.write('https://www.icd10data.com/')
+    st.write('---')
+    st.write('An idea based on: https://euromomo.eu/')
