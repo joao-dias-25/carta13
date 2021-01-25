@@ -28,9 +28,49 @@ def app():
 
         df.date = pd.to_datetime(df.date, format="%d.%m.%Y")
         dft = df.sort_values('date')
-        figo = px.line(dft, x=dft.date, y=dft.value, title="Mortalität taglich")
+        dft = dft.set_index('date')
+        figo = px.line(dft, x=dft.index, y=dft.value, title="Mortalität taglich")
         st.plotly_chart(figo)
 
+        if st.checkbox('Extracting Seasonality and Trend from Data (taglich)'):
+            st.markdown('Trend, Saisonalität, Rest_')
+            time_series.timeseries(dft,365, 'additive', 'value')
+
+
+
+        df1 = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
+        df2=pd.melt(df1,id_vars=["Kalenderwoche"])
+        df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
+        df2 = df2.set_index('date')
+        df2 = df2.dropna()
+        fig = px.line(df2, x=df2.index, y="value")
+        fig.update_yaxes(title_text='Sterbefallzahlen wöchentlich')
+        st.plotly_chart(fig)
+
+        if st.checkbox('Extracting Seasonality and Trend from Data (woche)'):
+            st.markdown('Trend, Saisonalität, Rest_')
+            time_series.timeseries(df2,52, 'additive', 'value')
+
+        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_w_AG.csv", skiprows=8, usecols=range(1, 55),
+                         encoding='utf-8')
+        df = pd.melt(df, id_vars=["Unnamed: 1", "unter … Jahren"])
+        df['date'] = pd.to_datetime(df.variable.astype(str) + df["Unnamed: 1"].astype(str).add('-1'), format='%V%G-%u')
+        df = df[df.value != 'X']
+        df = df.dropna()
+        df = df[df['unter … Jahren'] != 'Insgesamt']
+        df.value = df.value.astype(int)
+        df = df.sort_values('date')
+        df = df.set_index('date')
+        fig5 = px.line(df, x=df.index, y=df.value, color="unter … Jahren",
+                       title='Sterbefälle nach Altersgruppen in Deutschland')
+        fig5.update_yaxes(title_text='Sterbefallzahlen wöchentlich')
+        st.plotly_chart(fig5)
+
+        if st.checkbox('Extracting Seasonality and Trend from Data(Altersgruppen)'):
+            st.markdown('tendência, sazonalidade__')
+            valor=st.selectbox('Altersgruppen',df['unter … Jahren'].value_counts().index,
+                               index=1)
+            time_series.timeseries(df[df["unter … Jahren"]==valor],52,'additive','value')
 
 
         df_mon = pd.read_csv("data/Deutschland/sterbefallzahlen_monatlich.csv", delimiter=';', skiprows=6, nrows=370,
@@ -53,18 +93,6 @@ def app():
             st.markdown('Trend, Saisonalität, Rest')
             time_series.timeseries(df_mon,12, 'additive', 'Anzahl')
 
-        df = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
-        df2=pd.melt(df,id_vars=["Kalenderwoche"])
-        df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
-        df2 = df2.set_index('date')
-        df2 = df2.dropna()
-        fig = px.line(df2, x=df2.index, y="value")
-        fig.update_yaxes(title_text='Sterbefallzahlen wöchentlich')
-        st.plotly_chart(fig)
-
-        if st.checkbox('Extracting Seasonality and Trend from Data (woche)'):
-            st.markdown('Trend, Saisonalität, Rest_')
-            time_series.timeseries(df2,52, 'additive', 'value')
 
 
     elif (status == 'Bevölkerungen'):
