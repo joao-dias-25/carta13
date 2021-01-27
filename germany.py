@@ -93,7 +93,33 @@ def app():
             st.markdown('Trend, Saisonalität, Rest')
             time_series.timeseries(df_mon,12, 'additive', 'Anzahl')
 
+        df_A = pd.read_csv("data/Deutschland/sterbefallzahlen_Altersjahre.csv", skiprows=329, encoding='utf-8',
+                           index_col=1)
+        fig3 = px.line(df_A.T, x=df_A.T.index,
+                       y=['Insgesamt', 'unter 1 Jahr', '1-9-Jährige', '10-19-Jährige', '20-29-Jährige',
+                          '30-39-Jährige', '40-49-Jährige', '50-59-Jährige', '60-69-Jährige',
+                          '70-79-Jährige', '80-89-Jährige', '90-99-Jährige',
+                          '100 Jahre und mehr'])
+        fig3.update_yaxes(title_text='Sterbefallzahlen Jahrlich')
+        fig3.update_xaxes(
+            tickangle=90,
+            title_text="Death counts per age group: Germany",
+            title_font={"size": 20},
+            title_standoff=25)
+        fig3.update_layout(legend_title_text='Altersgruppe',
+                           legend=dict(y=1),
+                           autosize=True,
+                           # width=600,  # height=400,
+                           margin=dict(l=20, r=20, b=20, t=20)
+                           )
+        fig3.update_layout(legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=0.01))
 
+        st.markdown('---')
+        st.plotly_chart(fig3)
 
     elif (status == 'Bevölkerungen'):
         dfp = pd.read_csv("data/Deutschland/Bevölkerung_AG.csv", skiprows=102, nrows=20, encoding='utf-8', index_col=0)

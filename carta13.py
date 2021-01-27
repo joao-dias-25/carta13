@@ -2,7 +2,7 @@ import streamlit as st
 
 import portugal
 import germany
-import compare
+import spain
 import resources
 
 
@@ -39,8 +39,8 @@ st.title('Historical data on death counts, death causes and trends')
 PAGES = {
     "Portugal": portugal,
     "Germany": germany,
-    "- [compare age groups]": compare,
-    "- Resources": resources}
+    "Spain": spain,
+    "- [Resources]": resources}
 
 country = st.sidebar.radio("Country", list(PAGES.keys()))
 

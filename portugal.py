@@ -24,7 +24,7 @@ def app():
         df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)
 
 
-        dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-01-25.csv")
+        dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-01-27.csv")
         dfd = pd.melt(dfd, id_vars=["Data"])
         dfd = dfd.dropna()
         dfd.Data = dfd.Data.replace(regex={'Jan': '1', 'Fev': '2', 'Mar': '3', 'Abr': '4', 'Mai': '5', 'Jun': '6',
@@ -75,6 +75,30 @@ def app():
                                index=8)
             time_series.timeseries(dfg,365,'additive',valor)
 
+        df_dr = pd.read_csv("data/Portugal/pordata.csv", skiprows=7, nrows=61, usecols=range(0, 17))
+        fig2 = px.line(df_dr, x="Unnamed: 0", y=['Total', 'Menos de 01',
+                                                 '01-04', '05-09', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69',
+                                                 '70-79', '80-89', '90-99', '100 ou mais'])
+
+        fig2.update_yaxes(title_text='Óbitos')
+        fig2.update_xaxes(
+            tickangle=90,
+            title_text="Death counts per age group: Portugal",
+            title_font={"size": 20},
+            title_standoff=25)
+        fig2.update_layout(legend_title_text='Grupo Etário',
+                           autosize=True,
+                           # width=500,  # height=400,
+                           margin=dict(l=20, r=20, b=20, t=20),
+                           )
+        fig2.update_layout(legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=0.01))
+
+        st.plotly_chart(fig2)
+
     elif (status == 'dados hospitalares'):
         Port_hosp.app()
 
@@ -89,5 +113,7 @@ def app():
         st.plotly_chart(figp)
         figpt = px.line(dfp, x=dfp.index, y=['Total'], title='População total portuguesa')
         st.plotly_chart(figpt)
+
+
 
 
