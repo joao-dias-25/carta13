@@ -22,3 +22,8 @@ def app():
         st.markdown("""
             <iframe id='ep-chart-a5804d18-8359-43f5-b6e9-05b93e037452' src='https://www.epdata.es/embed/a5804d18-8359-43f5-b6e9-05b93e037452/450' style='width: 100%; min-height: 450px; overflow: hidden;' frameborder='0' scrolling='no' height='450'></iframe>
             """, unsafe_allow_html=True)
+
+    elif (status == 'Población'):
+        st.markdown("""
+                    <iframe id='ep-chart-866ce3ba-d62d-433f-be92-4dab5746757d-106' src='https://www.epdata.es/embed/866ce3ba-d62d-433f-be92-4dab5746757d-106/450' style='width: 100%; min-height: 450px; overflow: hidden;' frameborder='0' scrolling='no' height='450'></iframe>
+                    """, unsafe_allow_html=True)
