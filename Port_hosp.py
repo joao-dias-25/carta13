@@ -27,10 +27,10 @@ def app():
     #dfg = dfg.loc[dfg['fields.desc_capitulo'].isin(top)]
     fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color='fields.desc_capitulo')
     fig.update_yaxes(title_text='Mortes em unidades hospitalares')
-    fig.update_layout(showlegend=True, height=800, width=1200,
+    fig.update_layout(showlegend=True, height=600, width=900,
                       title_text="Total de episódios de internamento, ambulatório e óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS",
                       legend=dict(
-                          x=1, y=0, traceorder="normal", font=dict(size=10), bgcolor="WhiteSmoke"))
+                          x=1, y=0, traceorder="normal", font=dict(size=8), bgcolor="WhiteSmoke"))
 
     st.plotly_chart(fig)
 
@@ -53,7 +53,7 @@ def app():
     df['fields.periodo'] = pd.to_datetime(df['fields.periodo'], format='%Y-%m')
     fig2 = px.line(df, x=df['fields.periodo'], y='fields.n_o_registos')
     fig2.update_yaxes(title_text='N. de registos')
-    fig2.update_layout(showlegend=True, height=800, width=1200,
+    fig2.update_layout(showlegend=True, height=500, width=900,
                       title_text="Evolução Diária das Chamadas de Emergência Atendidas no Centro de Orientação de Doentes Urgentes (CODU)",
                       )
     st.plotly_chart(fig2)
