@@ -17,7 +17,7 @@ def app():
 
     if (status == 'im Allgemeinen'):
 
-        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_taglich.csv", skiprows=7, usecols=range(367),
+        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_taglich2.csv", skiprows=7, usecols=range(367),
                          encoding='utf-8', index_col=0)
         df = df.T
         df = pd.melt(df, id_vars='Jahr')
@@ -29,7 +29,7 @@ def app():
         df.date = pd.to_datetime(df.date, format="%d.%m.%Y")
         dft = df.sort_values('date')
         dft = dft.set_index('date')
-        figo = px.line(dft, x=dft.index, y=dft.value, title="Mortalität täglich")
+        figo = px.line(dft, x=dft.index, y=dft.value, title="Sterbefälle nach Tagen")
         st.plotly_chart(figo)
 
         if st.checkbox('Extracting Seasonality and Trend from Data (täglich)'):
@@ -51,11 +51,11 @@ def app():
             st.markdown('Trend, Saisonalität, Rest_')
             time_series.timeseries(df2,52, 'additive', 'value')
 
-        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_w_AG.csv", skiprows=8, usecols=range(1, 55),
+        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_w_AG.csv", skiprows=8, usecols=range(1, 56),
                          encoding='utf-8')
         df = pd.melt(df, id_vars=["Unnamed: 1", "unter … Jahren"])
         df['date'] = pd.to_datetime(df.variable.astype(str) + df["Unnamed: 1"].astype(str).add('-1'), format='%V%G-%u')
-        df = df[df.value != 'X']
+        df = df[df.value != 'X ']
         df = df.dropna()
         df = df[df['unter … Jahren'] != 'Insgesamt']
         df.value = df.value.astype(int)
