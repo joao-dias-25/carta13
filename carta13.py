@@ -22,8 +22,8 @@ color: black;
 background-color: wheat;
 background-repeat: repeat-x;
 background-attachment: fixed;
-background-position: 50px 0px;
-background-size: 110px 220px;
+background-position: px 0px;
+background-size: 90px 180px;
 }
 
 
