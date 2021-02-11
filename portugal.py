@@ -24,7 +24,7 @@ def app():
         df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)
 
 
-        dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-02-01.csv")
+        dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-02-11.csv")
         dfd = pd.melt(dfd, id_vars=["Data"])
         dfd = dfd.dropna()
         dfd.Data = dfd.Data.replace(regex={'Jan': '1', 'Fev': '2', 'Mar': '3', 'Abr': '4', 'Mai': '5', 'Jun': '6',

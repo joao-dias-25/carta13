@@ -3,6 +3,7 @@ import streamlit as st
 import portugal
 import germany
 import spain
+import italy
 import resources
 import userschat
 
@@ -41,10 +42,11 @@ PAGES = {
     "Portugal": portugal,
     "Germany": germany,
     "Spain": spain,
+    "Italy": italy,
     "- [Resources]": resources,
     "voting": userschat}
 
-country = st.sidebar.radio("Country", ["Portugal", "Germany", "Spain"])
+country = st.sidebar.radio("Country", ["Portugal", "Germany", "Spain", "Italy"])
 # easier way is:list(PAGES.keys()))
 
 res= st.sidebar.button('Comments Page')

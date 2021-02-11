@@ -17,7 +17,7 @@ def app():
 
     if (status == 'im Allgemeinen'):
 
-        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_taglich2.csv", skiprows=7, usecols=range(367),
+        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_taglich.csv", skiprows=7, usecols=range(367),
                          encoding='utf-8', index_col=0)
         df = df.T
         df = pd.melt(df, id_vars='Jahr')
@@ -38,7 +38,7 @@ def app():
 
 
 
-        df1 = pd.read_csv("data/Deutschland/sterbefallzahlen.csv", delimiter=';',usecols=range(6))
+        df1 = pd.read_csv("data/Deutschland/sterbefallzahlen_.csv", delimiter=';',usecols=range(7))
         df2=pd.melt(df1,id_vars=["Kalenderwoche"])
         df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
         df2 = df2.set_index('date')
@@ -51,7 +51,7 @@ def app():
             st.markdown('Trend, Saisonalität, Rest_')
             time_series.timeseries(df2,52, 'additive', 'value')
 
-        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_w_AG.csv", skiprows=8, usecols=range(1, 56),
+        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_w_AG2.csv", skiprows=8, usecols=range(1, 56),
                          encoding='utf-8')
         df = pd.melt(df, id_vars=["Unnamed: 1", "unter … Jahren"])
         df['date'] = pd.to_datetime(df.variable.astype(str) + df["Unnamed: 1"].astype(str).add('-1'), format='%V%G-%u')
