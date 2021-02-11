@@ -27,7 +27,7 @@ def app():
     #dfg = dfg.loc[dfg['fields.desc_capitulo'].isin(top)]
     fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color='fields.desc_capitulo')
     fig.update_yaxes(title_text='Mortes em unidades hospitalares')
-    fig.update_layout(showlegend=True, height=600, width=900,
+    fig.update_layout(showlegend=True, height=600, width=1200,
                       title_text="Total de episódios de internamento, ambulatório e óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS",
                       legend=dict(
                           x=1, y=0, traceorder="normal", font=dict(size=8), bgcolor="WhiteSmoke"))
