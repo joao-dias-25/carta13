@@ -46,7 +46,7 @@ PAGES = {
     "- [Resources]": resources,
     "voting": userschat}
 
-country = st.sidebar.radio("Country", ["Portugal", "Germany", "Spain", "Italy"])
+country = st.sidebar.selectbox("Country", ["Portugal", "Germany", "Spain", "Italy"])
 # easier way is:list(PAGES.keys()))
 
 res= st.sidebar.button('Comments Page')
