@@ -10,21 +10,22 @@ def app():
     st.write('## Portugal')
     st.write('Viver é muito perigoso...(Guimarães Rosa)')
 
+    status = st.sidebar.radio("informacao: ", ('Geral', 'dados hospitalares', 'Populacao'))
+
     st.sidebar.write('Source')
     st.sidebar.write('https://evm.min-saude.pt/')
     st.sidebar.write('https://www.pordata.pt/')
     st.sidebar.write('https://transparencia.sns.gov.pt/')
 
 
-    status = st.radio("informacao: ", ('Geral', 'dados hospitalares','Populacao'))
+    #status = st.sidebar.radio("informacao: ", ('Geral', 'dados hospitalares','Populacao'))
 
     if (status == 'Geral'):
 
         df_pop = pd.read_csv("data/Portugal/pordata_pop.csv", skiprows=7, nrows=61, usecols=range(0, 5))
         df_pop.Total = df_pop.Total.str.replace(',', '.').astype(float)
 
-
-        dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-02-11.csv")
+        dfd = pd.read_csv("data/Portugal/Dados_SICO_2021-03-21.csv")
         dfd = pd.melt(dfd, id_vars=["Data"])
         dfd = dfd.dropna()
         dfd.Data = dfd.Data.replace(regex={'Jan': '1', 'Fev': '2', 'Mar': '3', 'Abr': '4', 'Mai': '5', 'Jun': '6',

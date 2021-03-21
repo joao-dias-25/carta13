@@ -9,11 +9,13 @@ def app():
     st.write('## Deutschland')
     st.write('Leben ist immer lebensgefährlich (Erich Kästner)')
 
+    status = st.sidebar.radio("Information: ", ('im Allgemeinen', 'Hauptdiagnose', 'Bevölkerungen'))
+
     st.sidebar.write('Source')
     st.sidebar.write('https://www-genesis.destatis.de/')
     st.sidebar.write('https://www.gbe-bund.de/')
 
-    status = st.radio("Information: ", ('im Allgemeinen', 'Hauptdiagnose','Bevölkerungen'))
+    #status = st.radio("Information: ", ('im Allgemeinen', 'Hauptdiagnose','Bevölkerungen'))
 
     if (status == 'im Allgemeinen'):
 

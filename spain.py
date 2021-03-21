@@ -9,10 +9,11 @@ def app():
     st.write('## España')
     st.write('Vivir es lo más peligroso que tiene la vida (Alejandro Sanz)')
 
+    status = st.sidebar.radio("Information: ", ('General', 'diagnóstico', 'Población'))
     st.sidebar.write('Source')
     st.sidebar.write('https://www.epdata.es/')
 
-    status = st.radio("Information: ", ('General', 'diagnóstico','Población'))
+
 
     if (status == 'General'):
         st.markdown("""
