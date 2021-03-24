@@ -5,6 +5,17 @@ import plotly.express as px
 import time_series
 import Ger_gesundsystem
 from openpyxl import load_workbook
+from io import BytesIO
+import urllib
+
+
+url_file = 'https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Tabellen/sonderauswertung-sterbefaelle.xlsx?__blob=publicationFile'
+# url_file = 'https://carta13.s3.filebase.com/sonderauswertung-sterbefaelle.xlsx'
+
+@st.cache(persist=True,allow_output_mutation=True)
+def load_workbook_from_url(url):
+    file = urllib.request.urlopen(url).read()
+    return load_workbook(filename = BytesIO(file))
 
 
 def app():
@@ -20,9 +31,8 @@ def app():
 
     if (status == 'im Allgemeinen'):
 
-        data_file = 'data/Deutschland/sonderauswertung-sterbefaelle.xlsx'
-
-        wb = load_workbook(data_file)
+        wb = load_workbook_from_url(url_file)
+        #wb = load_workbook(data_file)
 
         df = pd.DataFrame(wb['D_2016_2021_Tage'].values)
         df = df.iloc[8:15, 0:367]
