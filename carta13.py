@@ -36,7 +36,7 @@ st.sidebar.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.sidebar.markdown("""<font color='white' size=7  >Carta 13</font>""", unsafe_allow_html=True)
 
-st.title('Historical data on death counts, death causes and trends')
+st.title('Historical data on death counts and death causes')
 
 PAGES = {
     "Portugal": portugal,

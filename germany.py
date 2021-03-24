@@ -17,7 +17,6 @@ def app():
     st.sidebar.write('https://www-genesis.destatis.de/')
     st.sidebar.write('https://www.gbe-bund.de/')
 
-    #status = st.radio("Information: ", ('im Allgemeinen', 'Hauptdiagnose','Bevölkerungen'))
 
     if (status == 'im Allgemeinen'):
 
@@ -48,23 +47,14 @@ def app():
 
 
 
-        df1 = pd.read_csv("data/Deutschland/sterbefallzahlen_.csv", delimiter=';',usecols=range(7))
-        df2=pd.melt(df1,id_vars=["Kalenderwoche"])
-        df2['date'] = pd.to_datetime(df2.Kalenderwoche.astype(str)+ df2.variable.astype(str).add('-1') ,format='%V%G-%u')
-        df2 = df2.set_index('date')
-        df2 = df2.dropna()
-        fig = px.line(df2, x=df2.index, y="value")
-        fig.update_yaxes(title_text='Sterbefallzahlen wöchentlich')
-        st.plotly_chart(fig)
-
-        if st.checkbox('Extracting Seasonality and Trend from Data (woche)'):
-            st.markdown('Trend, Saisonalität, Rest_')
-            time_series.timeseries(df2,52, 'additive', 'value')
-
-        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_w_AG2.csv", skiprows=8, usecols=range(1, 56),
-                         encoding='utf-8')
-        df = pd.melt(df, id_vars=["Unnamed: 1", "unter … Jahren"])
-        df['date'] = pd.to_datetime(df.variable.astype(str) + df["Unnamed: 1"].astype(str).add('-1'), format='%V%G-%u')
+        df = pd.DataFrame(wb['D_2016_2021_KW_AG_Ins'].values)
+        df.at[8, 1] = 'Jahr'
+        df.set_axis(df.iloc[8], axis=1, inplace=True)
+        df = df.iloc[9:105, 1::]
+        df = pd.melt(df, id_vars=["Jahr", "unter … Jahren"])
+        df = df.set_axis(["Jahr", "unter … Jahren", 'variable', 'value'], axis=1)
+        df['date'] = pd.to_datetime(df.variable.astype(int).astype(str) + df["Jahr"].astype(str).add('-1'),
+                                    format='%V%G-%u')
         df = df[df.value != 'X ']
         df = df.dropna()
         df = df[df['unter … Jahren'] != 'Insgesamt']
