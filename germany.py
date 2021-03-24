@@ -4,6 +4,8 @@ import plotly.express as px
 
 import time_series
 import Ger_gesundsystem
+from openpyxl import load_workbook
+
 
 def app():
     st.write('## Deutschland')
@@ -19,9 +21,15 @@ def app():
 
     if (status == 'im Allgemeinen'):
 
-        df = pd.read_csv("data/Deutschland/sonderauswertung-sterbefaelle_taglich.csv", skiprows=7, usecols=range(367),
-                         encoding='utf-8', index_col=0)
+        data_file = 'data/Deutschland/sonderauswertung-sterbefaelle.xlsx'
+
+        wb = load_workbook(data_file)
+
+        df = pd.DataFrame(wb['D_2016_2021_Tage'].values)
+        df = df.iloc[8:15, 0:367]
+        df = df.set_index(0)
         df = df.T
+        df = df.set_axis(['Jahr', "2021", '2020', '2019', '2018', '2017', '2016'], axis=1)
         df = pd.melt(df, id_vars='Jahr')
         df['date'] = df["Jahr"] + df["variable"]
         df = df[df.value != 'X']
