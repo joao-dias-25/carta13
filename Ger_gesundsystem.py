@@ -25,3 +25,6 @@ def app():
                       legend=dict(
                           x=1, y=0, traceorder="normal", font=dict(size=9), bgcolor="WhiteSmoke"))
     st.plotly_chart(fig)
+    fig.update_yaxes(type="log")
+    fig.update_layout(title_text="Mortalität und Todesursachen (log scale)")
+    st.plotly_chart(fig)
