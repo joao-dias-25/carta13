@@ -8,7 +8,9 @@ import resources
 import userschat
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",
+                   page_icon="http://clipartsign.com/upload/2016/06/19/rip-headstone-graveyard-clipart-rip-clipart-graveicon-tv.jpg",
+                   page_title="Carta 13")
 
 page_bg_img = '''
 <style>
@@ -35,6 +37,9 @@ background-size: 90px 180px;
 st.sidebar.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.sidebar.markdown("""<font color='white' size=7  >Carta 13</font>""", unsafe_allow_html=True)
+
+
+
 
 st.title('Historical data on death counts and death causes')
 
