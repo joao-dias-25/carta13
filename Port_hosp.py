@@ -8,24 +8,24 @@ import plotly.express as px
 def app():
     @st.cache(persist=True,allow_output_mutation=True)
     def load_data():
-        url = requests.get('https://ndownloader.figshare.com/files/26051960').content
+        url = requests.get('https://carta13.s3.filebase.com/morbilidade-e-mortalidade-hospitalar-rip.csv').content
         csv_raw = StringIO(url.decode('utf-8'))
         df = pd.read_csv(csv_raw, low_memory=False, index_col=0)
-        df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.lower()
-        df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.replace("códigos para fins especiais",
-                                                                            "códigos para fins especiais (COVID-19??)")
-        df['fields.desc_capitulo'] = df['fields.desc_capitulo'].str.replace("algumas ",
-                                                                            "")
-        #df['fields.periodo'] = pd.to_datetime(df['fields.periodo'], format='%Y-%m')
+        df['desc_capitulo'] = df['desc_capitulo'].str.lower()
+        df['desc_capitulo'] = df['desc_capitulo'].str.replace("códigos para fins especiais",
+                                                              "códigos para fins especiais (COVID-19??)")
+        df['desc_capitulo'] = df['desc_capitulo'].str.replace("algumas ",
+                                                              "")
+        # df['fields.periodo'] = pd.to_datetime(df['fields.periodo'], format='%Y-%m')
         return df
 
     df=load_data()
     #top = df.loc[df['fields.periodo'] == 'Jun 2020']['fields.desc_capitulo'].value_counts().loc[lambda x: x > 200].index.tolist()
 
-    dfg=df.groupby(['fields.periodo','fields.desc_capitulo'], as_index=False).agg({'fields.obitos':'sum'})
+    dfg=df.groupby(['periodo','desc_capitulo'], as_index=False).agg({'obitos':'sum'})
 
     #dfg = dfg.loc[dfg['fields.desc_capitulo'].isin(top)]
-    fig = px.line(dfg, x=dfg['fields.periodo'], y=['fields.obitos'], color='fields.desc_capitulo')
+    fig = px.line(dfg, x=dfg['periodo'], y=['obitos'], color='desc_capitulo')
     fig.update_yaxes(title_text='Mortes em unidades hospitalares')
     fig.update_layout(showlegend=True, height=600, width=1200,
                       title_text="Total de episódios de internamento, ambulatório e óbitos por capitulo de diagnóstico principal da ICD9CM/ICD10CM/PCS",
