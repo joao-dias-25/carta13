@@ -18,7 +18,7 @@ def app():
     st.sidebar.write('https://transparencia.sns.gov.pt/')
 
 
-    #status = st.sidebar.radio("informacao: ", ('Geral', 'dados hospitalares','Populacao'))
+    #status = st.sidebar.radio("informacao: ", ('Geral',  'dados hospitalares','Populacao'))
 
     if (status == 'Geral'):
 
