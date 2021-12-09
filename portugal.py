@@ -76,7 +76,7 @@ def app():
                                index=8)
             time_series.timeseries(dfg,365,'additive',valor)
 
-        df_dr = pd.read_csv("data/Portugal/pordata.csv", skiprows=7, nrows=61, usecols=range(0, 17))
+        df_dr = pd.read_csv("data/Portugal/pordata_obitos.csv", skiprows=7, nrows=41, usecols=range(0, 15))
         fig2 = px.line(df_dr, x="Unnamed: 0", y=['Total', 'Menos de 01',
                                                  '01-04', '05-09', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69',
                                                  '70-79', '80-89', '90-99', '100 ou mais'])
@@ -104,7 +104,7 @@ def app():
         Port_hosp.app()
 
     else:
-        dfp = pd.read_csv("data/Portugal/pordata_pop_ge.csv", skiprows=7, nrows=49, usecols=range(20), index_col=0)
+        dfp = pd.read_csv("data/Portugal/pordata_2021_12.csv", skiprows=7, nrows=52, usecols=range(20), index_col=0)
         figp = px.line(dfp, x=dfp.index, y=['0-04', '05-09', '10-14', '15-19', '20-24', '25-29', '30-34',
                                             '35-39', '40-44', '45-49', '50-54', '55-59', '60-64', '65-69', '70-74',
                                             '75-79', '80-84', '85 ou mais'],
