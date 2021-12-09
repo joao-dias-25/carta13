@@ -8,7 +8,7 @@ import plotly.express as px
 def app():
     @st.cache(persist=True,allow_output_mutation=True)
     def load_data():
-        url = requests.get('https://carta13.s3.filebase.com/morbilidade-e-mortalidade-hospitalar-rip.csv').content
+        url = requests.get('https://carta13.s3.filebase.com/morbilidade-e-mortalidade-hospitalar-2021_12.csv').content
         csv_raw = StringIO(url.decode('utf-8'))
         df = pd.read_csv(csv_raw, low_memory=False, index_col=0)
         df['desc_capitulo'] = df['desc_capitulo'].str.lower()
