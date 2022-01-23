@@ -42,7 +42,7 @@ def app():
             time_series.timeseries(dfd,365,'additive','value')
 
 
-        dates=['2014','2015','2016', '2017' , '2018' ,'2019' ,'2020', '2021']
+        dates=['2014','2015','2016', '2017' , '2018' ,'2019' ,'2020', '2021', '2022']
 
         def merging_dates(list_dates):
             df = pd.read_csv(f'data/Portugal/Dados_SICO_2021-01-12_{list_dates[0]}.csv').copy()
