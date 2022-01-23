@@ -32,11 +32,11 @@ def app():
 
         wb = load_workbook_from_url(url_file)
 
-        df = pd.DataFrame(wb['D_2016_2021_Tage'].values)
+        df = pd.DataFrame(wb['D_2016_2022_Tage'].values)
         df = df.iloc[8:15, 0:367]
         df = df.set_index(0)
         df = df.T
-        df = df.set_axis(['Jahr', "2021", '2020', '2019', '2018', '2017', '2016'], axis=1)
+        df = df.set_axis(['Jahr','2022', "2021", '2020', '2019', '2018', '2017', '2016'], axis=1)
         df = pd.melt(df, id_vars='Jahr')
         df['date'] = df["Jahr"] + df["variable"]
         df = df[df.value != 'X']
@@ -55,7 +55,7 @@ def app():
 
 
 
-        df = pd.DataFrame(wb['D_2016_2021_KW_AG_Ins'].values)
+        df = pd.DataFrame(wb['D_2016_2022_KW_AG_Ins'].values)
         df.at[8, 1] = 'Jahr'
         df.set_axis(df.iloc[8], axis=1, inplace=True)
         df = df.iloc[9:105, 1::]
